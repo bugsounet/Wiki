@@ -2,7 +2,7 @@
 title: Setup Credentials
 description: 
 published: true
-date: 2023-06-15T21:38:16.157Z
+date: 2023-06-15T21:38:37.133Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T18:53:33.316Z
