@@ -2,12 +2,11 @@
 title: Guide for design command
 description: 
 published: true
-date: 2023-03-03T12:25:07.658Z
+date: 2023-06-15T20:05:46.746Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T10:28:00.176Z
 ---
-
 
 ## You cannot tell first
 Because your module doesn't know which chat rooms are on the Telegram. You should acquire `id of chat` first to tell something to the user. You cannot assume chat_id. The chat rooms could be destroyed, newly created, or just `id` could be changed. Don't assume.

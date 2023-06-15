@@ -2,7 +2,7 @@
 title: EXT-Librespot
 description: 
 published: true
-date: 2023-06-02T11:32:40.325Z
+date: 2023-06-15T20:01:32.978Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T13:22:04.543Z
