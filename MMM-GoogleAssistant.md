@@ -2,13 +2,13 @@
 title: MMM-GoogleAssistant
 description: 
 published: true
-date: 2023-03-12T10:22:55.415Z
+date: 2023-06-15T20:45:48.736Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T10:30:45.110Z
 ---
 
-# Welcome to the MMM-GoogleAssistant v5 wiki!
+# Welcome to the MMM-GoogleAssistant wiki!
 
 
 ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/resources/GA_Big.png)
