@@ -2,7 +2,7 @@
 title: Setup Credentials
 description: 
 published: true
-date: 2023-06-15T21:38:37.133Z
+date: 2023-06-15T21:39:33.535Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T18:53:33.316Z
@@ -26,7 +26,7 @@ dateCreated: 2022-03-21T18:53:33.316Z
  ![projectselect.png](/resources/googleassistant/projectselect.png)
  
  - Create new project<br>
- ![newproject.png](/resources/newproject.png)
+ ![newproject.png](/resources/googleassistant/newproject.png)
  
  - Enter your project name and Create<br>
  ![projectname.png](/resources/googleassistant/projectname.png)
