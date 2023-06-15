@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-06-15T20:07:31.412Z
+date: 2023-06-15T21:08:06.666Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -65,15 +65,15 @@ Gateway is a real conductor 🙂
   * Controling Magicmirror from any google assistant device
 
 # Screenshots of the app
-![plugin_manager.png](/plugin_manager.png)
-![terminal.png](/terminal.png)
-![mmconfig.png](/mmconfig.png)
-![tools.png](/tools.png)
-![setting.png](/setting.png)
+![plugin_manager.png](/resources/gateway/plugin_manager.png)
+![terminal.png](/resources/gateway/terminal.png)
+![mmconfig.png](/resources/gateway/mmconfig.png)
+![tools.png](/resources/gateway/tools.png)
+![setting.png](/resources/gateway/setting.png)
 
 # Your System is under Control
-![sysinfo1.jpg](/sysinfo1.jpg)
-![sysinfo2.jpg](/sysinfo2.jpg)
+![sysinfo1.jpg](/resources/gateway/sysinfo1.jpg)
+![sysinfo2.jpg](/resources/gateway/sysinfo2.jpg)
 
 
 # Screenshot of the google home app (smartphone)
