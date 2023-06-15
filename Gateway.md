@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-06-15T21:08:06.666Z
+date: 2023-06-15T21:59:45.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -96,7 +96,7 @@ npm install
 
 ```js
 {
-  module: 'Gateway',
+  module: "Gateway",
   config: {
     debug: false,
     username: "admin",
