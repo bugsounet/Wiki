@@ -2,7 +2,7 @@
 title: EXT-SpotifyCanvasLyrics
 description: 
 published: true
-date: 2023-06-15T20:04:12.430Z
+date: 2023-06-15T22:39:45.400Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T15:43:39.032Z
@@ -18,12 +18,12 @@ This Plugins will create a server for fetch Lyrics and Canvas (small video of a 
  # Screenshot
  
 Landscape mode:
- 
-![1661380128355-a614b0f1-142b-4d9e-b105-eae823e958ae-image.png](/1661380128355-a614b0f1-142b-4d9e-b105-eae823e958ae-image.png)
+
+![landscape.png](/resources/spotifycanvaslyrics/landscape.png)
 ---
 Portrait mode:
 
-![1661976384550-ede2f383-90f2-422d-b6fb-389a3972203c-image.png](/1661976384550-ede2f383-90f2-422d-b6fb-389a3972203c-image.png)
+![portrait.png](/resources/spotifycanvaslyrics/portrait.png)
 
  # Installation:
  
