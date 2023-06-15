@@ -2,7 +2,7 @@
 title: Setup Credentials
 description: 
 published: true
-date: 2023-06-15T21:37:53.848Z
+date: 2023-06-15T21:38:16.157Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T18:53:33.316Z
@@ -11,9 +11,6 @@ dateCreated: 2022-03-21T18:53:33.316Z
 > [Installation](/MMM-GoogleAssistant/Installation) Step is needed before this setup
 {.is-warning}
 
-
-> Last test: 2022/03/21
-{.is-success}
 
 # Create a project.
 
