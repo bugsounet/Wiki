@@ -2,7 +2,7 @@
 title: Prepared recipes
 description: 
 published: true
-date: 2023-06-16T09:11:31.565Z
+date: 2023-06-16T09:17:00.337Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:17:06.353Z
@@ -115,5 +115,9 @@ recipes: [
   "with-other-recipes.js"
 ],
 ```
+
+> Don't forget to restart MagicMirror !
+{.is-success}
+
 
 
