@@ -2,7 +2,7 @@
 title: Prepared recipes
 description: 
 published: true
-date: 2023-03-12T10:21:25.304Z
+date: 2023-06-16T09:11:31.565Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:17:06.353Z
@@ -93,3 +93,27 @@ samples :
  * `recipes: [ "with-status.js" ],`
  
 *  `recipes: [ "with-status.js", "with-other-recipes.js" ],` for some other recipe needed
+
+# My own recipe
+
+You have created your own recipe
+Save it in `recipes` folder of `MMM-GoogleAssistant`
+
+add it in the `recipes:[]` of the config
+
+sample: You have save `My_ownRecipe.js`
+
+```
+recipes: [ "My_ownRecipe.js" ],
+```
+
+If you have already some recipes, just add it in the array
+
+```
+recipes: [
+  "My_ownRecipe.js",
+  "with-other-recipes.js"
+],
+```
+
+
