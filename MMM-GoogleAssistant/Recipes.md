@@ -2,7 +2,7 @@
 title: Recipes
 description: 
 published: true
-date: 2023-03-12T09:55:39.379Z
+date: 2023-06-16T09:25:02.409Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:02:19.006Z
@@ -51,9 +51,11 @@ recipes: [
 ],
 ```
 
+see [My own recipe](/MMM-GoogleAssistant/Preparedrecipes#my-own-recipe)
+
 ## Prepared recipes
 - `recipe.template.js` : template of recipe file
 - `Reboot-Restart-Shutdown.js` : Vocal control for reboot, restart or shutdown your mirror
 - ...
 
-See Prepared recipes wiki
+See [Prepared recipes](/MMM-GoogleAssistant/Preparedrecipes)
