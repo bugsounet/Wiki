@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2023-05-12T12:55:16.055Z
+date: 2023-06-16T08:20:47.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -26,14 +26,16 @@ dateCreated: 2022-03-13T13:54:39.438Z
  * MagicMirror must be installed according to the magicmirror website (and NOT with any other internet tutorial!)
 
 ## Requirements:
- * OS: Raspbian 11 (Bullseye -- 32-bit Version) is needed (NOT comptatible with Microsoft Windows)
+ * OS: Raspbian 11 (Bullseye -- 32-bit Version) is needed
  * RPI 3b+ or more 
- * Node: v16.x.x
+ * Node: v16.x.x // v18.x.x
  * npm: v8.x or more
- * Linux: tested and developed on Linux Debian 11
  * 720p // HD screen or more
 
 > **You can't use server mode of MagicMirror² with this module**
+>
+> x64 OS is not recommanded with a Raspberry Pi.
+> This module is NOT comptatible with Microsoft Windows.
 {.is-warning}
 
 
