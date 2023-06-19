@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-06-15T20:02:05.393Z
+date: 2023-06-19T21:50:40.746Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -73,7 +73,7 @@ Note: module names used in the following example are fictitious.
     },
     rotationTimes: {
       0: 20000
-    }
+    },
     indicator: true,
     rotationTime: 15000,
     Gateway: {},
