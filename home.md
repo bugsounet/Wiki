@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2023-06-15T22:57:20.617Z
+date: 2023-07-02T22:32:57.795Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -23,7 +23,7 @@ dateCreated: 2021-06-18T10:17:20.817Z
 
 > All modules are now ready for using with npm v8.x and node v16.x
 > But a bug is actually not solved with lasted version of `npm` app
-> So, You can have an error with `magicmirror rebuild` app
+> So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
 > {.is-warning}
 
