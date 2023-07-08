@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:34:45.628Z
+date: 2023-07-08T19:48:33.061Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -121,7 +121,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | ON | Defined cron ON display time (see below) | Array of object | []
 > | OFF | Defined cron OFF display time (see below) | Array of object | []
 
- * Available mode:
+### Available mode:
    - `mode: 1` - use vgencmd (RPI only)
    - `mode: 2` - use dpms (RPI version)
    - `mode: 3` - use tvservice (RPI only)
@@ -132,7 +132,7 @@ This module will verify if all screen saver is disabled and disable it if needed
    - `mode: 8` - use ddcutil
    - `mode: 0` - disabled mode and disable turnOffDisplay too
    
- * Available touchMode:
+### Available touchMode:
    - `touchMode: 0`
      - disabled
    - `touchMode: 1`
@@ -146,20 +146,29 @@ This module will verify if all screen saver is disabled and disable it if needed
      - Doucle Click on the EXT-Screen area will shutdown the screen
      - One Click on the screen will wake up if shutdown
 
-## Developer Notes
+### `ON: []` and `OFF: []`
 
-- This module broadcasts:
+xxx
 
-  * `EXT_SCREEN-ON` notification when your screen turn on.
-  * `EXT_SCREEN-OFF` notification when your screen turn off. 
-- This module receive:
+## Developer Notes (ok v2.0.0)
+
+- This plugin broadcasts:
+  * `EXT_SCREEN-POWER` with payload: `true` when your screen turn on or `false` when your screen turn off.
+
+- This plugin receive:
 
   * `EXT_SCREEN-END` notification to force the end of the count down
   * `EXT_SCREEN-WAKEUP` notification to wake up the screen and reset count down
   * `EXT_SCREEN-LOCK` notification keep the screen on and lock it (freeze counter and stop pir detection) 
   * `EXT_SCREEN-UNLOCK` notification unlock the screen and restart counter and pir detection
+  * `EXT_SCREEN-FORCE_END` notification to force turn off your screen (and stop counter and pir detection)
+  * `EXT_SCREEN-FORCE_WAKEUP` notification to force turn on your screen (restart counter and pir detection)
 
-## Update
+> Note: `EXT_SCREEN-FORCE_END` wait `EXT_SCREEN-FORCE_WAKEUP` **ONLY** for wakeup the screen
+{.is-warning}
+
+
+## Update (ok v2.0.0)
 ```sh
 cd ~/MagicMirror/modules/EXT-Screen
 npm run update
