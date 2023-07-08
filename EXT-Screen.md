@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:31:52.630Z
+date: 2023-07-08T19:34:01.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -115,7 +115,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | displayAvailability| Display screen availability time (average 24h)| Boolean | true |
 > | detectorSleeping | Activate EXT-Detector only when display is on | Boolean | false |
 > | gpio| GPIO number for control the relay (mode 6 only) | Number | 20 |
-> | clearGpioValue| reset GPIO value script of relay (mode 6 only) | Boolean | true |
+> | clearGpioValue| reset GPIO value script of relay (mode 6 and 7 only) | Boolean | true |
 > | sound| emit a sound when your screen turn on/off | Boolean | false |
 > | touchMode | Selected mode for enable/disable the screen with touch (see below) | number | 3 |
 > | ON | Defined cron ON display time (see below) | Array of object | []
@@ -128,6 +128,8 @@ This module will verify if all screen saver is disabled and disable it if needed
    - `mode: 4` - use HDMI CEC
    - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
    - `mode: 6` - use a relay switch command controled by GPIO
+   - `mode: 7` - use a relay switch command controled by GPIO with python (read reverse values)
+   - `mode: 8` - use ddcutil
    - `mode: 0` - disabled mode and disable turnOffDisplay too
    
  * Available touchMode:
