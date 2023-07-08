@@ -2,11 +2,26 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-06-15T20:02:47.727Z
+date: 2023-07-08T19:04:03.239Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
 ---
+
+# WARNING
+
+> this wiki is Under writing for v2.0.0
+{.is-danger}
+
+
+> Warn: some feature are deleted
+> Please wait release of this wiki
+{.is-danger}
+
+
+> When done. This warn will be deleted !
+{.is-danger}
+#
 
 After a configurated time without any user interaction the display will turn off and hide all modules for economy mode.
 
