@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:34:01.960Z
+date: 2023-07-08T19:34:45.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -123,7 +123,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 
  * Available mode:
    - `mode: 1` - use vgencmd (RPI only)
-   - `mode: 2` - use dpms (version RPI)
+   - `mode: 2` - use dpms (RPI version)
    - `mode: 3` - use tvservice (RPI only)
    - `mode: 4` - use HDMI CEC
    - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
