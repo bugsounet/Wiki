@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T20:19:15.484Z
+date: 2023-07-08T20:20:32.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -215,7 +215,7 @@ ON: [
 ---> Screen is OFF
   * from Monday to Friday at 17h00
 
-`OFF` rules will be:
+So, `OFF` rules will be:
 
 ```js
 OFF: [
