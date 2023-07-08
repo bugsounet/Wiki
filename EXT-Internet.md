@@ -2,7 +2,7 @@
 title: EXT-Internet
 description: 
 published: true
-date: 2023-07-08T10:31:59.440Z
+date: 2023-07-08T10:44:18.128Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:00:09.615Z
@@ -57,7 +57,7 @@ npm install
 > |delay | Set the interval for internet checking | NUMBER | 2* 60 * 1000
 > |scan | Ping point name or address | STRING | google.fr
 > |showAlert | Show or not the Alert about internet connection lost (`EXT-Alert` needed) | BOOLEAN | true
-> |needRestart | Restart your MagicMirror app with your prefered `command` | BOOLEAN | false
+> |needRestart | Restart your MagicMirror | BOOLEAN | false
 
 # Developer Notes
 
