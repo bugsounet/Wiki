@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:08:20.739Z
+date: 2023-07-08T19:21:47.712Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -57,7 +57,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 {.is-info}
 
 
-## Minimal configuration
+## Minimal configuration (ok v2.0.0)
 ```js
 {
   module: 'EXT-Screen',
@@ -67,7 +67,7 @@ This module will verify if all screen saver is disabled and disable it if needed
   }
 },
 ```
-## Personalized configuration
+## Personalized configuration (ok v2.0.0)
 >  This is the default configuration defined if you don't define any value.
 >  Don't copy/past the entire default config, just add in default config your needed new change value !
 >  all new value will automaticaly be merged with the default config
@@ -104,7 +104,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
-> | animateBody | Animate MagicMirror on turn on /off the screen | Boolean | true |
+> | animateBody | Animate MagicMirror on turn on/off the screen | Boolean | true |
 > | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
@@ -112,10 +112,14 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle", "Bar" | String | Text |
 > | displayLastPresence| Display the date of the last user presence | Boolean | true |
 > | lastPresenceTimeFormat| Change the date format (moment.js format) of the last presence | String | LL H:mm |
+> | displayAvailability| Display screen availability time (average 24h)| Boolean | true |
 > | detectorSleeping | Activate EXT-Detector only when display is on | Boolean | false |
 > | gpio| GPIO number for control the relay (mode 6 only) | Number | 20 |
 > | clearGpioValue| reset GPIO value script of relay (mode 6 only) | Boolean | true |
 > | sound| emit a sound when your screen turn on/off | Boolean | false |
+> | touchMode | Selected mode for enable/disable the screen with touch (see below) | number | 3 |
+> | ON | Defined cron ON display time (see below) | Array of object | []
+> | OFF | Defined cron OFF display time (see below) | Array of object | []
 
  * Available mode:
    - `mode: 1` - use vgencmd (RPI only)
