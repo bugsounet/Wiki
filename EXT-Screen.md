@@ -2,26 +2,11 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T20:17:31.536Z
+date: 2023-07-08T20:19:15.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
 ---
-
-# WARNING
-
-> This wiki is Under writing for v2.0.0
-{.is-danger}
-
-
-> Some features are deleted and there is some new
-> Please wait release of this wiki
-{.is-danger}
-
-
-> When done. This warn will be deleted !
-{.is-danger}
-#
 
 After a configurated time without any user interaction the display will turn off and hide all modules for economy mode.
 
@@ -57,7 +42,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 {.is-info}
 
 
-## Minimal configuration (ok v2.0.0)
+## Minimal configuration
 ```js
 {
   module: 'EXT-Screen',
@@ -67,7 +52,7 @@ This module will verify if all screen saver is disabled and disable it if needed
   }
 },
 ```
-## Personalized configuration (ok v2.0.0)
+## Personalized configuration
 >  This is the default configuration defined if you don't define any value.
 >  Don't copy/past the entire default config, just add in default config your needed new change value !
 >  all new value will automaticaly be merged with the default config
@@ -100,7 +85,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 },
 ```
 
-## Detailed Configuration (missing ON/OFF)
+## Detailed Configuration
 
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
@@ -201,7 +186,8 @@ sample if you want to create an event from Monday to Friday at 17h00
 }
 ```
 
-### Create ON/OFF
+### Create ON/OFF events
+
 Let's create ON and OFF now
 I want to apply this rules: 
 
@@ -249,7 +235,7 @@ OFF: [
 {.is-warning}
 
 
-## Developer Notes (ok v2.0.0)
+## Developer Notes
 
 - This plugin broadcasts:
   * `EXT_SCREEN-POWER` with payload: `true` when your screen turn on or `false` when your screen turn off.
@@ -267,10 +253,8 @@ OFF: [
 {.is-warning}
 
 
-## Update (ok v2.0.0)
+## Update
 ```sh
 cd ~/MagicMirror/modules/EXT-Screen
 npm run update
 ```
-
- 
