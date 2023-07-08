@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-06-15T21:59:45.841Z
+date: 2023-07-08T18:20:51.031Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -37,7 +37,7 @@ All name of `MMM-GoogleAssistant` plugins start with `EXT` and the `Gateway` wil
 
 Gateway is a real conductor 🙂
 
-# Gateway v3.3.x
+# Gateway
 
   Gateway has an embedded application.
   This application is available directly through your browser.
@@ -101,8 +101,6 @@ npm install
     debug: false,
     username: "admin",
     password: "admin",
-    usePM2: false,
-    PM2Id: 0,
     CLIENT_ID: null
   }
 },
@@ -113,8 +111,6 @@ npm install
 > | debug | Enable debug mode | Boolean | false |
 > | username | Define your username for the app | String | admin
 > | password | Define your password for the app | String | admin
-> | usePM2 | Do you usePM2 for launching MagicMirror? | Boolean | false
-> | PM2Id | Number process of PM2 (`pm2 status` can help to define it)| Number | 0
 > | CLIENT_ID | Define your CLIENT_ID of your smarthome action (see Smarthome section) | String | null
 > All settings of Gateway can be modified with the app
 {.is-success}
