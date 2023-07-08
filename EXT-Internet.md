@@ -2,7 +2,7 @@
 title: EXT-Internet
 description: 
 published: true
-date: 2023-06-15T20:01:11.493Z
+date: 2023-07-08T10:31:59.440Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:00:09.615Z
@@ -43,7 +43,6 @@ npm install
     displayPing: true,
     delay: 30 * 1000,
     scan: "google.fr",
-    command: "pm2 restart 0",
     showAlert: true,
     needRestart: false
   }
@@ -57,13 +56,8 @@ npm install
 > |displayPing | Display the ping value on the screen | BOOLEAN | true
 > |delay | Set the interval for internet checking | NUMBER | 2* 60 * 1000
 > |scan | Ping point name or address | STRING | google.fr
-> |command | Command which will be executed after the internet connection is detected as lost | STRING | pm2 restart 0
 > |showAlert | Show or not the Alert about internet connection lost (`EXT-Alert` needed) | BOOLEAN | true
 > |needRestart | Restart your MagicMirror app with your prefered `command` | BOOLEAN | false
-
-### Notes for `command` feature
- * should be: sh file, js file, py file or command
- * don't forget to `chmod +x` your file, if you prefer use your own !
 
 # Developer Notes
 
