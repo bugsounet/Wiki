@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2023-07-08T20:36:09.367Z
+date: 2023-07-08T20:36:46.835Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -62,7 +62,6 @@ Gateway is a real conductor 🙂
 |[EXT-Photos](/en/EXT-Photos)| plugins for displaying any photos found by assistant in fullscreen
 |[EXT-Pir](/en/EXT-Pir)| plugins for control your screen with a PIR Sensor
 |[EXT-RadioPlayer](/en/EXT-RadioPlayer)| plugins for playing any radio
-|[EXT-Raspotify](/en/EXT-Raspotify)| plugin to play Spotify music on your mirror with Raspotify app
 |[EXT-Screen](/en/EXT-Screen)| After a configurated time without any user interaction the display will turn off and hide all modules for economy mode. It can turn ON and Turn OFF your screen with defined hours or with touch screen
 |[EXT-Spotify](/en/EXT-Spotify)| This plugin show current spotify playback of any devices
 |[EXT-SpotifyCanvasLyrics](/en/EXT-SpotifyCanvasLyrics)| This plugin will display lyrics and canvas of the current track
