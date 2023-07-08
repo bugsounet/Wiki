@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:21:47.712Z
+date: 2023-07-08T19:31:52.630Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -129,6 +129,20 @@ This module will verify if all screen saver is disabled and disable it if needed
    - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
    - `mode: 6` - use a relay switch command controled by GPIO
    - `mode: 0` - disabled mode and disable turnOffDisplay too
+   
+ * Available touchMode:
+   - `touchMode: 0`
+     - disabled
+   - `touchMode: 1`
+     - One click on the screen will restart the timer (or Wake up the screen if needed)
+     - Double Click on the screen will shutdown the screen
+   - `touchMode: 2`
+     - One Click on the EXT-Screen area will restart the timer
+     - Long Click on the screen will shutdown or wake up the screen (toogle)
+   - `touchMode: 3`
+     - One Click on the EXT-Screen area will restart the timer
+     - Doucle Click on the EXT-Screen area will shutdown the screen
+     - One Click on the screen will wake up if shutdown
 
 ## Developer Notes
 
