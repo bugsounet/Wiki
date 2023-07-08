@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:49:18.921Z
+date: 2023-07-08T19:50:16.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -100,7 +100,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 },
 ```
 
-## Detailed Configuration
+## Detailed Configuration (missing ON/OFF)
 
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
