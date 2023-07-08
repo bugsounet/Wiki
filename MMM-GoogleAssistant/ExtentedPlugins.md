@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2023-06-15T19:59:31.522Z
+date: 2023-07-08T20:35:33.124Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -13,7 +13,7 @@ dateCreated: 2022-03-15T00:06:02.359Z
 
 That's why there are plugins to add and just the ones you want to use !
 
-> With GAv5, you have a lot of choice !
+> With MMM-GoogleAssistant, you have a lot of choice !
 {.is-success}
 
 
@@ -35,11 +35,11 @@ All name of MMM-GoogleAssistant plugins start with EXT and the Gateway will appl
 
 Gateway have a database of ALL EXT plugins for apply self rules.
 
-MMM-GoogleAssistant v5 💭 -> Gateway 🎼 <-> EXT plugins 🎹
+MMM-GoogleAssistant 💭 -> Gateway 🎼 <-> EXT plugins 🎹
 
 Gateway is a real conductor 🙂
 
-> Without Gateway MMM-GoogleAssistant can't works !
+> Without Gateway, MMM-GoogleAssistant can't works !
 > You MUST install it !
 {.is-danger}
 
@@ -63,13 +63,11 @@ Gateway is a real conductor 🙂
 |[EXT-Pir](/en/EXT-Pir)| plugins for control your screen with a PIR Sensor
 |[EXT-RadioPlayer](/en/EXT-RadioPlayer)| plugins for playing any radio
 |[EXT-Raspotify](/en/EXT-Raspotify)| plugin to play Spotify music on your mirror with Raspotify app
-|[EXT-Screen](/en/EXT-Screen)| After a configurated time without any user interaction the display will turn off and hide all modules for economy mode.
-|[EXT-ScreenManager](/en/EXT-ScreenManager)| This plugin will Automaticaly turn ON and Turn OFF your screen with defined hours
-|[EXT-ScreenTouch](/en/EXT-ScreenTouch)| This plugin allow to turn on/off your screen with touch screen
+|[EXT-Screen](/en/EXT-Screen)| After a configurated time without any user interaction the display will turn off and hide all modules for economy mode. It can turn ON and Turn OFF your screen with defined hours or with touch screen
 |[EXT-Spotify](/en/EXT-Spotify)| This plugin show current spotify playback of any devices
 |[EXT-SpotifyCanvasLyrics](/en/EXT-SpotifyCanvasLyrics)| This plugin will display lyrics and canvas of the current track
 |[EXT-TelegramBot](/en/EXT-TelegramBot) | This plugin allow to control any plugins from telegram
-|[EXT-UpdateNotification](/en/EXT-UpdateNotification)| This plugin will update automaticaly any plugin installed
+|[EXT-Updates](/en/EXT-Updates)| This plugin will update automaticaly any plugin installed
 |[EXT-Volume](/en/EXT-Volume)| Plugin to control Volume of Magicmirror
 |[EXT-Welcome](/en/EXT-Welcome)| Send a welcome on start of MagicMirror
 |[EXT-YouTube](/en/EXT-YouTube)| Play any TouTube video (reserved to Donator of @bugsounet forum)
