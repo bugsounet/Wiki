@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:07:22.995Z
+date: 2023-07-08T19:08:20.739Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -106,17 +106,13 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | ------- | --- | --- | --- |
 > | animateBody | Animate MagicMirror on turn on /off the screen | Boolean | true |
 > | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
-> | turnOffDisplay | Should the display turn off after timeout? | Boolean | true |
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
-> | ecoMode | Should the MagicMirror hide all module after timeout ? | Boolean | true |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
 > | displayBar| Should display Count-up bar in screen ? | Boolean | true |
 > | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle", "Bar" | String | Text |
 > | displayLastPresence| Display the date of the last user presence | Boolean | true |
 > | lastPresenceTimeFormat| Change the date format (moment.js format) of the last presence | String | LL H:mm |
 > | detectorSleeping | Activate EXT-Detector only when display is on | Boolean | false |
-> | autoHide | Auto Hide this module when the lock function is activated | Boolean | true |
-> | delayed| Delayed turn on screen time (only if your screen is off). (in ms) | Number | 0 |
 > | gpio| GPIO number for control the relay (mode 6 only) | Number | 20 |
 > | clearGpioValue| reset GPIO value script of relay (mode 6 only) | Boolean | true |
 > | sound| emit a sound when your screen turn on/off | Boolean | false |
