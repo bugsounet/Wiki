@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:04:29.514Z
+date: 2023-07-08T19:07:22.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -31,9 +31,7 @@ In addition, you can use others EXT modules to control it or add some pretty plu
  * `EXT-Pir`: For PIR Sensor using
  * `EXT-Governor`: For Manage your CPU
  * `EXT-Motion`: For detecting all motions with a webcam (optional)
- * `EXT-ScreenManager`: For automaticaly turn ON and Turn OFF your screen with defined hours (optional)
- * `EXT-ScreenTouch`: For turn on/off your screen with touch screen (optional)
- * `EXT-UpdateNotification`: For update automaticaly this module (Optional)
+ * `EXT-Updates`: For update automaticaly this module (Optional)
  * `EXT-Alert`: For display some information or error on your screen (Optional)
  * `Gateway` for full control in harmony with all EXT components (For `MMM-GoogleAssistant` only)
 
@@ -84,20 +82,20 @@ This module will verify if all screen saver is disabled and disable it if needed
     debug: false,
     animateBody: true,
     delay: 2 * 60 * 1000,
-    turnOffDisplay: true,
     mode: 1,
-    ecoMode: true,
     displayCounter: true,
     displayBar: true,
     displayStyle: "Text",
     displayLastPresence: true,
     lastPresenceTimeFormat: "LL H:mm",
+    displayAvailability: true,
     detectorSleeping: false,
-    autoHide: true,
-    delayed: 0,
     gpio: 20,
     clearGpioValue: true,
-    sound: false
+    sound: false,
+    touchMode: 3,
+    ON: [],
+    OFF: []
   }
 },
 ```
