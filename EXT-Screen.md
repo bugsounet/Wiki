@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:48:33.061Z
+date: 2023-07-08T19:49:18.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -10,7 +10,7 @@ dateCreated: 2022-02-25T00:04:52.369Z
 
 # WARNING
 
-> this wiki is Under writing for v2.0.0
+> This wiki is Under writing for v2.0.0
 {.is-danger}
 
 
