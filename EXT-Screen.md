@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:50:16.007Z
+date: 2023-07-08T20:17:31.536Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -147,8 +147,107 @@ This module will verify if all screen saver is disabled and disable it if needed
      - One Click on the screen will wake up if shutdown
 
 ### `ON: []` and `OFF: []`
+> This is the rule to Turn ON et Turn OFF your screen
+{.is-info}
 
-xxx
+Each event have an object format:
+```js
+{
+  dayOfWeek: <Array of days>,
+  hour: <hour>,
+  minute: <minute>
+}
+```
+
+dayOfWeek is an array of number
+This number define the day:
+> `0`: Sunday
+> `1`: Monday
+> `2`: Tuesday
+> `3`: Wednesday
+> `4`: Thursday
+> `5`: Friday
+> `6`: Saturday
+{.is-success}
+
+
+#### Sample
+sample if you want to create an event from Monday to Thursday at 07h45:
+
+```js
+{
+  dayOfWeek: [1,2,3,4,5],
+  hour: 45,
+  minute: 45
+}
+```
+
+sample if you want to create an event every Friday at 08h00
+
+```js
+{
+  dayOfWeek: [5],
+  hour: 00,
+  minute: 08
+}
+```
+
+sample if you want to create an event from Monday to Friday at 17h00
+```js
+{
+  dayOfWeek: [1,2,3,4,5],
+  hour: 17,
+  minute: 00
+}
+```
+
+### Create ON/OFF
+Let's create ON and OFF now
+I want to apply this rules: 
+
+---> Screen is ON:
+ * from Monday to Thursday at 07h45
+ * every Friday at 08h00
+   
+So, `ON` rules will be:
+
+```js
+ON: [
+  {
+    dayOfWeek: [1,2,3,4,5],
+    hour: 45,
+    minute: 45
+  },
+  {
+    dayOfWeek: [5],
+    hour: 00,
+    minute: 08
+  }
+],
+```
+
+---> Screen is OFF
+  * from Monday to Friday at 17h00
+
+`OFF` rules will be:
+
+```js
+OFF: [
+  {
+    dayOfWeek: [1,2,3,4,5],
+    hour: 17,
+    minute: 00
+  }
+]
+```
+
+> Let's apply your own rules !
+{.is-success}
+
+> When `ON` event started: counter will be not displayed
+> When `OFF` event started: counter will be functional and turn off the screen when done
+{.is-warning}
+
 
 ## Developer Notes (ok v2.0.0)
 
