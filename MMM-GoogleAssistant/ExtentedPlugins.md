@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2023-07-08T20:35:33.124Z
+date: 2023-07-08T20:36:09.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -20,7 +20,7 @@ That's why there are plugins to add and just the ones you want to use !
 > The generation of Extended plugins is able to communicate with each other to form a single module
 {.is-success}
 
-In order to communicate with GAv4 plugins needs a Gateway
+In order to communicate with MMM-GoogleAssistant plugins needs a Gateway
 
 Gateway is able to:
 
