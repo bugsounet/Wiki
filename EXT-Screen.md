@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-07-08T19:04:03.239Z
+date: 2023-07-08T19:04:29.514Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -14,7 +14,7 @@ dateCreated: 2022-02-25T00:04:52.369Z
 {.is-danger}
 
 
-> Warn: some feature are deleted
+> Some features are deleted and there is some new
 > Please wait release of this wiki
 {.is-danger}
 
