@@ -2,7 +2,7 @@
 title: MagicMirror Installer
 description: 
 published: true
-date: 2023-07-14T06:53:52.976Z
+date: 2023-07-14T06:54:10.969Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T22:47:47.955Z
