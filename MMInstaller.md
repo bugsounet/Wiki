@@ -2,7 +2,7 @@
 title: MagicMirror Installer
 description: 
 published: true
-date: 2023-07-14T06:52:15.407Z
+date: 2023-07-14T06:53:52.976Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T22:47:47.955Z
@@ -52,4 +52,4 @@ by responding `Y`, it will install:
  * New default `config.js` file
 
 # Thanks
-[@sdetweil](https://github.com/sdetweil/MagicMirror_scripts): MagicMirror installer/updater tools
+[@sdetweil](https://github.com/sdetweil/MagicMirror_scripts): MagicMirror installer tools
