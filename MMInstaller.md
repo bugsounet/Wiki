@@ -2,7 +2,7 @@
 title: MagicMirror Installer
 description: 
 published: true
-date: 2023-06-15T22:47:47.955Z
+date: 2023-07-14T06:48:37.951Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T22:47:47.955Z
@@ -53,15 +53,6 @@ by responding `Y`, it will install:
  * EXT-Detector
  * EXT-Alert
  * New default `config.js` file
-
-## Updating Magicmirror and @bugsounet electron based modules
-
-When an update of MagicMirror is available, you can use this tool:
-```
-cd ~/installer
-npm run update
-```
-Installer will do an proper update of MagicMirror and will scan if some @bugsounet modules need to be reinstalled in accord with new electron version
 
 # Thanks
 [@sdetweil](https://github.com/sdetweil/MagicMirror_scripts): MagicMirror installer/updater tools
