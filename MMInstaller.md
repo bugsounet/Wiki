@@ -2,7 +2,7 @@
 title: MagicMirror Installer
 description: 
 published: true
-date: 2023-07-14T06:48:37.951Z
+date: 2023-07-14T06:51:21.705Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T22:47:47.955Z
@@ -29,10 +29,7 @@ dateCreated: 2023-06-15T22:47:47.955Z
  * update properly GoogleAssistant Suite
  
 ## Installing:
- * `curl` and `git` tools
- ```
- sudo apt-get install curl git -y
- ```
+
  * Cloning and installing this repository
  ```
  cd ~
