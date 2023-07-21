@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2023-07-21T13:10:34.203Z
+date: 2023-07-21T13:15:31.103Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -122,6 +122,10 @@ The main command is `/music`
  * */music volume*: Volume control, it need a value 0-100
  * */music switch*: Switch between USB Key and Local Folder
  * */music random*: Switch between random playing (toggle)
+
+> ** In random playing mode: previous not working properly **
+{.is-warning}
+
 
 # Developer Notes
 ## Incoming notification:
