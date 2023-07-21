@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2023-06-15T20:01:54.209Z
+date: 2023-07-21T13:10:34.203Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -41,6 +41,7 @@ npm install
     useUSB: false,
     musicPath: "/home/pi/Music",
     checkSubDirectory: false,
+    random: false,
     autoStart: false,
     minVolume: 30,
     maxVolume: 100
@@ -54,6 +55,7 @@ npm install
 > |useUSB | If you prefer play file from an USB Key, set it to `true` | BOOLEAN | false
 > |musicPath | Music path for playing music from Local Files | STRING | "/home/pi/Music"
 > |checkSubDirectory | Should this module inspect sub directory for create music list ? | BOOLEAN | true
+> | random | Play music in random | false |
 > |autoStart | AutoStart USB key Music at boot of MagicMirror or when USB key is plugged in | BOOLEAN | false
 > |minVolume | Volume to set when assistant speaking | NUMBER | 30
 > |maxVolume | Volume to set when music playing | NUMBER | 100
@@ -119,6 +121,7 @@ The main command is `/music`
  * */music rebuild*: Rebuild music Database
  * */music volume*: Volume control, it need a value 0-100
  * */music switch*: Switch between USB Key and Local Folder
+ * */music random*: Switch between random playing (toggle)
 
 # Developer Notes
 ## Incoming notification:
