@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-05T10:02:48.288Z
+date: 2023-08-05T10:07:24.147Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -35,11 +35,11 @@ So I tried to simplify as much as possible (as usual) the installation
 ### On the App:
 ![app1.png](/resources/smarthome/app1.png)
 
-![3780007a-8966-444c-a7e3-c7f1abeb9d62-image.png](/assets/uploads/files/1678829647983-3780007a-8966-444c-a7e3-c7f1abeb9d62-image.png) 
+![app2.png](/resources/smarthome/app2.png)
 
-![768a728d-dd06-441b-a987-cc0bf07e9073-image.png](/assets/uploads/files/1678829697289-768a728d-dd06-441b-a987-cc0bf07e9073-image.png) 
+![app3.png](/resources/smarthome/app3.png)
 
-![dc1389db-e7df-4f86-a4f4-1c2092b31099-image.png](/assets/uploads/files/1678829738439-dc1389db-e7df-4f86-a4f4-1c2092b31099-image.png) 
+![app4.png](/resources/smarthome/app4.png)
 
 ## What can this plugin do?
 
