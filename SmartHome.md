@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-05T10:10:37.445Z
+date: 2023-08-05T10:17:24.032Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -54,6 +54,8 @@ It's able to control plugin :)
 * Naturally ... `stop` command is available too !
 
 (... More features will be added (again) soon!)
+
+---
 
 ## Installation
 
@@ -121,3 +123,28 @@ sample: `http://demo.bugsounet.fr` (replace `demo.bugsounet.fr` by yours)
 **If works: You must have the `nginx` default page**
 
 ![nginx.png](/resources/smarthome/nginx.png)
+
+
+---
+
+Google Actions
+Let's configure google actions!
+
+# Connect to [Google Action Console](https://console.actions.google.com/)
+
+# Create a new Project
+![action1.png](/resources/smarthome/action1.png)
+
+## Name it `MMM-GoogleAssisant` (and make it in accord with your language and country)
+![action2.png](/resources/smarthome/action2.png)
+
+**/!\ it must be the same project name like when you create your credentials for `MMM-GoogleAssistant` [there](https://wiki.bugsounet.fr/MMM-GoogleAssistant/SetupCredentials)**
+**Google can purpose a choice, let's check it!**
+
+... and `Create project` or `Import project`
+
+# Select `Smart Home` 
+![6.png](/assets/uploads/files/1680349301369-6.png) 
+... and click `start Building`
+
+![4.png](/assets/uploads/files/1680349307207-4.png)
