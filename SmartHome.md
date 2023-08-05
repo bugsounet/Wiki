@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-05T10:17:24.032Z
+date: 2023-08-05T10:26:55.341Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -144,7 +144,24 @@ Let's configure google actions!
 ... and `Create project` or `Import project`
 
 # Select `Smart Home` 
-![6.png](/assets/uploads/files/1680349301369-6.png) 
+![sh1.png](/resources/smarthome/sh1.png)
 ... and click `start Building`
 
-![4.png](/assets/uploads/files/1680349307207-4.png)
+![sh2.png](/resources/smarthome/sh2.png)
+
+---
+
+# Close your brower and reconnect to [google actions](https://console.actions.google.com/)
+## Select your project
+## Select 3 dots on the top right
+![action3.png](/resources/smarthome/action3.png)
+
+## `Select Project setting`
+![action4.png](/resources/smarthome/action4.png)
+
+![action5.png](/resources/smarthome/action5.png)
+
+**It's must match with `npm run project` result (copied in note pad)**
+
+---
+
