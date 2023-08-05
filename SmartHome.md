@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-04T12:38:12.300Z
+date: 2023-08-05T10:02:48.288Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -33,7 +33,7 @@ So I tried to simplify as much as possible (as usual) the installation
 ![jarvis.png](/resources/smarthome/jarvis.png)
 
 ### On the App:
-![de922e18-9655-444c-a511-74de2ec33c47-image.png](/assets/uploads/files/1678829576608-de922e18-9655-444c-a511-74de2ec33c47-image.png) 
+![app1.png](/resources/smarthome/app1.png)
 
 ![3780007a-8966-444c-a7e3-c7f1abeb9d62-image.png](/assets/uploads/files/1678829647983-3780007a-8966-444c-a7e3-c7f1abeb9d62-image.png) 
 
