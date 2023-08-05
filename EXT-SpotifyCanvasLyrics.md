@@ -2,7 +2,7 @@
 title: EXT-SpotifyCanvasLyrics
 description: 
 published: true
-date: 2023-06-15T22:39:45.400Z
+date: 2023-08-05T09:39:59.062Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T15:43:39.032Z

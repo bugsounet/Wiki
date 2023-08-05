@@ -2,7 +2,7 @@
 title: Commands
 description: 
 published: true
-date: 2023-07-08T17:20:57.224Z
+date: 2023-08-05T09:42:16.704Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T17:20:57.224Z

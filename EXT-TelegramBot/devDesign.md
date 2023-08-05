@@ -2,7 +2,7 @@
 title: Guide for design command
 description: 
 published: true
-date: 2023-06-15T20:05:46.746Z
+date: 2023-08-05T09:42:09.788Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T10:28:00.176Z

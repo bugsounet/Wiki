@@ -2,7 +2,7 @@
 title: Prepared recipes
 description: 
 published: true
-date: 2023-06-16T09:17:00.337Z
+date: 2023-08-05T09:43:28.736Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:17:06.353Z

@@ -2,7 +2,7 @@
 title: How to add commands
 description: 
 published: true
-date: 2023-06-15T20:04:54.480Z
+date: 2023-08-05T09:41:40.707Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T10:20:05.073Z

@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-06-15T20:04:43.690Z
+date: 2023-08-05T09:41:33.118Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:41:26.991Z

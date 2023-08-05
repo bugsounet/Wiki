@@ -2,7 +2,7 @@
 title: EXT-Motion
 description: 
 published: true
-date: 2023-06-15T20:01:43.367Z
+date: 2023-08-05T09:38:28.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-21T20:14:18.758Z
