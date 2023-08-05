@@ -2,15 +2,15 @@
 title: Welcome !
 description: 
 published: true
-date: 2023-08-05T10:49:01.677Z
+date: 2023-08-05T10:49:51.454Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
 ---
 
-# Welcome to MMM-GoogleAssistant Modules Wiki
+# Welcome to MMM-GoogleAssistant Module Wiki
 
-> You will discover all modules wiki **on the same page** !
+> You will discover all wiki **on the same page** !
 {.is-success}
 
 
