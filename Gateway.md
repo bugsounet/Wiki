@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-08-05T09:40:57.553Z
+date: 2023-08-06T10:25:51.591Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -78,7 +78,17 @@ Gateway is a real conductor 🙂
 
 # Screenshot of the google home app (smartphone)
 
-**coming soon**
+### Google Home `Jarvis` icon:
+![jarvis.png](/resources/smarthome/jarvis.png)
+
+### On the App:
+![app1.png](/resources/smarthome/app1.png)
+
+![app2.png](/resources/smarthome/app2.png)
+
+![app3.png](/resources/smarthome/app3.png)
+
+![app4.png](/resources/smarthome/app4.png)
 
 # Installation
 
