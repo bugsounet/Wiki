@@ -2,29 +2,58 @@
 title: Download Credentials
 description: 
 published: true
-date: 2023-08-06T13:27:12.253Z
+date: 2023-08-06T13:39:18.614Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T13:27:12.253Z
 ---
 
-Your `credentials` is now reated, let's download it !
+> Your `credentials` is now reated, let's download it !
+{.is-info}
+
 
 # DownLoad `credentials`
 
 ## Go back again to `Credentials`
-![](https://forum.bugsounet.fr/assets/uploads/files/1680351247962-a49aa5be-96a7-4d3f-9237-23f95d79e359-image.png)
+
+![credentials3.png](/resources/smarthome/credentials3.png)
 
 ## Select `Gateway` account in `Service Account` section
-![54e53bca-470c-4a17-86ab-1746968ef0cd-image.png](/assets/uploads/files/1680948179450-54e53bca-470c-4a17-86ab-1746968ef0cd-image.png) 
+![credentials4.png](/resources/smarthome/credentials4.png)
 
 ## Select `KEYS`
-![4ce27633-e67e-48e5-b94f-76bcd494e816-image.png](/assets/uploads/files/1680948254333-4ce27633-e67e-48e5-b94f-76bcd494e816-image.png) 
+![credentials5.png](/resources/smarthome/credentials5.png)
 
 ## Click on `ADD KEY` and select `Create new key`
-![eb3095b0-47b7-4bf9-9fb9-ea27a2cf2a18-image.png](/assets/uploads/files/1680948368974-eb3095b0-47b7-4bf9-9fb9-ea27a2cf2a18-image.png)
+![credentials6.png](/resources/smarthome/credentials6.png)
 
 ## `CREATE` the key in `JSON` format
-![e46039c8-d739-41ae-ad98-cfb0cc323de3-image.png](/assets/uploads/files/1680948438416-e46039c8-d739-41ae-ad98-cfb0cc323de3-image.png)
+![credentials7.png](/resources/smarthome/credentials7.png)
 
-**The file will be generated and the download will start automatically**
+> **The file will be generated and the download will start automatically**
+{.is-success}
+
+# Copy credentials to `Gateway`
+
+Rename the downloaded file to `credentials.json` and past it to `~/MagicMirror/modules/Gateway` directory
+
+**Warn:** This `credentials` are **NOT** `MMM-GoogleAssistant` credentials !
+
+## Verify `project_id` of `MMM-GoogleAssistant` and `SmarHome`
+
+Run again this script:
+
+```sh
+cd ~/MagicMirror/modules/Gateway/
+npm run project
+```
+
+> You **MUST** have same value on each credentials!
+{.is-success}
+
+
+```sh
+Your MMM-GoogleAssistant project_id is: XXXXXX
+---
+Your SmartHome project_id is: XXXXXX
+```
