@@ -2,7 +2,7 @@
 title: Download Credentials
 description: 
 published: true
-date: 2023-08-06T13:39:18.614Z
+date: 2023-08-06T13:40:42.116Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T13:27:12.253Z
@@ -57,3 +57,15 @@ Your MMM-GoogleAssistant project_id is: XXXXXX
 ---
 Your SmartHome project_id is: XXXXXX
 ```
+
+# Remove registration of `MMM-GoogleAssistant` from `GoogleHome app`
+
+If you have an existing `Jarvis` in GoogleHome app: Let's delete it
+
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run delete
+```
+
+> Note: Don't worry, we will create it again later !
+{.is-info}
