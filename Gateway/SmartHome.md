@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-06T12:39:21.315Z
+date: 2023-08-06T12:55:31.779Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -55,8 +55,15 @@ It's able to control plugin :)
 
 ---
 
-* [Installation](/Gateway/SmartHome/Installation)
-* [Create a Google Action Project](/Gateway/SmartHome/ActionNewProject)
-* [Google Action Configuration](/Gateway/SmartHome/SmartHomeActions)
-* [Complete CLIENT_ID](/Gateway/SmartHome/CLIENT_ID)
-*
+# SmartHome guide:
+
+1. [Installation](/Gateway/SmartHome/Installation)
+2. [Create a Google Action Project](/Gateway/SmartHome/ActionNewProject)
+3. [Configure: Google Action](/Gateway/SmartHome/SmartHomeActions)
+4. [Configure: your CLIENT_ID](/Gateway/SmartHome/CLIENT_ID)
+5. [Configure: HomeGraph](/Gateway/SmartHome/HomeGraph)
+6. [DownLoad credentials]()
+7. [configure Webserver]()
+8. [First Start of MagicMirror with Gateway and SmartHome functionality]()
+9. [Link with Google Home]()
+10. [Finalize device registration]()
