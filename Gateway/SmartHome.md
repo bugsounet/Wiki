@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-06T12:29:11.796Z
+date: 2023-08-06T12:31:49.859Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
