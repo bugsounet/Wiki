@@ -2,7 +2,7 @@
 title: Configure Google Actions
 description: 
 published: true
-date: 2023-08-06T11:16:06.937Z
+date: 2023-08-06T11:30:34.405Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:57:43.868Z
@@ -13,25 +13,26 @@ dateCreated: 2023-08-06T10:57:43.868Z
 
 
 # Select `overview`
-![a6719a67-f2b2-46ac-90c8-da0a2f196ad7-image.png](/assets/uploads/files/1680349595612-a6719a67-f2b2-46ac-90c8-da0a2f196ad7-image.png)  
+![overview.png](/resources/smarthome/overview.png)
 
 # Quick Setup
 Select `Name your Smart Home action`
-![138376f5-57a2-4ce1-8489-bcbe19a378c4-image.png](/assets/uploads/files/1680349628894-138376f5-57a2-4ce1-8489-bcbe19a378c4-image.png) 
+![quicksetup1.png](/resources/smarthome/quicksetup1.png) 
 
 `Display Name` set it to `Jarvis`
-![54ad3a27-b91a-46f4-bcb2-7d6afad3a7b2-image.png](/assets/uploads/files/1680349659655-54ad3a27-b91a-46f4-bcb2-7d6afad3a7b2-image.png) 
+![quicksetup2.png](/resources/smarthome/quicksetup2.png)
 ... and `Save`
 
 # Select `Actions` on the left
-![382374a3-ac53-45de-84f0-4d37070c4d86-image.png](/assets/uploads/files/1680349680496-382374a3-ac53-45de-84f0-4d37070c4d86-image.png) 
+![action6.png](/resources/smarthome/action6.png)
 
 # `Fulfillment URL`
-![2da84384-be7b-4bb6-bdd6-4d5be51aa78d-image.png](/assets/uploads/files/1680349727987-2da84384-be7b-4bb6-bdd6-4d5be51aa78d-image.png) 
+![fulfillment.png](/resources/smarthome/fulfillment.png)
 **/!\ Replace `demo.bugsounet.fr` by your sub-domaine or dyn-dns address**
 
 # Add capabilities
-![13.png](/assets/uploads/files/1680349749633-13.png) 
+![capabilities.png](/resources/smarthome/capabilities.png)
+
 check `Support local query`
 ... and `Save` it !
 
