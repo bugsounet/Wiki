@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-06T12:23:17.550Z
+date: 2023-08-06T12:27:53.752Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -56,7 +56,7 @@ It's able to control plugin :)
 ---
 
 * [Installation](/Gateway/SmartHome/Installation)
-* [Create a Google Action Project](/Gateway/Action_new_Project)
-* [Google Action Configuration](/Gateway//SmartHomeActions)
+* [Create a Google Action Project](/Gateway/SmartHome/)
+* [Google Action Configuration](/Gateway/SmartHome/SmartHomeActions)
 * [Complete CLIENT_ID]()
 *
