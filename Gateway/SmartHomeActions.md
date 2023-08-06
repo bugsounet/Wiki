@@ -2,7 +2,7 @@
 title: Configure Google Actions
 description: 
 published: true
-date: 2023-08-06T11:49:34.613Z
+date: 2023-08-06T11:56:35.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:57:43.868Z
@@ -64,11 +64,18 @@ check this:
 
 # click on `Deploy`
 
-![1166f304-6c28-4725-b63a-836698e68f77-image.png](/assets/uploads/files/1680350002837-1166f304-6c28-4725-b63a-836698e68f77-image.png) 
+![deploy.png](/resources/smarthome/deploy.png)
+
 click on `Directory information`
-![a739b4a6-a4ad-48f5-bf45-539dc9cb1781-image.png](/assets/uploads/files/1680350022717-a739b4a6-a4ad-48f5-bf45-539dc9cb1781-image.png) 
-Fill in the fields `Description`, `Images`, `contact details`, `Privacy and consent`.
-When done: `Save` it
+
+![directoryinformation.png](/resources/smarthome/directoryinformation.png)
+
+> Fill in the fields `Description`, `Images`, `contact details`, `Privacy and consent`.
+{.is-warning}
+
+> When done: `Save` it
+{.is-success}
+
 # click on `Company details` on the left
 ![953ceffc-9f44-45a5-b965-0159614d37a4-image.png](/assets/uploads/files/1680350049016-953ceffc-9f44-45a5-b965-0159614d37a4-image.png) 
 Fill in the fields too
