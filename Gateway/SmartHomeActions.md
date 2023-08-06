@@ -2,7 +2,7 @@
 title: Configure Google Actions
 description: 
 published: true
-date: 2023-08-06T11:56:35.767Z
+date: 2023-08-06T12:03:01.920Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:57:43.868Z
@@ -77,18 +77,29 @@ click on `Directory information`
 {.is-success}
 
 # click on `Company details` on the left
-![953ceffc-9f44-45a5-b965-0159614d37a4-image.png](/assets/uploads/files/1680350049016-953ceffc-9f44-45a5-b965-0159614d37a4-image.png) 
-Fill in the fields too
 
-# click on `Release` the last step !
-![305f79d5-413c-4b27-ae95-d155f17a1043-image.png](/assets/uploads/files/1680350061452-305f79d5-413c-4b27-ae95-d155f17a1043-image.png)  
+![compagnydetails.png](/resources/smarthome/compagnydetails.png)
 
-![f2906ae5-5618-4c3a-a352-c8560f11005e-image.png](/assets/uploads/files/1680350076317-f2906ae5-5618-4c3a-a352-c8560f11005e-image.png) 
-Create a `new release`
-`Channel`: choose `alpha`
-`Release name`: keep by default
-and ... `Submit`
-![1a5802c3-f016-4b16-b298-7fab1ce12fed-image.png](/assets/uploads/files/1680350089411-1a5802c3-f016-4b16-b298-7fab1ce12fed-image.png) 
+> Fill in the fields too
+{.is-warning}
+
+
+# click on `Release`
+> It's the last step!
+{.is-success}
+
+
+![release1.png](/resources/smarthome/release1.png)
+
+![release2.png](/resources/smarthome/release2.png)
+
+> Create a `new release`
+> `Channel`: choose `alpha`
+> `Release name`: keep by default
+> and ... `Submit`
+{.is-info}
+
+![release3.png](/resources/smarthome/release3.png)
 
 ----
 
