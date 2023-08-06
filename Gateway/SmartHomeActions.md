@@ -2,7 +2,7 @@
 title: Configure Google Actions
 description: 
 published: true
-date: 2023-08-06T11:14:26.816Z
+date: 2023-08-06T11:16:06.937Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:57:43.868Z
