@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-06T13:27:50.769Z
+date: 2023-08-06T13:51:11.387Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -63,7 +63,7 @@ It's able to control plugin :)
 4. [Configure: your CLIENT_ID](/Gateway/SmartHome/CLIENT_ID)
 5. [Configure: HomeGraph](/Gateway/SmartHome/HomeGraph)
 6. [DownLoad credentials](/Gateway/SmartHome/DownloadCredentials)
-7. [Configure Webserver]()
+7. [Configure Webserver](/Gateway/SmartHome/webserver)
 8. [First Start of MagicMirror with Gateway and SmartHome functionality]()
 9. [Link with Google Home]()
 10. [Finalize device registration]()
