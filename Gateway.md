@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-08-06T10:29:49.615Z
+date: 2023-08-06T10:43:07.458Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -150,9 +150,7 @@ Now, just enter your credentials defined in config ;)
 # SmartHome (Under Writing)
 You want to control `Jarvis` from google home app or from another google assistant device ?
 
-  * Introduction
-  * Installation
-  * Google Action Configuration
+Install [SmartHome](/Gateway/home) Functionality
 
 # Update
 ```
