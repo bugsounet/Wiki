@@ -2,13 +2,13 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-06T10:23:16.987Z
+date: 2023-08-06T10:35:52.459Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
 ---
 
-# **SmartHome Installation**
+# **SmartHome**
 
 I think do you know the Google Home app of your smartphone
 It is used to control the connected devices
