@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-05T10:26:55.341Z
+date: 2023-08-06T10:23:16.987Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -24,7 +24,7 @@ So I tried to simplify as much as possible (as usual) the installation
 
 ## PreRequire
 
-* Domaine name  or DynDNS (or equivalentq) account
+* Domaine name  or DynDNS (or equivalent) account
 * a Router
 * an Google Account: same like `MMM-GoogleAssistant`, Google Home app, SmartPhone account
 
