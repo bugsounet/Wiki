@@ -2,7 +2,7 @@
 title: Configure Google Actions
 description: 
 published: true
-date: 2023-08-06T11:46:46.583Z
+date: 2023-08-06T11:49:34.613Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:57:43.868Z
@@ -54,15 +54,16 @@ check `Support local query`
 
 `Configure your client`:
 
-![35c6cbd8-d590-42a5-ae8d-b7751131b029-image.png](/assets/uploads/files/1680349873850-35c6cbd8-d590-42a5-ae8d-b7751131b029-image.png)
+![client1.png](/resources/smarthome/client1.png)
 
 check this:
 
-![ca8274a0-3660-4d5e-8268-d928b6ffbc6a-image.png](/assets/uploads/files/1680349973712-ca8274a0-3660-4d5e-8268-d928b6ffbc6a-image.png) 
+![client2.png](/resources/smarthome/client2.png) 
 
 ... And click `Next` and `Save`
 
 # click on `Deploy`
+
 ![1166f304-6c28-4725-b63a-836698e68f77-image.png](/assets/uploads/files/1680350002837-1166f304-6c28-4725-b63a-836698e68f77-image.png) 
 click on `Directory information`
 ![a739b4a6-a4ad-48f5-bf45-539dc9cb1781-image.png](/assets/uploads/files/1680350022717-a739b4a6-a4ad-48f5-bf45-539dc9cb1781-image.png) 
