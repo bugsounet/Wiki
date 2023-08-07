@@ -1,8 +1,8 @@
 ---
-title: Configure WebServer
+title: 7. Configure Webserver
 description: 
 published: true
-date: 2023-08-06T13:50:09.722Z
+date: 2023-08-07T08:23:16.663Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T13:50:09.722Z
