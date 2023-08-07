@@ -2,37 +2,54 @@
 title: 11. How use it
 description: 
 published: true
-date: 2023-08-07T13:08:13.996Z
+date: 2023-08-07T13:14:19.117Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T13:08:13.996Z
 ---
 
-# How use it ?
+> Let's discover SmartHome functionality !
+{.is-info}
 
-## From device page
+
+# From device page
 
 ![jarvis.png](/resources/smarthome/jarvis.png)
 
-### Using EXT-Screen
+## Using EXT-Screen
 
 * short press on `Jarvis` app: 
 will force to turn on or off your screen
 
-### Using EXT-Volume
+## Using EXT-Volume
 
 * slide left/right on `Jarvis` app:
 will control the volume of your speaker
 
-## Long press on `Jarvis` app
+# Long press on `Jarvis` app
 
-### EXT-Volume
+> That will open all functionalities.
+> It's depend of used plugins and compatibilities
+{.is-info}
+
+> Plugins compatibilities List:
+>
+>  EXT-Screen
+>  EXT-Volume
+>  EXT-Spotify
+>  EXT-SpotifyCanvasLyrics
+>  EXT-FreeboxTV
+>  EXT-Pages
+{.is-success}
+
+
+## EXT-Volume
 
 ![volumecontrol.png](/resources/smarthome/volumecontrol.png)
 
 Control your volume and Mute/unMute speaker
 
-### EXT-Screen
+## EXT-Screen
 
 ![screen.png](/resources/smarthome/screen.png)
 
@@ -47,7 +64,7 @@ Allows to Tuen ON / OFF your screen
 {.is-success}
 
 
-### EXT-Spotify
+## EXT-Spotify
 
 ![spotify.png](/resources/smarthome/spotify.png)
 
@@ -58,7 +75,7 @@ Allows to Tuen ON / OFF your screen
 >  * Next
 
  
- ### EXT-FreeboxTV
+## EXT-FreeboxTV
  
  * You can control Channel `+` and Channel `-`
  
@@ -68,24 +85,24 @@ Allows to Tuen ON / OFF your screen
  
  ![app3.png](/resources/smarthome/app3.png)
  
- ### EXT-SpotifyCanvasLyrics
+## EXT-SpotifyCanvasLyrics
  
  * On Source, you can force to display the plugin on all music
  
 >  It's a toggle: You can disable it if you select it again
 {.is-info}
 
-### EXT-Pages
+## EXT-Pages
 
  * On Source: just select the page number for displaying !
 
  ![app4.png](/resources/smarthome/app4.png)
  
-### Stop command
+## Stop command
 
  * On Source: Just select `stop` for stop all plugins
  
-## Remote Control from another device
+# Remote Control from another device
 
 * Turn on/off Jarvis
 * Volume to xxx on Jarvis
