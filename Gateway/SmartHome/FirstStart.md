@@ -1,8 +1,8 @@
 ---
-title: First Start
+title: 8. First Start of MagicMirror with Gateway and SmartHome functionality
 description: 
 published: true
-date: 2023-08-07T08:17:29.853Z
+date: 2023-08-07T08:23:52.781Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T08:00:47.361Z
