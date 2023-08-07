@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-07T12:42:20.216Z
+date: 2023-08-07T13:08:24.857Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -67,4 +67,4 @@ It's able to control plugin :)
 8. [First Start of MagicMirror with Gateway and SmartHome functionality](/Gateway/SmartHome/FirstStart)
 9. [Link with Google Home](/Gateway/SmartHome/GoogleHomeLink)
 10. [Finalize device registration](/Gateway/SmartHome/GoogleAssistantLink)
-11. [How use it]() [!UnderWriting]
+11. [How use it](/Gateway/SmartHome/Using)
