@@ -1,8 +1,8 @@
 ---
-title: HomeGraph configuration
+title: 5. Configure: HomeGraph
 description: 
 published: true
-date: 2023-08-06T13:23:43.472Z
+date: 2023-08-07T08:21:52.602Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T12:46:22.487Z
