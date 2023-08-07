@@ -2,7 +2,7 @@
 title: 8. First Start of MagicMirror with Gateway and SmartHome functionality
 description: 
 published: true
-date: 2023-08-07T08:23:52.781Z
+date: 2023-08-07T10:56:03.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T08:00:47.361Z
@@ -23,6 +23,8 @@ So ... start MagicMirror and wait all is initialized !
 ## Try to open `Gateway` with your domain name
 
 https://demo.bugsounet.fr
+
+![login.png](/resources/smarthome/login.png)
 
 > You must have `Gateway` login page
 {.is-success}
