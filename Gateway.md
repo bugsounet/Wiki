@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-08-06T12:24:38.286Z
+date: 2023-08-07T15:27:19.203Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -147,7 +147,7 @@ Now, just enter your credentials defined in config ;)
 > In this case, you can control Gateway over the world with another interet connexion, or with your phone wherever you are
 {.is-info}
 
-# SmartHome (Under Writing)
+# SmartHome (Optional)
 You want to control `Jarvis` from google home app or from another google assistant device ?
 
 Install [SmartHome](/Gateway/SmartHome) Functionality
