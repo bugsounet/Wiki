@@ -1,8 +1,8 @@
 ---
-title: SmartHome Installation
+title: 1. Installation
 description: 
 published: true
-date: 2023-08-06T12:22:21.399Z
+date: 2023-08-07T08:18:54.697Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T10:48:32.599Z
