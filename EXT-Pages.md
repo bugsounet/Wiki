@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-08-05T09:38:44.083Z
+date: 2023-08-21T19:16:17.657Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -342,6 +342,33 @@ pages: {
  2: [ "Weather3", "calendar" ]
 },
 ```
+
+## `MMM-GoogleAssistant` recipe for vocal control
+A prepared recipe is inclued and waiting for your use
+Just add it in the config of MMM-GoogleAssistant
+
+ * sample:
+```js
+recipes: [
+  "../../EXT-Pages/recipe/EXT-Pages.js"
+],
+```
+ * if you have other recipe, just add it like this:
+```js
+recipes: [
+  "my_recipe.js",
+  "../../EXT-Pages/recipe/EXT-Pages.js"
+],
+```
+### How to use it ?
+
+Activate your mirror with your prefered keyword and just say:
+ - `go to main page`: will go to your main page
+ - `go to page 1`: will go to your first [1] page
+ - `go to page 2`: will go to the second [2] page 
+ - `go to admin`: will go to the hidden page named `admin`
+
+This recipe is a sample, you can modify it and save it in another filename
 
 ## Notifications
 
