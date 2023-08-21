@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-08-21T19:16:17.657Z
+date: 2023-08-21T19:18:29.003Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -368,7 +368,9 @@ Activate your mirror with your prefered keyword and just say:
  - `go to page 2`: will go to the second [2] page 
  - `go to admin`: will go to the hidden page named `admin`
 
-This recipe is a sample, you can modify it and save it in another filename
+> This recipe is a sample, you can modify it and save it in another filename
+{.is-warning}
+
 
 ## Notifications
 
