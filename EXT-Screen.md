@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-08-05T09:39:14.370Z
+date: 2023-08-22T18:07:12.538Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -66,6 +66,7 @@ This module will verify if all screen saver is disabled and disable it if needed
   config: {
     debug: false,
     animateBody: true,
+    autoDimmer: true,
     delay: 2 * 60 * 1000,
     mode: 1,
     displayCounter: true,
@@ -90,6 +91,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
 > | animateBody | Animate MagicMirror on turn on/off the screen | Boolean | true |
+> | autoDimmer | screen dimmer when timeout is 1/3 time left and use opacity from 100% to 0% | Boolean | true |
 > | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
