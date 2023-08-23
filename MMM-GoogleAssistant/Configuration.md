@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-05T09:42:46.027Z
+date: 2023-08-23T16:39:05.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -109,7 +109,8 @@ config: {}
 ```js
   config: {
     debug:false,
-    stopCommand: "stop"
+    stopCommand: "stop",
+    otherStopCommands: []
   }
 ```
 
@@ -119,11 +120,22 @@ config: {}
 > |---|---|---
 > |debug | BOOLEAN | false
 > |stopCommand | STRING | stop
-
+> |otherStopCommands | Array of String | [ ]
 
 - `debug` : When you set `debug` to `true`, detailed log will be recorded. When you don't want log, set it to `false`
 - `stopCommand` : Command to say if you want to stop all plugins (EXT_ modules) playing
-<br>
+- `otherStopCommands` : Allow to use other/multi keywords for stopCommand using. It must be defined in array
+
+> **otherStopCommands sample:**
+>
+> You want to define `stoppe`, `annuler`, `thank you` keywords in addition of default stopCommand
+{.is-info}
+
+
+```js
+otherStopCommands: [ "stoppe", "annuler", "thank you" ]
+```
+
 
 ## Field `assistantConfig: {}`
 > Define your localisation, language, define if assistant is registred to GoogleHome
