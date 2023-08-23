@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-23T16:39:05.689Z
+date: 2023-08-23T16:41:48.918Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -136,6 +136,8 @@ config: {}
 otherStopCommands: [ "stoppe", "annuler", "thank you" ]
 ```
 
+> Just make your own keywords for your global stop command list!
+{.is-success}
 
 ## Field `assistantConfig: {}`
 > Define your localisation, language, define if assistant is registred to GoogleHome
