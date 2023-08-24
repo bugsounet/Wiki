@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-23T16:41:48.918Z
+date: 2023-08-24T18:39:29.745Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -57,6 +57,7 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
   config: {
     debug: false,
     stopCommand: "stop",
+    otherStopCommands: [],
     assistantConfig: {},
     responseConfig: {
       chimes: {},
