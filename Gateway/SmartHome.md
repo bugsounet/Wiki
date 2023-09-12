@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-08-07T13:08:24.857Z
+date: 2023-09-12T11:11:35.055Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-04T12:38:05.250Z
@@ -10,7 +10,7 @@ dateCreated: 2023-08-04T12:38:05.250Z
 
 I think do you know the Google Home app of your smartphone
 It is used to control the connected devices
-We are therefore going to create the extension in order to control Jatvis from this application!
+We are therefore going to create the extension in order to control Jarvis from this application!
 Naturally... when done, you can therefore control it by voice from another device that uses the google assistant :)
 
 # Process
