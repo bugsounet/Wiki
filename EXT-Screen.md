@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-09-19T19:52:23.161Z
+date: 2023-09-19T19:52:38.070Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -139,8 +139,6 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 > If you use `EXT-Pir` or `EXT-Motion`: You don't have to use this feature
 {.is-success}
-
-
 
 Each event have an object format:
 ```js
