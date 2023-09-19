@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-09-19T19:52:38.070Z
+date: 2023-09-19T19:53:49.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -205,7 +205,7 @@ So, `ON` rules will be:
 ```js
 ON: [
   {
-    dayOfWeek: [1,2,3,4,5],
+    dayOfWeek: [1,2,3,4],
     hour: 45,
     minute: 45
   },
