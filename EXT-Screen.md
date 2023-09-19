@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-09-19T19:58:10.904Z
+date: 2023-09-19T20:00:38.292Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -239,6 +239,8 @@ OFF: [
 > When `OFF` event started: counter will be functional and turn off the screen when done
 {.is-warning}
 
+> Don't be stupid! Don't create an ON event equal to OFF event
+{.is-danger}
 
 ## Developer Notes
 
