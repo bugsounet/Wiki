@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-09-19T19:55:11.441Z
+date: 2023-09-19T19:58:10.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -166,8 +166,8 @@ sample if you want to create an event from Monday to Thursday at 07h45:
 
 ```js
 {
-  dayOfWeek: [1,2,3,4,5],
-  hour: 45,
+  dayOfWeek: [1,2,3,4],
+  hour: 07,
   minute: 45
 }
 ```
@@ -177,8 +177,8 @@ sample if you want to create an event every Friday at 08h00
 ```js
 {
   dayOfWeek: [5],
-  hour: 00,
-  minute: 08
+  hour: 08,
+  minute: 00
 }
 ```
 
