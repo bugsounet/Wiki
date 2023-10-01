@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2023-08-05T09:38:35.877Z
+date: 2023-10-01T20:58:35.239Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -35,6 +35,8 @@ npm install
 ```js
 {
   module: 'EXT-MusicPlayer',
+  animateIn: "flipInX",
+  animateOut: "flipOutX",
   position: 'top_left',
   config: {
     debug: false,
