@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-09-19T20:00:38.292Z
+date: 2023-10-01T20:57:45.254Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -47,6 +47,8 @@ This module will verify if all screen saver is disabled and disable it if needed
 {
   module: 'EXT-Screen',
   position: 'top_left',
+  animateIn: "flipInX",
+  animateOut: "flipOutX",
   config: {
     delay: 2 * 60 * 1000
   }
@@ -63,6 +65,8 @@ This module will verify if all screen saver is disabled and disable it if needed
 {
   module: 'EXT-Screen',
   position: 'top_left',
+  animateIn: "flipInX",
+  animateOut: "flipOutX",
   config: {
     debug: false,
     animateBody: true,
