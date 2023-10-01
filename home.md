@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2023-08-05T10:49:51.454Z
+date: 2023-10-01T20:14:39.409Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -21,7 +21,7 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > Support of all my modules is now in a [dedicated forum](http://forum.bugsounet.fr)
 {.is-info}
 
-> All modules are now ready for using with npm v8.x and node v16.x
+> All modules are now ready for using with npm v9.x and node v18.x
 > But a bug is actually not solved with lasted version of `npm` app
 > So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
