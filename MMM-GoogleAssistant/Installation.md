@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2023-08-05T09:43:00.459Z
+date: 2023-10-01T20:52:23.662Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -21,15 +21,15 @@ dateCreated: 2022-03-13T13:54:39.438Z
 
 
 ## Pre-requirements:
- * MagicMirror v2.24.0 and more
+ * MagicMirror v2.25.0 and more
  * [MagicMirror](https://docs.magicmirror.builders/) must NOT be installed with sudo command
  * MagicMirror must be installed according to the magicmirror website (and NOT with any other internet tutorial!)
 
 ## Requirements:
  * OS: Raspbian 11 (Bullseye -- 32-bit Version) is needed
  * RPI 3b+ or more 
- * Node: v16.x.x // v18.x.x
- * npm: v8.x or more
+ * Node: v18.x.x
+ * npm: v9.x
  * 720p // HD screen or more
 
 > **You can't use server mode of MagicMirror² with this module**
