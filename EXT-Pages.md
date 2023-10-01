@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-10-01T21:04:40.625Z
+date: 2023-10-01T21:05:13.835Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -125,7 +125,7 @@ specific modules are shown and you do not want to have them in your normal page 
 These hidden pages are only accessible via notifications, so you need to send them from
 other modules. Examples integrations could be with touch, bots or voice commands.
 
-## animates
+## animate modules
 
 Animation feature allows to define an animation to a module
 Just use `animateIn` and `animateOut` feature in global modules configuration
