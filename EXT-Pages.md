@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-08-21T19:18:29.003Z
+date: 2023-10-01T21:04:40.625Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -59,18 +59,6 @@ Note: module names used in the following example are fictitious.
       "screenSaver": [ "clock", "MMM-SomeBackgroundImageModule" ],
       "admin": [ "MMM-ShowMeSystemStatsModule", "MMM-AnOnScreenMenuModule" ],
     },
-    animateIn: {
-      "newsfeed": 24,
-      "calendar": 36,
-      "compliments": 51,
-      "weather": 37
-    },
-    animateOut: {
-      "newsfeed": 15,
-      "calendar": 23,
-      "compliments": 27,
-      "weather": 23
-    },
     rotationTimes: {
       0: 20000
     },
@@ -90,8 +78,6 @@ Note: module names used in the following example are fictitious.
 | `pages`             | `{Number: [String...]...}` | `{}`                     | An Object String number of what each module should be on which page. Note that all entries must take their class name (e.g. this module's class name is `EXT-Pages`, while the default modules may just have `newsfeed`, without the `MMM-` or `EXT-` prefix. |
 | `fixed`             | `[String...]`              | `[]`                     | Which modules should show up all the time. |
 | `hiddenPages`       | `{String: [String...]...}` | `{}`                     | An Object defining special `hiddenPages` which are not available on the normal page rotation and only accassible via a notification. Modules defined in `fixed` are ignored and need to be also added if you wish to have them on any hidden page. |
-| `animateIn`          | `{String: Number,...}`     | `{}`                     | An Object with module name and special animates number when a module appears (see below) |
-| `animateOut`          | `{String: Number,...}`     | `{}`                     | An Object with module name and special animates number when a module should hide (see below) |
 | `animationTime`     | `int`                      | `1000`                   | Fading animation time. Set to `0` for instant change. Value is in milliseconds (1 second = 1000 milliseconds). |
 | `rotationTime`      | `int`                      | `0`                      | Time, in milliseconds, between automatic page changes. |
 | `rotationTimes`     | `{Number: String, ...}`    | `{}`                     | An Object with page number and associated delay times before changing page (will enforce `rotationTime` value) |
@@ -141,144 +127,11 @@ other modules. Examples integrations could be with touch, bots or voice commands
 
 ## animates
 
-animated feature allows to define an animation to a module
-We use [animate.css](https://animate.style/)
-All animations are defined by a number.
-
-### animateIn feature
-There is actually 55 animations available.
-
-```js
-      // Attention seekers
-      1: "bounce"
-      2: "flash"
-      3: "pulse"
-      4: "rubberBand"
-      5: "shakeX"
-      6: "shakeY"
-      7: "headShake"
-      8: "swing"
-      9: "tada"
-      10: "wobble"
-      11: "jello"
-      12: "heartBeat"
-      // Back entrances
-      13: "backInDown"
-      14: "backInLeft"
-      15: "backInRight"
-      16: "backInUp"
-      // Bouncing entrances
-      17: "bounceIn"
-      18: "bounceInDown"
-      19: "bounceInLeft"
-      20: "bounceInRight"
-      21: "bounceInUp"
-      // Fading entrances
-      22: "fadeIn"
-      23: "fadeInDown"
-      24: "fadeInDownBig"
-      25: "fadeInLeft"
-      26: "fadeInLeftBig"
-      27: "fadeInRight"
-      28: "fadeInRightBig"
-      29: "fadeInUp"
-      30: "fadeInUpBig"
-      31: "fadeInTopLeft"
-      32: "fadeInTopRight"
-      33: "fadeInBottomLeft"
-      34: "fadeInBottomRight"
-      // Flippers
-      35: "flip"
-      36: "flipInX"
-      37: "flipInY"
-      // Lightspeed
-      38: "lightSpeedInRight"
-      39: "lightSpeedInLeft"
-      // Rotating entrances
-      40: "rotateIn"
-      41: "rotateInDownLeft"
-      42: "rotateInDownRight"
-      43: "rotateInUpLeft"
-      44: "rotateInUpRight"
-      // Specials
-      45: "jackInTheBox"
-      46: "rollIn"
-      // Zooming entrances
-      47: "zoomIn"
-      48: "zoomInDown"
-      49: "zoomInLeft"
-      50: "zoomInRight"
-      51: "zoomInUp"
-      // Sliding entrances
-      52: "slideInDown"
-      53: "slideInLeft"
-      54: "slideInRight"
-      55: "slideInUp"
-```
-
-### animateOut feature
-There is actually 42 animations available.
-
-```js
-      // Back exits
-      1: "backOutDown",
-      2: "backOutLeft",
-      3: "backOutRight",
-      4: "backOutUp",
-      // Bouncing exits
-      5: "bounceOut",
-      6: "bounceOutDown",
-      7: "bounceOutLeft",
-      8: "bounceOutRight",
-      9: "bounceOutUp",
-      // Fading exits
-      10: "fadeOut",
-      11: "fadeOutDown",
-      12: "fadeOutDownBig",
-      13: "fadeOutLeft",
-      14: "fadeOutLeftBig",
-      15: "fadeOutRight",
-      16: "fadeOutRightBig",
-      17: "fadeOutUp",
-      18: "fadeOutUpBig",
-      19: "fadeOutTopLeft",
-      20: "fadeOutTopRight",
-      21: "fadeOutBottomRight",
-      22: "fadeOutBottomLeft",
-      // Flippers
-      23: "flipOutX",
-      24: "flipOutY",
-      // Lightspeed
-      25: "lightSpeedOutRight",
-      26: "lightSpeedOutLeft",
-      // Rotating exits
-      27: "rotateOut",
-      28: "rotateOutDownLeft",
-      29: "rotateOutDownRight",
-      30: "rotateOutUpLeft",
-      31: "rotateOutUpRight",
-      // Specials
-      32: "hinge",
-      33: "rollOut",
-      // Zooming exits
-      34: "zoomOut",
-      35: "zoomOutDown",
-      36: "zoomOutLeft",
-      37: "zoomOutRight",
-      38: "zoomOutUp",
-      // Sliding exits
-      39: "slideOutDown",
-      40: "slideOutLeft",
-      41: "slideOutRight",
-      42: "slideOutUp"
-```
-
-
-Just check [animate.css](https://animate.style/) and find for prefered animation your module !<br>
-Report number in accord of the animation name like in configuration sample
+Animation feature allows to define an animation to a module
+Just use `animateIn` and `animateOut` feature in global modules configuration
+See sample [there](https://develop.docs.magicmirror.builders/modules/configuration.html#animated) with `newsfeed` default module in `MagicMirror²` documentation
 
 > If you don't want to define an animation to a module(s) and use default MagicMirror animation
-> Just don't declare it in this part !
 {.is-info}
 
 ## `pages` with module name or with `classes` module definition
