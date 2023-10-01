@@ -2,7 +2,7 @@
 title: EXT-RadioPlayer
 description: 
 published: true
-date: 2023-08-05T09:39:06.420Z
+date: 2023-10-01T21:06:50.290Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:08:09.889Z
@@ -33,6 +33,8 @@ npm install
 {
   module: 'EXT-RadioPlayer',
   position: 'top_right',
+  animateIn: "flipInX",
+  animateOut: "flipOutX",
   config: {
     debug: false,
     minVolume: 30,
