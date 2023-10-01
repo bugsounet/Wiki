@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2023-08-05T09:39:51.881Z
+date: 2023-10-01T21:07:46.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -38,6 +38,8 @@ npm install
 {
   module: 'EXT-Spotify',
   position: 'top_left',
+  animateIn: "flipInX",
+  animateOut: "flipOutX",
   config: {
     updateInterval: 1000,
     idleInterval: 10000,
