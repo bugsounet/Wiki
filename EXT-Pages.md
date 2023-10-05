@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-10-05T16:05:49.203Z
+date: 2023-10-05T16:07:38.464Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -133,7 +133,7 @@ Animation feature allows to define an animation to a module
 Just use `animateIn` and `animateOut` feature in global modules configuration
 See sample [there](https://develop.docs.magicmirror.builders/modules/configuration.html#animated) with `newsfeed` default module in `MagicMirror²` documentation
 
-> If you don't want to define an animation to a module(s) and use default MagicMirror animation
+> If you don't want to define an animation to a module(s) and use default MagicMirror animation (fade in and fade out)
 {.is-info}
 
 ## `pages` with module name or with `classes` module definition
