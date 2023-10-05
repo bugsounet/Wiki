@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-10-01T21:05:49.203Z
+date: 2023-10-05T16:05:49.203Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -63,6 +63,7 @@ Note: module names used in the following example are fictitious.
       0: 20000
     },
     indicator: true,
+    hideBeforeRotation: false,
     rotationTime: 15000,
     Gateway: {},
     loading: "loading.png"
@@ -83,8 +84,9 @@ Note: module names used in the following example are fictitious.
 | `rotationTimes`     | `{Number: String, ...}`    | `{}`                     | An Object with page number and associated delay times before changing page (will enforce `rotationTime` value) |
 | `homePage`          | `int`                      | `0`                      | Which page index is the home page. If none is set, this returns to the leftmost page instead. |
 | `indicator`         | `bool`                     | `true`                   | Activate page-indicator |
+| `hideBeforeRotation` | `bool` | `false ` | Hide all modules before rotating except fixed. |
 | `Gateway`           | `{String of plugins name: Number,... }` | `{}`        | Gateway rules for displaying plugins page automaticaly |
-| `loading`  | `String` | `loading.png` | loading picture name|
+| `loading`  | `String` | `loading.png` | loading picture file name|
 
 ## Gateway Rules sample:
 ```
