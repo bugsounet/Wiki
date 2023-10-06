@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2023-08-05T09:44:11.586Z
+date: 2023-10-06T12:04:31.985Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -81,7 +81,60 @@ npm run update
 ```
 
 ### Note:
-> This Step is not needed if you use [EXT-UpdateNotification](https://github.com/bugsounet/EXT-UpdateNotification) plugin.
+> This Step is not needed if you use [EXT-Updates](/EXT-Updates) plugin.
 > This plugin will automaticaly update MMM-GoogleAssistant if needed
 {.is-success}
 
+## Refresh / Major Updating
+
+> This new command allow force reinstall or update all `MMM-GoogleAssistant` components:
+> `MMM-GoogleAssistant`, `Gateway` and all `EXTs` installed
+> This command make automatic things !
+{.is-info}
+
+> This command can be used when a new MagicMirror² version is installed
+> When you have too many `MMM-GoogleAssistant` components to update
+> When you want to refresh (like a first install) all `MMM-GoogleAssistant` components
+{.is-success}
+
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run refresh
+```
+
+Sample of output:
+```sh
+~/MagicMirror/modules/MMM-GoogleAssistant$ npm run refresh
+
+> MMM-GoogleAssistant@5.4.2 refresh
+> node installer/refresh.js
+
+Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
+
+❤ Found: EXT-Alert
+✅ Update of EXT-Alert: Version: 1.3.0 (231001)
+---
+❤ Found: EXT-Background
+✅ Update of EXT-Background: Version: 1.2.4 (231001)
+---
+❤ Found: EXT-Bard
+✅ Update of EXT-Bard: Version: 1.1.0 (230825)
+---
+❤ Found: EXT-Bring
+✅ Update of EXT-Bring: Version: 1.2.3 (231001)
+---
+❤ Found: EXT-Browser
+✅ Update of EXT-Browser: Version: 1.2.3 (231001)
+---
+❤ Found: EXT-Detector
+⠧ Updating: EXT-Detector...
+<...>
+---
+✋ Skipped: MMM-Test
+---
+
+✌ Result:
+➤ Updated: xx/xx
+➤ Failed: xx/xx
+➤ Skipped: xx/xx
+```
