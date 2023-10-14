@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-10-01T20:57:45.254Z
+date: 2023-10-14T20:41:12.927Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -73,6 +73,7 @@ This module will verify if all screen saver is disabled and disable it if needed
     autoDimmer: true,
     delay: 2 * 60 * 1000,
     mode: 1,
+    xrandrForceRotation: "normal",
     displayCounter: true,
     displayBar: true,
     displayStyle: "Text",
@@ -98,6 +99,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | autoDimmer | screen dimmer when timeout is 1/3 time left and use opacity from 100% to 0% | Boolean | true |
 > | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
+> | xrandrForceRotation | -**mode 9 only**- Forces screen rotation according to the defined value (possible value: "normal", "left", "right", "inverted") | string | normal |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
 > | displayBar| Should display Count-up bar in screen ? | Boolean | true |
 > | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle", "Bar" | String | Text |
@@ -121,6 +123,7 @@ This module will verify if all screen saver is disabled and disable it if needed
    - `mode: 6` - use a relay switch command controled by GPIO
    - `mode: 7` - use a relay switch command controled by GPIO with python (read reverse values)
    - `mode: 8` - use ddcutil
+   - `mode: 9` - use xrandr (primary display only)
    - `mode: 0` - disabled mode and disable turnOffDisplay too
    
 ### Available touchMode:
