@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-08-07T15:27:19.203Z
+date: 2023-10-14T20:49:40.891Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -75,6 +75,9 @@ Gateway is a real conductor 🙂
 ![sysinfo1.jpg](/resources/gateway/sysinfo1.jpg)
 ![sysinfo2.jpg](/resources/gateway/sysinfo2.jpg)
 
+## EXT-TelegramBot command
+
+`/sysinfo`:  Sends a summary of the state of your system
 
 # Screenshot of the google home app (smartphone)
 
