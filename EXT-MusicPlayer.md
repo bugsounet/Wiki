@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2023-10-01T20:58:35.239Z
+date: 2023-10-15T19:58:16.559Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -18,6 +18,11 @@ EXT-MusicPlayer is a module for the [MagicMirror](https://github.com/MichMich/Ma
 
 > In addition, you can use `EXT-Alert` plugin, for display some information or error on your screen (Optional)
 {.is-warning}
+
+> node v20.x don't work with this plugin!
+> --> best way is using node v18.x
+{.is-danger}
+
 
 # Installation
 
