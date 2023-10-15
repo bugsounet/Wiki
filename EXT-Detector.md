@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2023-08-05T09:37:36.480Z
+date: 2023-10-15T19:55:12.078Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -34,20 +34,6 @@ dateCreated: 2022-03-05T16:40:36.743Z
 > For OSX machines, auto install script is not yet implented.
 > So, manuel installation is nedeed and no help will be given for this
 {.is-warning}
-
-## Pre-requirements:
- * MagicMirror v2.22.0 and more
- * [MagicMirror](https://docs.magicmirror.builders/) must NOT be installed with sudo command
- * MagicMirror must be installed according to the magicmirror website (and NOT with any other internet tutorial!)
-
-## Requirements:
- * OS: Raspbian 11 (bulleyes-- 32-bit Version) is needed
- * RPI 3b+ or more 
- * Node: v16.x
- * npm: v8.x and more
- * Linux: tested on Linux Debian 11 (my dev platform)
- * [EXT-Alert](/en/EXT-Alert) for displaying any errors (Optinal)
- * [picovoice.ai](https://picovoice.ai/) account for using Porcupine Features (Optinal)
 
 ## Auto install (for RaspberryPi or Debian Linux machines only)
 ```sh
