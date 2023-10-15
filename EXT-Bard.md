@@ -2,7 +2,7 @@
 title: EXT-Bard
 description: 
 published: true
-date: 2023-10-15T08:53:40.040Z
+date: 2023-10-15T08:54:08.124Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-29T11:09:55.708Z
@@ -19,6 +19,8 @@ EXT-Bard is a plugin for using Google Bard
 > For the moment, I can no longer keep a token active for more than 24 hours 😕
 > I’m looking for a way around this
 {.is-danger}
+
+---
 
 # How Get my personal `COOKIE_KEY`
 
