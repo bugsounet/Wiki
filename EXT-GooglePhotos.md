@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2023-08-05T09:37:52.057Z
+date: 2023-10-15T19:55:53.574Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -20,10 +20,6 @@ This plugin allows to display your album directory with Google photos API in bac
 {.is-warning}
 
 # Installation
-Needed:
-  * MagicMirror v2.22.0 and above
-  * Node v16.x
-  * npm v8.x
 
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
 ```
