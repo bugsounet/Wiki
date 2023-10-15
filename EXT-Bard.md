@@ -2,7 +2,7 @@
 title: EXT-Bard
 description: 
 published: true
-date: 2023-08-02T06:50:01.842Z
+date: 2023-10-15T08:53:40.040Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-29T11:09:55.708Z
@@ -15,6 +15,10 @@ EXT-Bard is a plugin for using Google Bard
 > `EXT-Alert` for displaying any errors
 {.is-warning}
 ---
+
+> For the moment, I can no longer keep a token active for more than 24 hours 😕
+> I’m looking for a way around this
+{.is-danger}
 
 # How Get my personal `COOKIE_KEY`
 
