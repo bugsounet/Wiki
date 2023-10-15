@@ -2,7 +2,7 @@
 title: EXT-Governor
 description: 
 published: true
-date: 2023-08-05T09:37:59.208Z
+date: 2023-10-15T19:56:14.223Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:51:53.323Z
@@ -21,10 +21,6 @@ It can be used to send a Maximum of power when your screen is ON
 In reverse, an economy mode, when your screen if OFF
 
 # Installation
-Needed:
-  * MagicMirror v2.22.0 and above
-  * Node v16.x
-  * npm v8.x
 
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
 ```
