@@ -2,7 +2,7 @@
 title: Before First Start
 description: 
 published: true
-date: 2023-08-05T09:42:37.788Z
+date: 2023-10-16T18:38:05.230Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:53:00.620Z
@@ -25,7 +25,6 @@ That will open the manager tools for create token, just repond `Y` for the `Goog
 
 If you want to reinstall the Google Assistant SDK token, you can use again with this tools 
 
-
 Sample:
 ```sh
 pi@raspberrypi:~/MagicMirror/modules/MMM-GoogleAssistant $ npm run token
@@ -47,6 +46,10 @@ Paste your code: MY_very_long_google_code_sended_by_google
 
 Done.
 ```
+
+> Choice is waiting for [Y or N] and don't need [Enter] for confirm
+> So: don't use [Y and enter], just use only [Y]
+{.is-warning}
 
 
 # Let's start it !
