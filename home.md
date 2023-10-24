@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2023-10-15T20:12:08.740Z
+date: 2023-10-24T19:29:52.742Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -38,6 +38,13 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > You can't use `MMM-GoogleAssisant` with `MagicMirror` server mode
 > (You can't open `MagicMirror` with your browser)
 {.is-danger}
+
+> Raspberry Pi users:
+> 
+> Raspbian 12 (bookworm) is not fully compatible with MMM-GoogleAssistant.
+> I therefore advise you to stay under Raspbian 11 (bullseye) for the moment.
+{.is-warning}
+
 
 Naturaly, I'm always there to listening you on forum :)
 
