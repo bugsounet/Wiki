@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-10-14T20:41:12.927Z
+date: 2023-10-28T13:43:57.223Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -74,6 +74,7 @@ This module will verify if all screen saver is disabled and disable it if needed
     delay: 2 * 60 * 1000,
     mode: 1,
     xrandrForceRotation: "normal",
+    wrandrForceRotation: "normal",
     displayCounter: true,
     displayBar: true,
     displayStyle: "Text",
@@ -100,6 +101,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
 > | xrandrForceRotation | -**mode 9 only**- Forces screen rotation according to the defined value (possible value: "normal", "left", "right", "inverted") | string | normal |
+> | wrandrForceRotation | -**mode 10 only**- Forces screen rotation according to the defined value (possible value: "normal", "90", "180", "270", "flipped", "flipped-90", "flipped-180", "flipped-270") | string | normal |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
 > | displayBar| Should display Count-up bar in screen ? | Boolean | true |
 > | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle", "Bar" | String | Text |
@@ -115,15 +117,16 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | OFF | Defined cron OFF display time (see below) | Array of object | []
 
 ### Available mode:
-   - `mode: 1` - use vgencmd (RPI only)
-   - `mode: 2` - use dpms (RPI version)
-   - `mode: 3` - use tvservice (RPI only)
+   - `mode: 1` - use vgencmd (For raspbian 10/11)
+   - `mode: 2` - use dpms (For raspbian 10/11)
+   - `mode: 3` - use tvservice (For raspbian 10/11)
    - `mode: 4` - use HDMI CEC
    - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
    - `mode: 6` - use a relay switch command controled by GPIO
    - `mode: 7` - use a relay switch command controled by GPIO with python (read reverse values)
    - `mode: 8` - use ddcutil
-   - `mode: 9` - use xrandr (primary display only)
+   - `mode: 9` - use xrandr (For raspbian 11)
+   - `mode: 10` - use wlr-randr (For rapsbian 12)
    - `mode: 0` - disabled mode and disable turnOffDisplay too
    
 ### Available touchMode:
