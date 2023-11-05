@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-10-14T20:49:40.891Z
+date: 2023-11-05T15:47:31.649Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
@@ -77,7 +77,9 @@ Gateway is a real conductor 🙂
 
 ## EXT-TelegramBot command
 
-`/sysinfo`:  Sends a summary of the state of your system
+`/sysinfo`:  Sends a summary of the state of your system in Telegram
+`/sysinfo show`: Will display state of your system in MagicMirror
+`/sysinfo hide`: Will close sysinfo windows of MagicMirror
 
 # Screenshot of the google home app (smartphone)
 
