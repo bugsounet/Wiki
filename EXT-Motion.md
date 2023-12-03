@@ -2,7 +2,7 @@
 title: EXT-Motion
 description: 
 published: true
-date: 2023-08-05T09:38:28.202Z
+date: 2023-12-03T11:32:50.442Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-21T20:14:18.758Z
@@ -12,11 +12,11 @@ dateCreated: 2022-11-21T20:14:18.758Z
 {.is-info}
 
 
-> This module an Extented plugin of `EXT-Screen`
+> This plugin an Extented plugin of `EXT-Screen`
 > It can't work by itself without this plugin
 {.is-danger}
 
-> This module can display any errors with `EXT-Alert` plugin
+> This plugin can display any errors with `EXT-Alert` plugin
 {.is-warning}
 
 
