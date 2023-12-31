@@ -2,12 +2,20 @@
 title: Gateway
 description: 
 published: true
-date: 2023-11-05T15:47:31.649Z
+date: 2023-12-31T10:31:28.534Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z
 ---
 
+# Gateway for MMM-GoogleAssistant v6.x
+
+
+> `Gateway` will be not needed with `MMM-GoogleAssistant` v6.x
+{.is-danger}
+
+----
+# Gateway for MMM-GoogleAssistant v5.x
 > `MMM-GoogleAssistant` need an gateway for comunicate with plugins.
 > So `Gateway` will doing this job !
 {.is-info}
