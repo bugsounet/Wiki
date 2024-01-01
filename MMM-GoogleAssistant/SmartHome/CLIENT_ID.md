@@ -2,7 +2,7 @@
 title: 4. Configure: your CLIENT_ID
 description: 
 published: true
-date: 2024-01-01T14:21:39.330Z
+date: 2024-01-01T14:22:22.050Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T14:21:39.330Z
@@ -14,7 +14,7 @@ You have 2 values:
   * the first is the `project_id`
   * the second is the Client ID
 
-Open the config of MagicMirror and find `Gateway` config field
+Open the config of MagicMirror and find `MMM-GoogleAssistant` website config field
 Your must have a field named `CLIENT_ID`
 
 By default `CLIENT_ID` is null
