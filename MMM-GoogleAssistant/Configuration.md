@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-01T12:30:55.304Z
+date: 2024-01-01T12:31:36.264Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -443,7 +443,7 @@ Your browser will open MMM-GoogleAssistant website :)
 Now, just enter your credentials defined in config ;)
 
 > MMM-GoogleAssistant will inform you in logs of MagicMirror
-> ```sh
+>```sh
 >[LOG]   [GA] Start listening on port 8081
 >[LOG]   [GA] Available locally at http://192.168.0.200:8081
 >[LOG]   [GA] MMM-GoogleAssistant and Website Ready!
