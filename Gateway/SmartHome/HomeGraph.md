@@ -2,7 +2,7 @@
 title: 5. Configure: HomeGraph
 description: 
 published: true
-date: 2023-08-07T08:21:52.602Z
+date: 2023-08-07T08:21:59.467Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T12:46:22.487Z

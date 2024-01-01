@@ -2,7 +2,7 @@
 title: 11. How use it
 description: 
 published: true
-date: 2023-08-07T13:14:19.117Z
+date: 2023-08-07T13:14:26.220Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T13:08:13.996Z

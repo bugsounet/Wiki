@@ -2,7 +2,7 @@
 title: EXT-Bard
 description: 
 published: true
-date: 2023-10-15T08:54:08.124Z
+date: 2023-10-15T08:54:15.527Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-29T11:09:55.708Z

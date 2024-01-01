@@ -2,10 +2,10 @@
 title: SmartHome
 description: 
 published: true
-date: 2023-09-12T11:11:42.377Z
+date: 2024-01-01T13:43:30.509Z
 tags: 
 editor: markdown
-dateCreated: 2023-08-04T12:38:05.250Z
+dateCreated: 2024-01-01T13:35:22.515Z
 ---
 
 I think do you know the Google Home app of your smartphone
@@ -57,7 +57,7 @@ It's able to control plugin :)
 
 # SmartHome guide:
 
-1. [Installation](/Gateway/SmartHome/Installation)
+1. [Installation](/MMM-GoogleAssistant/SmartHome/Installation)
 2. [Create a Google Action Project](/Gateway/SmartHome/ActionNewProject)
 3. [Configure: Google Action](/Gateway/SmartHome/SmartHomeActions)
 4. [Configure: your CLIENT_ID](/Gateway/SmartHome/CLIENT_ID)

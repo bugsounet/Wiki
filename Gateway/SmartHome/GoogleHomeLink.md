@@ -2,7 +2,7 @@
 title: 9. Link with Google Home
 description: 
 published: true
-date: 2023-08-07T12:07:12.545Z
+date: 2023-08-07T12:07:19.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T08:02:25.328Z

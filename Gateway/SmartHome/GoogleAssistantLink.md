@@ -2,7 +2,7 @@
 title: 10. Finalize device registration
 description: 
 published: true
-date: 2023-08-07T08:25:06.608Z
+date: 2023-08-07T08:25:13.336Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-07T08:05:06.421Z

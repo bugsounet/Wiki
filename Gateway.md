@@ -2,7 +2,7 @@
 title: Gateway
 description: 
 published: true
-date: 2023-12-31T10:31:28.534Z
+date: 2023-12-31T10:31:43.661Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T00:21:25.618Z

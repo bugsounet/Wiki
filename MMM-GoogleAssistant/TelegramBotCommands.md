@@ -2,7 +2,7 @@
 title: TelegranBot Commands
 description: 
 published: true
-date: 2023-08-05T09:44:04.430Z
+date: 2024-01-01T13:14:17.463Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:21:50.226Z
@@ -24,4 +24,14 @@ MMM-GoogleAssistant have some prepared commands for [`EXT-TelegramBot`](https://
  - exemple:
 ```
 /stop
+```
+
+# sysinfo (v6 only)
+ - description: show system informations of your system
+ - arguments: none | show | hide
+ - exemples:
+```
+/sysinfo: Sends a summary of the state of your system in Telegram
+/sysinfo show: Will display state of your system in MagicMirror
+/sysinfo hide: Will close sysinfo windows of MagicMirror
 ```

@@ -2,10 +2,10 @@
 title: 1. Installation
 description: 
 published: true
-date: 2023-08-07T08:19:01.860Z
+date: 2024-01-01T13:41:16.235Z
 tags: 
 editor: markdown
-dateCreated: 2023-08-06T10:48:32.599Z
+dateCreated: 2024-01-01T13:37:50.831Z
 ---
 
 # Installation
@@ -16,14 +16,14 @@ You know to remember what is you `project_id` used when you create `credentials.
 I create a command line for discover it ! (so don't have to search ahahah !)
 try this in a Terminal:
 ```
-cd ~/MagicMirror/modules/Gateway
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run project
 ```
 result will be something like this:
 ```
-~/MagicMirror/modules/Gateway$ npm run project
+~/MagicMirror/modules/MMM-GoogleAssistant$ npm run project
 
-> Gateway@3.X.X project
+> MMM-GoogleAssistant@5.X.X project
 > installer/check_ProjectID.sh
 
 Your MMM-GoogleAssistant project_id is: XXXXXXXXX
@@ -35,10 +35,10 @@ Your SmartHome project_id is: credentials not found!
 
 Note: Don't worry about `credentials not found` for SmartHome, we will create it later!
 
-# It's time to change default `username` and `password` of `Gateway` configuration
+# It's time to change default `username` and `password` of `MMM-GoogleAssistant` website configuration
 why ?
-You will have access from internet to `Gateway` so, for security, it's better to don't use default `username` and `password`
-[This part](https://wiki.bugsounet.fr/en/Gateway#configuration) will help and replace it by your own !
+You will have access from internet to `MMM-GoogleAssistant` so, for security, it's better to don't use default `username` and `password`
+[This part](https://wiki.bugsounet.fr/MMM-GoogleAssistant/Configuration#field-website) will help and replace it by your own !
 
 ## Domaine name with fixed WAN ip address or DynDNS
 

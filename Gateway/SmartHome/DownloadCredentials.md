@@ -2,7 +2,7 @@
 title: 6. DownLoad credentials
 description: 
 published: true
-date: 2023-08-07T08:22:35.905Z
+date: 2023-08-07T08:22:42.840Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-06T13:27:12.253Z

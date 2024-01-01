@@ -2,7 +2,7 @@
 title: MMM-GoogleAssistant
 description: 
 published: true
-date: 2024-01-01T12:36:36.258Z
+date: 2024-01-01T13:36:03.971Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T21:55:51.466Z
@@ -38,7 +38,7 @@ dateCreated: 2023-06-15T21:55:51.466Z
 2) [Credentials Setup](/MMM-GoogleAssistant/SetupCredentials)
 3) [Configuration](/MMM-GoogleAssistant/Configuration)
 4) [Extented plugins](/MMM-GoogleAssistant/ExtentedPlugins)
-5) Smarthome only for v6.x (optional)
+5) [Smarthome](/MMM-GoogleAssistant/smarthome) only for v6.x (optional)
 6) [Before the first start](/MMM-GoogleAssistant/Beforethefirststart)
 7) Magical [Tools](/MMM-GoogleAssistant/Tools) and Updating
 
@@ -51,7 +51,7 @@ dateCreated: 2023-06-15T21:55:51.466Z
 - [commands](/MMM-GoogleAssistant/commands)
 - [Prepared recipes](/MMM-GoogleAssistant/Preparedrecipes)
 - [MagicMirror volume level](/MMM-GoogleAssistant/MagicMirrorvolumelevel)
-- website
+- [website](/MMM-GoogleAssistant/website) only for v6.x
 
 ## TelegramBot
  * [TelegramBot Commands](/MMM-GoogleAssistant/TelegramBotCommands)
