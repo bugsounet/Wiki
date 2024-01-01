@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-01T12:31:36.264Z
+date: 2024-01-01T12:31:53.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -440,7 +440,7 @@ Sample:
 
 Open your browser with this address: `http://192.168.0.200:8081`
 Your browser will open MMM-GoogleAssistant website :)
-Now, just enter your credentials defined in config ;)
+Now, just enter your credentials defined in website config ;)
 
 > MMM-GoogleAssistant will inform you in logs of MagicMirror
 >```sh
