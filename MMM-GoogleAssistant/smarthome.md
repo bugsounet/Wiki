@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2024-01-01T13:55:01.185Z
+date: 2024-01-01T13:58:02.722Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T13:35:22.515Z
@@ -58,7 +58,7 @@ It's able to control plugin :)
 # SmartHome guide:
 
 1. [Installation](/MMM-GoogleAssistant/SmartHome/Installation)
-2. [Create a Google Action Project](/Gateway/SmartHome/ActionNewProject)
+2. [Create a Google Action Project](/MMM-GoogleAssistant/SmartHome/ActionNewProject)
 3. [Configure: Google Action](/Gateway/SmartHome/SmartHomeActions)
 4. [Configure: your CLIENT_ID](/Gateway/SmartHome/CLIENT_ID)
 5. [Configure: HomeGraph](/Gateway/SmartHome/HomeGraph)
