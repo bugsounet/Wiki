@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-01T12:28:29.225Z
+date: 2024-01-01T12:30:55.304Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -455,3 +455,7 @@ Now, just enter your credentials defined in config ;)
 > In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
 {.is-info}
 
+### SmartHome (Optional)
+You want to control MMM-GoogleAssistant from google home app or from another google assistant device ?
+
+Install SmartHome functionality
