@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-01T12:20:12.570Z
+date: 2024-01-01T12:28:29.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -400,7 +400,7 @@ config: {
 
 ## Field `website: {}` (only for v6.x)
 
-> define your MMM-GoogleAssistant website configuration
+> Define your MMM-GoogleAssistant website configuration
 {.is-info}
 
 ### Template Localisation
