@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-24T18:39:29.745Z
+date: 2024-01-01T12:20:12.570Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -44,6 +44,12 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       latitude: 51.508530,
       longitude: -0.076132,
     },
+    // only for v6.x
+    //website: {
+    //  username: "admin",
+    //  password: "admin",
+    //  CLIENT_ID: null
+    //}
   }
 },
 ```
@@ -64,7 +70,9 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       imgStatus: {},
       zoom: {}
     },
-    recipes: []
+    recipes: [],
+    // only for v6.x
+    //website: {}
   }
 },
 ```
@@ -198,7 +206,7 @@ For another languages, some language could be understood but not guaranteed.
 
 
 ### Template Localisation:
-```
+```js
 config: {
   responseConfig: {},
 }
@@ -242,7 +250,7 @@ config: {
 
 ### Template Localisation
 ```js
-config {
+config: {
   responseConfig: {
     chimes: {},
   }
@@ -279,7 +287,7 @@ config {
 
 ### Template Localisation:
 ```js
-config {
+config: {
   responseConfig: {
     imgStatus: {},
   }
@@ -317,7 +325,7 @@ config {
 
 ### Template Localisation
 ```js
-config {
+config: {
   responseConfig: {
     zoom: {},
   }
@@ -356,7 +364,7 @@ You can define the `zoom` in each part<br>
 ### Template Localisation
 
 ```js
-config {
+config: {
   recipes: [],
 },
 ```
@@ -390,4 +398,60 @@ config {
 > Read more docs about that and look inside of `recipes` directory.
 {.is-warning}
 
+## Field `website: {}` (only for v6.x)
+
+> define your MMM-GoogleAssistant website configuration
+{.is-info}
+
+### Template Localisation
+
+```js
+config: {
+  website: {},
+},
+```
+
+### Sample
+> Notes:
+>   ** It's an example
+>   ** For better security, best way don't use default username and password
+{.is-info}
+
+```js
+website: {
+  username: "admin",
+  password: "admin",
+  CLIENT_ID: null
+}
+```
+
+> | Option  | Description | Type | Default |
+> | ------- | --- | --- | --- |
+> | username | Define your username for login | String | admin
+> | password | Define your password for login | String | admin
+> | CLIENT_ID | Define your CLIENT_ID of your smarthome action (see Smarthome section) | String | null
+
+### How Can I connect to MMM-GoogleAssistant website ?
+
+MMM-GoogleAssistant website can be open with your browser
+You have to know your ip address of your pi !
+Sample:
+ * If ip address of your pi is `192.168.0.200`
+
+Open your browser with this address: `http://192.168.0.200:8081`
+Your browser will open MMM-GoogleAssistant website :)
+Now, just enter your credentials defined in config ;)
+
+> MMM-GoogleAssistant will inform you in logs of MagicMirror
+> ```sh
+>[LOG]   [GA] Start listening on port 8081
+>[LOG]   [GA] Available locally at http://192.168.0.200:8081
+>[LOG]   [GA] MMM-GoogleAssistant and Website Ready!
+>```
+
+> With Internet, you can use it in remote too
+>
+> Just map your prefered incoming port to MMM-GoogleAssistant port (8081) of your pi !
+> In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
+{.is-info}
 
