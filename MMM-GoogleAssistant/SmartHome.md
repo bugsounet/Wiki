@@ -2,7 +2,7 @@
 title: SmartHome
 description: 
 published: true
-date: 2024-01-02T12:51:18.210Z
+date: 2024-01-02T12:52:27.087Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T13:35:22.515Z
@@ -57,6 +57,7 @@ It's able to control plugin :)
 
 # SmartHome guide:
 
+0. Migrate from Gateway to MMM-GoogleAssistant v6
 1. [Installation](/MMM-GoogleAssistant/SmartHome/Installation)
 2. [Create a Google Action Project](/MMM-GoogleAssistant/SmartHome/ActionNewProject)
 3. [Configure: Google Action](/MMM-GoogleAssistant/SmartHome/SmartHomeActions)
