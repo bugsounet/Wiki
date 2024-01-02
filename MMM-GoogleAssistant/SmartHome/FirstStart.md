@@ -1,8 +1,8 @@
 ---
-title: 8. First Start of MagicMirror with Gateway and SmartHome functionality
+title: 8. First Start of MagicMirror with MMM-GoogleAssistant and SmartHome functionality
 description: 
 published: true
-date: 2024-01-02T12:40:33.880Z
+date: 2024-01-02T12:48:36.989Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:36:15.339Z
