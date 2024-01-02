@@ -2,7 +2,7 @@
 title: 8. First Start of MagicMirror with Gateway and SmartHome functionality
 description: 
 published: true
-date: 2024-01-02T12:36:15.339Z
+date: 2024-01-02T12:40:33.880Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:36:15.339Z
@@ -20,7 +20,7 @@ So ... start MagicMirror and wait all is initialized !
 {.is-warning}
 
 
-## Try to open `Gateway` with your domain name
+## Try to open `MMM-GoogleAssistant` with your domain name
 
 https://demo.bugsounet.fr
 
