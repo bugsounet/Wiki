@@ -2,13 +2,13 @@
 title: MMM-GoogleAssistant Website
 description: 
 published: true
-date: 2024-01-01T13:15:28.860Z
+date: 2024-01-03T12:34:25.266Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T13:09:31.046Z
 ---
 
-# Website (v6 only)
+# Website
 
   MMM-GoogleAssistant has an embedded application.
   This application is available directly through your browser.
