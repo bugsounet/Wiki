@@ -2,16 +2,11 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-01-03T02:24:14.449Z
+date: 2024-01-03T16:41:19.349Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
 ---
-
-> This wiki is only for v6.x !
-> Please wait, it will be released soon (before 06-01-2024)
-{.is-danger}
-
 
 # Welcome to MMM-GoogleAssistant Module Wiki
 
