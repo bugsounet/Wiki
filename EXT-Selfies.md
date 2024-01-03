@@ -2,7 +2,7 @@
 title: EXT-Selfies
 description: 
 published: true
-date: 2023-08-05T09:39:22.297Z
+date: 2024-01-03T02:53:45.424Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T20:07:43.308Z
@@ -17,7 +17,6 @@ In addition, you can use others EXT plugin to control it or add some pretty plug
  * `EXT-SelfiesFlash`: For turn on/off automaticaly a flash light
  * `EXT-SelfiesViewer`: For displaying your selfies result on the screen
  * `EXT-Alert`: For display some information or error on your screen (Optional)
- * `Gateway` for full control in harmony with all EXT components (For `MMM-GoogleAssistant` only)
 
 # Installation
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
