@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2023-10-24T19:29:59.674Z
+date: 2024-01-03T02:11:54.264Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -21,13 +21,13 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > Support of all my modules is now in a [dedicated forum](http://forum.bugsounet.fr)
 {.is-info}
 
-> `MMM-GoogleAssistant`, `Gateway` and `EXTs` plugins are now ready for using with npm v9.x and node v18.x
+> `MMM-GoogleAssistant` and`EXTs` plugins are now ready for using with npm v10.x and node > v18.x
 > But a bug is actually not solved with lasted version of `npm` app
 > So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
 > {.is-warning}
 
-> You can't use any `EXTs` plugins without `MMM-GoogleAssistant` and `Gateway`
+> You can't use any `EXTs` plugins without `MMM-GoogleAssistant`
 {.is-danger}
 
 > You can't use `MMM-RemoteControl` with `MMM-GoogleAssistant`
