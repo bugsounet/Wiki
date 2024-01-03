@@ -2,20 +2,20 @@
 title: EXT-TelegramBot
 description: 
 published: true
-date: 2023-08-05T09:40:13.695Z
+date: 2024-01-03T02:51:21.119Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-10T19:23:10.867Z
 ---
 
-TelegramBot plugin for Gateway<br>
+TelegramBot plugin for MMM-GoogleAssistant<br>
 
 > You can remote-control plugins within `Telegram`.
 > The Bot is implemented in this plugin thus you don't need to manage antoher daemon.
 > Other module developers can add their commands easily.
 {.is-info}
 
-> This module an Extented plugin of `Gateway` and `MMM-GoogleAssistant`
+> This module an Extented plugin of `MMM-GoogleAssistant`
 > It can't work by itself without this !
 > This plugin is dedicated to work with all plugins only !
 {.is-danger}
