@@ -2,7 +2,7 @@
 title: EXT-Volume
 description: 
 published: true
-date: 2023-08-05T09:40:28.120Z
+date: 2024-01-03T02:50:23.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T18:51:30.731Z
@@ -49,8 +49,8 @@ To use this module, insert this in the config.js file of MagicMirror.
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
 > | debug | enable or not debug mode | Boolean | false |
-> | startSpeakerVolume | Set speaker volume on start in % (Only with Gateway using) | number | 100
-> | startRecorderVolume | Set speaker volume on start in % (Only with Gateway using) | number | 50
+> | startSpeakerVolume | Set speaker volume on start in % | number | 100
+> | startRecorderVolume | Set speaker volume on start in % | number | 50
 > | syncVolume | Enable sync with system volume control (For multimedia keyboard keys or external mixer using) | Boolean | false |
 
 # `EXT-TelegramBot` command
