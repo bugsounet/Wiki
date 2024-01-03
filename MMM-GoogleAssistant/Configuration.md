@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-01T12:32:02.565Z
+date: 2024-01-03T02:07:17.027Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -44,12 +44,11 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       latitude: 51.508530,
       longitude: -0.076132,
     },
-    // only for v6.x
-    //website: {
-    //  username: "admin",
-    //  password: "admin",
-    //  CLIENT_ID: null
-    //}
+    website: {
+      username: "admin",
+      password: "admin",
+      CLIENT_ID: null
+    }
   }
 },
 ```
@@ -71,8 +70,7 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       zoom: {}
     },
     recipes: [],
-    // only for v6.x
-    //website: {}
+    website: {}
   }
 },
 ```
@@ -458,4 +456,4 @@ Now, just enter your credentials defined in website config ;)
 ### SmartHome (Optional)
 You want to control MMM-GoogleAssistant from google home app or from another google assistant device ?
 
-Install SmartHome functionality
+Install [SmartHome](/MMM-GoogleAssistant/SmartHome) functionality
