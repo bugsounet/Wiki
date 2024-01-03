@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2023-08-05T09:42:53.400Z
+date: 2024-01-03T01:52:52.727Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -77,7 +77,6 @@ Gateway is a real conductor 🙂
 > If you want to use and start `MMM-GoogleAssistant`,
 > You must install:
 > 
->  [Gateway](/en/Gateway)
 >  [EXT-Detector](/en/EXT-Detector)
 >  [EXT-Alert](/en/EXT-Alert)
 {.is-success}
