@@ -2,13 +2,13 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2023-10-15T19:55:20.238Z
+date: 2024-01-03T02:47:08.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
 ---
 
-# Welcome to the EXT-Detector v2.x wiki!
+# Welcome to the EXT-Detector wiki!
 
 > multi-keyword listener for MMM-GoogleAssistant
 {.is-info}
