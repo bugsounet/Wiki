@@ -2,7 +2,7 @@
 title: TelegranBot Commands
 description: 
 published: true
-date: 2024-01-01T13:14:17.463Z
+date: 2024-01-03T02:09:51.033Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T23:21:50.226Z
@@ -26,7 +26,7 @@ MMM-GoogleAssistant have some prepared commands for [`EXT-TelegramBot`](https://
 /stop
 ```
 
-# sysinfo (v6 only)
+# sysinfo
  - description: show system informations of your system
  - arguments: none | show | hide
  - exemples:
