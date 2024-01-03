@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2024-01-03T01:52:52.727Z
+date: 2024-01-03T01:57:01.009Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -16,32 +16,19 @@ That's why there are plugins to add and just the ones you want to use !
 > With MMM-GoogleAssistant, you have a lot of choice !
 {.is-success}
 
-
 > The generation of Extended plugins is able to communicate with each other to form a single module
 {.is-success}
 
-In order to communicate with MMM-GoogleAssistant plugins needs a Gateway
-
-Gateway is able to:
+MMM-GoogleAssistant is able to:
 
 * Lock your screen when a plugins is playing and prohibit going into sleep mode
 * Prohibit to use 2 plugins in sametime (can't listen Spotify and watch YouTube at the same time for exemple)
 * Turn off all not needed plugins and keep the last plugin demand
 * Unlock your screen and return in normal mode when no plugins are used
-* Read MMM-GoogleAssistant response and launch automaticaly a plugins (photo, browser, youtube...)
-* Control MMM-GoogleAssistant with Google Home app (smartphone) or another google assistant device (google nest)
+* Launch automaticaly a plugins (photo, browser, youtube...)
+* Control Google Home app (smartphone) or another google assistant device (google nest)
 
-All name of MMM-GoogleAssistant plugins start with EXT and the Gateway will apply many rules for make deal between MMM-GoogleAssistant and plugins
-
-Gateway have a database of ALL EXT plugins for apply self rules.
-
-MMM-GoogleAssistant 💭 -> Gateway 🎼 <-> EXT plugins 🎹
-
-Gateway is a real conductor 🙂
-
-> Without Gateway, MMM-GoogleAssistant can't works !
-> You MUST install it !
-{.is-danger}
+All name of MMM-GoogleAssistant plugins start with EXT.
 
 # List of the available Plugins
 
