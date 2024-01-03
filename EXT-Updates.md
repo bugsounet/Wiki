@@ -2,7 +2,7 @@
 title: EXT-Updates
 description: 
 published: true
-date: 2023-08-05T09:40:20.852Z
+date: 2024-01-03T02:48:52.706Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T16:40:04.617Z
@@ -11,7 +11,7 @@ dateCreated: 2023-07-08T16:40:04.617Z
 The `updatenotification` module is one of the default modules of the MagicMirror.
 This will display a message whenever a new version of the MagicMirror application is available.
 
-Now, let's apply automatic updates on EXTs, Gateway and MMM-GoogleAssistant
+Now, let's apply automatic updates on EXTs and MMM-GoogleAssistant
 And restart MagicMirror when process is done (optional)
 
 ---
