@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2023-10-06T12:04:39.307Z
+date: 2024-01-03T02:05:12.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -88,7 +88,7 @@ npm run update
 ## Refresh / Major Updating
 
 > This new command allow force reinstall or update all `MMM-GoogleAssistant` components:
-> `MMM-GoogleAssistant`, `Gateway` and all `EXTs` installed
+> `MMM-GoogleAssistant`and all `EXTs` installed
 > This command make automatic things !
 {.is-info}
 
@@ -138,3 +138,19 @@ Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
 ➤ Failed: xx/xx
 ➤ Skipped: xx/xx
 ```
+
+## Reinstall
+> For reinstall this plugin, you can use this command:
+{.is-info}
+
+```
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run rebuild
+```
+
+## Migrate smarthome from Gateway
+```
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run migrate
+```
+see [Migrate](/MMM-GoogleAssistant/SmartHome/Migrate) section
