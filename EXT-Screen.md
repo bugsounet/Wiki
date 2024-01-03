@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2023-10-28T13:44:04.927Z
+date: 2024-01-03T02:52:41.896Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -18,7 +18,6 @@ In addition, you can use others EXT modules to control it or add some pretty plu
  * `EXT-Motion`: For detecting all motions with a webcam (optional)
  * `EXT-Updates`: For update automaticaly this module (Optional)
  * `EXT-Alert`: For display some information or error on your screen (Optional)
- * `Gateway` for full control in harmony with all EXT components (For `MMM-GoogleAssistant` only)
 
 # Screenshot
 ![](https://raw.githubusercontent.com/bugsounet/EXT-Screen/dev/screenshot/screenshot.png)
