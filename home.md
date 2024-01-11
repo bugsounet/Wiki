@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-01-03T16:41:19.349Z
+date: 2024-01-11T15:35:57.257Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -41,7 +41,7 @@ dateCreated: 2021-06-18T10:17:20.817Z
 
 > Raspberry Pi users:
 > 
-> Raspbian 12 (bookworm) is not fully compatible with MMM-GoogleAssistant.
+> Raspbian 12 (bookworm) is under testing with MMM-GoogleAssistant.
 > I therefore advise you to stay under Raspbian 11 (bullseye) for the moment.
 {.is-warning}
 
