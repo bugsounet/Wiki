@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2023-10-01T20:56:28.765Z
+date: 2024-01-11T15:32:18.865Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -28,9 +28,9 @@ dateCreated: 2022-03-13T13:54:39.438Z
 ## Requirements:
  * OS: Raspbian 11 (Bullseye -- 32-bit Version) is needed
  * RPI 3b+ or more 
- * Node: v18.x.x
- * npm: v9.x
- * 720p // HD screen or more
+ * Node: > v18.x.x
+ * npm: > v9.x
+ * HD screen (1920x180) or more
 
 > **You can't use server mode of MagicMirror² with this module**
 >
