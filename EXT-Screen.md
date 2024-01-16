@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-01-03T02:52:41.896Z
+date: 2024-01-16T12:36:54.371Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -117,15 +117,15 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 ### Available mode:
    - `mode: 1` - use vgencmd (For raspbian 10/11)
-   - `mode: 2` - use dpms (For raspbian 10/11)
+   - `mode: 2` - use dpms (For raspbian 10/11 and raspbian 12 with x11 compositor)
    - `mode: 3` - use tvservice (For raspbian 10/11)
    - `mode: 4` - use HDMI CEC
    - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
    - `mode: 6` - use a relay switch command controled by GPIO
    - `mode: 7` - use a relay switch command controled by GPIO with python (read reverse values)
    - `mode: 8` - use ddcutil
-   - `mode: 9` - use xrandr (For raspbian 11)
-   - `mode: 10` - use wlr-randr (For rapsbian 12)
+   - `mode: 9` - use xrandr (For raspbian 11 or raspbian 12 with x11 compositor)
+   - `mode: 10` - use wlr-randr (For rapsbian 12 with wayland compositor)
    - `mode: 0` - disabled mode and disable turnOffDisplay too
    
 ### Available touchMode:
