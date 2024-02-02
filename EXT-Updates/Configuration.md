@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-05T09:42:23.807Z
+date: 2024-02-02T12:58:18.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T17:07:02.669Z
@@ -53,7 +53,8 @@ This is the default configuration if no values are defined
     autoUpdate: true,
     autoRestart: true,
     logToConsole: true,
-    timeout: 2*60*1000
+    timeout: 2*60*1000,
+    welcome: true
   }
 },
 ```
@@ -67,6 +68,7 @@ This is the default configuration if no values are defined
 |autoRestart | Restart MagicMirror after update automatically. | BOOLEAN | true
 |logToConsole | This feature is needed for user who don't use PM2 ! Log process and result in console| BOOLEAN | true
 |timeout | maximum execution time of an update in ms | NUMBER | 2 * 60 * 1000
+|welcome | Informs MagicMirror² PID process number at startup (need EXT-Alert or EXT-TelegramBot) | BOOLEAN | true |
 
 # Notes:
 > If you use `pm2` app: `EXT-Updates` will detect it automaticaly!
