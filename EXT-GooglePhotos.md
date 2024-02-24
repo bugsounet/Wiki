@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2023-10-15T19:56:00.786Z
+date: 2024-02-24T21:33:16.966Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -66,6 +66,8 @@ The token will be created as `tokenGP.json` in the root directory of this module
 {
   module: 'EXT-GooglePhotos',
   position: 'top_left',
+  animateIn: 'backInLeft',
+  animateOut: 'backOutRight',
   config: {
     debug: false,
     displayType: 0,
@@ -106,6 +108,11 @@ The token will be created as `tokenGP.json` in the root directory of this module
 >  `albums: ["album1"],`
 >  `albums: ["album1", "2020"],`
 {.is-info}
+
+# animateIn / animateOut
+
+You are able now to use animate feature
+Read MagicMirror² [animated](https://docs.magicmirror.builders/modules/configuration.html#animated) functionality
 
 # Update
 > For updating this module, just use this command:
