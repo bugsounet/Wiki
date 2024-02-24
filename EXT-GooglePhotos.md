@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2024-02-24T21:33:16.966Z
+date: 2024-02-24T21:34:06.717Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -111,7 +111,7 @@ The token will be created as `tokenGP.json` in the root directory of this module
 
 # animateIn / animateOut
 
-You are able now to use animate feature
+You are able now to use animate feature for transition
 Read MagicMirror² [animated](https://docs.magicmirror.builders/modules/configuration.html#animated) functionality
 
 # Update
