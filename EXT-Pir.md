@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2023-08-05T09:38:58.339Z
+date: 2024-03-08T18:54:01.265Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -39,8 +39,7 @@ npm install
   module: 'EXT-Pir',
   config: {
     debug: false,
-    gpio: 21,
-    reverseValue: false
+    gpio: 21
   }
 },
 ```
@@ -49,7 +48,6 @@ npm install
 > | ------- | --- | --- | --- |
 > | debug | enable or not debug mode | Boolean | false |
 > | gpio | BCM-number of the sensor pin | Number | 21 |
-> | reverseValue | Reverse sensor received value | Boolean | false |
 
 # Developer Notes
 
@@ -63,15 +61,6 @@ npm install
 ```
 cd ~/MagicMirror/modules/EXT-Pir
 npm run update
-```
-
-# Reinstall
-> For reinstall this plugin, you can use this command:
-{.is-info}
-
-```
-cd ~/MagicMirror/modules/EXT-Pir
-npm run rebuild
 ```
 
 # Support and Helping
