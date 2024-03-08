@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-01-03T02:07:17.027Z
+date: 2024-03-08T14:47:49.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -45,6 +45,7 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       longitude: -0.076132,
     },
     website: {
+      use: true,
       username: "admin",
       password: "admin",
       CLIENT_ID: null
@@ -417,6 +418,7 @@ config: {
 
 ```js
 website: {
+  use: true,
   username: "admin",
   password: "admin",
   CLIENT_ID: null
@@ -425,6 +427,7 @@ website: {
 
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
+> | use | enable or not `MMM-GoogleAssistant` website | Boolean | true
 > | username | Define your username for login | String | admin
 > | password | Define your password for login | String | admin
 > | CLIENT_ID | Define your CLIENT_ID of your smarthome action (see Smarthome section) | String | null
