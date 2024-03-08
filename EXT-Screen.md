@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-01-16T12:36:54.371Z
+date: 2024-03-08T18:20:12.721Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -74,6 +74,7 @@ This module will verify if all screen saver is disabled and disable it if needed
     mode: 1,
     xrandrForceRotation: "normal",
     wrandrForceRotation: "normal",
+    wrandrForceMode: null,
     displayCounter: true,
     displayBar: true,
     displayStyle: "Text",
@@ -101,9 +102,10 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | mode | mode for turn on/off your screen (see bellow) | number | 1 |
 > | xrandrForceRotation | -**mode 9 only**- Forces screen rotation according to the defined value (possible value: "normal", "left", "right", "inverted") | string | normal |
 > | wrandrForceRotation | -**mode 10 only**- Forces screen rotation according to the defined value (possible value: "normal", "90", "180", "270", "flipped", "flipped-90", "flipped-180", "flipped-270") | string | normal |
+> | wrandrForceMode | **-mode 10 only-** Force screen resolution mode (sample: wrandrForceMode: "1920x1080",) | String | null |
 > | displayCounter | Should display Count-down in screen ? | Boolean | true |
 > | displayBar| Should display Count-up bar in screen ? | Boolean | true |
-> | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle", "Bar" | String | Text |
+> | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle" | String | Text |
 > | displayLastPresence| Display the date of the last user presence | Boolean | true |
 > | lastPresenceTimeFormat| Change the date format (moment.js format) of the last presence | String | LL H:mm |
 > | displayAvailability| Display screen availability time (average 24h)| Boolean | true |
