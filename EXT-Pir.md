@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-03-08T18:54:01.265Z
+date: 2024-03-10T13:01:45.177Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -39,7 +39,8 @@ npm install
   module: 'EXT-Pir',
   config: {
     debug: false,
-    gpio: 21
+    gpio: 21,
+    mode: 0
   }
 },
 ```
@@ -48,6 +49,12 @@ npm install
 > | ------- | --- | --- | --- |
 > | debug | enable or not debug mode | Boolean | false |
 > | gpio | BCM-number of the sensor pin | Number | 21 |
+> | mode | Detection mode (see bellow) | Number | 0 |
+
+* Available mode:
+   - `pir_mode: 0` - use `onoff` library (For Raspberry Pi 3b+ and 4)
+   - `pir_mode: 1` - use python script with `RPI.GPIO` library (For Raspberry Pi 3b+ and 4)
+   - `pir_mode: 2` - use python script with `gpiozero` library (For Raspberry Pi 5, not tested on other Raspberry Pi)
 
 # Developer Notes
 
