@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-03-22T23:19:23.501Z
+date: 2024-03-22T23:22:31.132Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
