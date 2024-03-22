@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-03-22T10:55:15.937Z
+date: 2024-03-22T23:06:36.078Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -82,7 +82,6 @@ npm install
   config: {
     debug: false,
     useIcon: true,
-    touchOnly: false,
     porcupineAccessKey: null,
     porcupineCustomModel: null,
     detectors: [
@@ -182,29 +181,6 @@ When you set `debug` to `true`, detailed log will be recorded. When you don't wa
 
 > You don't have to copy this sample in your config (already in EXT-Detector main core)
 > You have just to copy this feature only if you want to desactivate it (with `false` value)
-{.is-warning}
-
-## touchOnly
-
->Touch the Google Icon only for activate MMM-GoogleAssistant and don't listen any keywords
-{.is-info}
-
-### Sample
-```js
-  config: {
-    touchOnly: false,
-  }
-```
-
-### Details
-
-> |field | type | default value
-> |---|---|---
-> |touchOnly | BOOLEAN | false
-
-`touchOnly`: Activate MMM-GoogleAssistant by Touch the Google Icon only and don't listen any keywords
-> You don't have to copy this sample in your config (already in EXT-Detector main core)
-> You have just to copy this feature only if you want to activate it (with `true` value)
 {.is-warning}
 
 ## porcupineAccessKey (optional)
