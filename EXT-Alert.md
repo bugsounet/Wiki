@@ -2,7 +2,7 @@
 title: EXT-Alert
 description: 
 published: true
-date: 2023-08-05T09:37:06.164Z
+date: 2024-03-22T23:37:27.831Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T22:31:53.074Z
@@ -13,17 +13,6 @@ EXT-Alert is a plugins for displaying any warning, information or error on your 
 > This module an Extented of all `EXT modules`
 > It's really conseilled to install it !
 {.is-warning}
-
-## Screenshot
-
-Information sample:
-![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/informationShot.png)
-
-Warning sample:
-![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/warningShot.png)
-
-Error sample:
-![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/errorShot.png)
 
 # Installation
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
@@ -38,12 +27,12 @@ npm install
 > insert your configuration in the config.js file of MagicMirror.
 {.is-info}
 
-
 ```js
 {
   module: 'EXT-Alert',
   config: {
     debug: false,
+    style: 1,
     ignore: []
   }
 },
@@ -52,10 +41,39 @@ npm install
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
 > | debug | enable or not debug mode | Boolean | false |
+> | style | displayer style | Number | 1 |
 > | ignore | Name of modules to displaying anything | Array of String | [] |
 
 > This module is designed to replace the default alert module !
 {.is-success}
+
+
+# style screenshot
+
+## style: 0 (v1.x style)
+
+Information sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/informationShot.png)
+
+Warning sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/warningShot.png)
+
+Error sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/errorShot.png)
+
+## style: 1 (sweetalert2 style)
+Information sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/InfoStyle1.png)
+
+Warning sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/WarnStyle1.png)
+
+Error sample:
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/ErrorStyle1.png)
+## style: 2 (alertify style)
+
+![](https://raw.githubusercontent.com/bugsounet/EXT-Alert/dev/screenshot/style3.png)
+
 
 # Developer Notes
 
