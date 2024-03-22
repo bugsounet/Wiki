@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-03-22T23:06:36.078Z
+date: 2024-03-22T23:19:23.501Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -164,12 +164,16 @@ When you set `debug` to `true`, detailed log will be recorded. When you don't wa
 >Display Google Icon on screen
 {.is-info}
 
+> Tip: You can set this feature to `false` when you use `EXT-Touch` plugin
+{.is-info}
+
 ### Sample
 ```js
   config: {
     useIcon: true,
   }
 ```
+
 
 ### Details
 
