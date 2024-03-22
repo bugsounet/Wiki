@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-03-22T10:53:10.748Z
+date: 2024-03-22T10:55:15.937Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -241,7 +241,7 @@ Just past your AccessKey like sample :)
 
 `porcupineCustomModel`: name of the file of your custom model
 
-> Unzip and copy (and renane if you want) the `.ppn` (custom model file) file into the `custom` directory of `EXT-Detector`
+> Unzip and copy (and renane if you want) the `.ppn` (custom model file) file into the `custom` folder of `EXT-Detector`
 {.is-success}
 
 > Warn: when you create your own custom model, choose `en` language for create it
@@ -349,7 +349,7 @@ Value could be within a range from 0.0 to 1.0. `null` will set default sensitivi
 }
 ```
 
-> In this case, I have create an Custom model for Porcupine `ispecedicounasse.ppn`
+> In this case, I have create an custom model for Porcupine `ispecedicounasse.ppn`
 > For use it, use the `Model: "custom"` in the Detector array
 {.is-success}
 
