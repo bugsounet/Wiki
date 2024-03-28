@@ -2,7 +2,7 @@
 title: EXT-SpotifyCanvasLyrics
 description: 
 published: true
-date: 2023-08-05T09:39:59.062Z
+date: 2024-03-28T12:17:59.384Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T15:43:39.032Z
@@ -80,9 +80,14 @@ Portrait mode:
  Just try `/lyrics`:
  
 > `/lyrics on`: Force to display Canvas/Lyrics mode
-> `/lyrics off`: Close display Canvas/Lyrics mode (except when MAgicMirror device is playing)
+> `/lyrics off`: Close display Canvas/Lyrics mode (except when MagicMirror² device is playing)
 {.is-info}
- 
+
+> `/lyrics` commands are used for displaying (or not) Lyrics when music is playing from another device (Phone,TV,…)
+> `/lyrics off` is inactive when music is playing from MM²
+{.is-warning}
+
+
  # Update
  
  ```sh
