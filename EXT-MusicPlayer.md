@@ -2,15 +2,13 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2023-10-15T19:58:24.099Z
+date: 2024-04-14T20:48:20.926Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
 ---
 
-EXT-MusicPlayer is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich).
-
-> This module will play any music found on a USB Key or in defined local directory
+> This module will play any music found on a USB Key or in defined local folder
 {.is-info}
 
 > This module is an Extented plugins for `MMM-GoogleAssistant`
@@ -18,11 +16,6 @@ EXT-MusicPlayer is a module for the [MagicMirror](https://github.com/MichMich/Ma
 
 > In addition, you can use `EXT-Alert` plugin, for display some information or error on your screen (Optional)
 {.is-warning}
-
-> node v20.x don't work with this plugin!
-> --> best way is using node v18.x
-{.is-danger}
-
 
 # Installation
 
