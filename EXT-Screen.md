@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-03-08T18:20:12.721Z
+date: 2024-04-22T18:04:51.719Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -118,6 +118,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 > | OFF | Defined cron OFF display time (see below) | Array of object | []
 
 ### Available mode:
+   - `mode: 0` - don't turn off your screen and hide all modules
    - `mode: 1` - use vgencmd (For raspbian 10/11)
    - `mode: 2` - use dpms (For raspbian 10/11 and raspbian 12 with x11 compositor)
    - `mode: 3` - use tvservice (For raspbian 10/11)
@@ -128,7 +129,6 @@ This module will verify if all screen saver is disabled and disable it if needed
    - `mode: 8` - use ddcutil
    - `mode: 9` - use xrandr (For raspbian 11 or raspbian 12 with x11 compositor)
    - `mode: 10` - use wlr-randr (For rapsbian 12 with wayland compositor)
-   - `mode: 0` - disabled mode and disable turnOffDisplay too
    
 ### Available touchMode:
    - `touchMode: 0`
