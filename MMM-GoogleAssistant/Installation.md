@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-04-23T17:24:58.007Z
+date: 2024-04-23T17:26:41.605Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -35,7 +35,7 @@ dateCreated: 2022-03-13T13:54:39.438Z
 
 > **You can't use server mode of MagicMirror² with this module**
 >
-> x64 OS is not recommanded with a Raspberry Pi.
+> `Bullseye` x64 OS is not recommanded with Raspberry Pi.
 > This module is NOT comptatible with Microsoft Windows.
 {.is-warning}
 
