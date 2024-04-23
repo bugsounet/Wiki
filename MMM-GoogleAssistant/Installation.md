@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-01-11T15:34:28.667Z
+date: 2024-04-23T17:24:58.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -27,8 +27,8 @@ dateCreated: 2022-03-13T13:54:39.438Z
 
 ## Requirements:
  * OS: 
-     * Raspbian 11 (Bullseye -- 32-bit Version)
-     * Raspbian 12 (Bookworm -- 32-bit Version) is under Testing
+     * Raspbian 11/12 (Bullseye or Bookworm -- 32-bit Version)
+     * Raspbian 12 x64 (Bookworm -- 64-bit Version) is under-testing
  * RPI 3b+ or more 
  * Node: > v18.x.x
  * HD screen (1920x180) or more
