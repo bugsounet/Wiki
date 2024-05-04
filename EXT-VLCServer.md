@@ -2,13 +2,11 @@
 title: EXT-VLCServer
 description: 
 published: true
-date: 2024-05-04T11:33:21.021Z
+date: 2024-05-04T11:33:49.734Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-04T11:33:21.021Z
 ---
-
-EXT-VLCServer
 
 This plugin play current media on your mirror.
 
