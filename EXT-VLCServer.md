@@ -2,13 +2,15 @@
 title: EXT-VLCServer
 description: 
 published: true
-date: 2024-05-04T11:39:27.359Z
+date: 2024-05-04T12:00:04.307Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-04T11:33:21.021Z
 ---
 
-This plugin play current media on your mirror.
+This plugin play wanted media on `MagicMirror²` with `VLC`
+
+![](https://github.com/bugsounet/EXT-VLCServer/blob/dev/vlc-logo.png?raw=true)
 
 > This plugin is an Extented plugins for:
 >  `EXT-MusicPlayer`
