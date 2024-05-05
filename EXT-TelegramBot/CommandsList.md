@@ -2,7 +2,7 @@
 title: Commands list
 description: 
 published: true
-date: 2023-08-05T09:41:25.797Z
+date: 2024-05-05T21:39:21.852Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:59:56.757Z
@@ -22,14 +22,12 @@ allowed - List of allowed users
 allowuser - Allow user temporally
 hideall - Hide All modules
 showall - Show All modules
-reboot - Reboot `MagicMirror`
-shutdown - Shutdown `MagicMirror`
 dismissalert - Remove Alert from Mirror
 favor - Load favourite commands as keyboard
 recent - Load recent used commands as keyboard
 resetkeyboard - Reset Kyeboard
 notification - Send custom notification
-screenshot - Take a screenshot of MagicMirror
+screenshot - Take a screenshot of MagicMirror²
 ```
 
 You can use the result of `/commands` for `/setcommands` of `BotFather`.
