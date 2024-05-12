@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2023-10-01T21:07:53.871Z
+date: 2024-05-12T15:31:48.875Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -158,7 +158,7 @@ You can translate type of search in your language with type feature: `typeArtist
     * `spotify seguente`: next music on the playlist
     * `spotify precedente`: previous music on the playlist
     * `spotify casuale`: make shuffle playlist
-    * `sspotify ripeti`: repeat playlist or track
+    * `spotify ripeti`: repeat playlist or track
     * `spotify trasferisci a [device name]`: transfer music to a new device  
 
 by editing `pattern` field in the recipe you can make the recipe for your language
