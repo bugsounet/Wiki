@@ -2,7 +2,7 @@
 title: EXT-RadioPlayer
 description: 
 published: true
-date: 2024-05-18T13:05:25.794Z
+date: 2024-05-18T13:38:32.681Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:08:09.889Z
@@ -42,6 +42,7 @@ npm install
     debug: false,
     minVolume: 30,
     maxVolume: 75,
+    streams: "streamsConfig.json"
   }
 },
 ```
@@ -59,13 +60,12 @@ npm install
 | `debug`          | *Optional* Enable Log level | Boolean | false
 | minVolume | Volume to set when assistant speaking (in %) | Number | 30
 | maxVolume | Volume to set when radio playing (in %) | Number | 75
+| streams | Prefered radio list streams file| String | "streamsConfig.json"
 <br>
-
-
 
 # French Radio
 <br>
-## Un total de 15 radios ont été pré-configurés
+## Un total de 21 radios ont été pré-configurés
 
 - [Chérie FM](https://www.cheriefm.fr/)
 - [RTL](https://www.rtl.fr/)
@@ -74,6 +74,7 @@ npm install
 - [RTL2](https://www.6play.fr/rtl2)
 - [Fun Radio](https://www.funradio.fr/)
 - [Europe 1](https://www.europe1.fr/)
+- [Europe 2](https://www.europe2.fr/)
 - [RFM](http://www.rfm.fr/)
 - [RMC](https://rmc.bfmtv.com/)
 - [NRJ](https://www.nrj.fr/)
@@ -82,6 +83,11 @@ npm install
 - [Voltage](https://www.voltage.fr/)
 - [Skyrock](https://skyrock.fm/)
 - [Radio FG](https://www.radiofg.com/)
+- [France Inter](https://www.radiofrance.fr/franceinter)
+- [Sud Radio](https://www.sudradio.fr/)
+- [Atomic Radio](http://www.atomicradio.fr/)
+- [Hit West](https://hitwest.ouest-france.fr/)
+- [Fugi FM](https://www.fugifm.fr/)
 
 ## Configuration
 
@@ -123,6 +129,7 @@ Activez votre assistant avec votre `keyword` préféré et dites par exemple:<br
 L'assistant envoie les données nécessaires et se connectera à la radio demandé.<br>
 
 ------
+
 # Create your own radio recipe for your country
 <br>
 
@@ -240,10 +247,7 @@ This recipe have 9 pre-configured radio
   * Radio kiss kiss
   * Radio 101
   * radio italia
-  * Radio 1
-  * Radio anni 90
   * Radio 105
-  * rds
   * rtl
   * radio dj
 
@@ -251,6 +255,33 @@ This recipe have 9 pre-configured radio
 
 For sample, if you want `radio kiss kiss`
 `Jarvis ... metti radio kiss kiss`
+
+# Streams file
+ You can also make an streams file with all prefered radio streams
+ See `streamsConfig.XX.json` file sample (XX is designed for language)
+ And report it into your config file in `streams` feature 
+
+>  Note: All Prepared recipes use now prepared streams file !
+{.is-info}
+
+# TelegramBot commands:
+>  Needed configured streamsConfig file
+{.is-warning}
+
+
+ * `/Radio` `<name>`: Will start wanted radio station or the last radio when no name given
+ * `/RadioNext`: Will start next radio of the list
+ * `/RadioPrevious`: will start previous radio of the list
+ * `/RadioList`: will display all available radio
+ 
+# Developers
+This module can received notification:
+
+ * `EXT_RADIO-STOP`: Will stop current radio
+ * `EXT_RADIO-PLAY`: Start radio `name` from the streams config file
+ * `EXT_RADIO-NEXT`: Play next radio of the streams config file
+ * `EXT_RADIO-PREVIOUS`: Play previous radio of the streams config file
+ * `EXT_RADIO-START`: Start radio with sended params (img: `image logo of the radio`, link: `Radio station stream link`)  
 
 # Update
 
