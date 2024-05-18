@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2023-08-05T09:37:44.128Z
+date: 2024-05-18T13:53:41.048Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -10,7 +10,11 @@ dateCreated: 2022-02-28T22:52:43.251Z
 
 EXT-FreeboxTV
 
+> Ce module nécessite le plugin `EXT-VLCServer` pour visionner une chaine de TV
+{.is-warning}
+
 Il permet d'afficher, sur votre Mirroir, les chaines de TV de la [Freebox](https://www.free.fr/freebox/).
+
 
 > Voici les chaines actuellement disponibles:
 {.is-info}
