@@ -2,7 +2,7 @@
 title: EXT-RadioPlayer
 description: 
 published: true
-date: 2024-05-18T13:38:32.681Z
+date: 2024-05-18T13:40:02.162Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:08:09.889Z
@@ -15,7 +15,7 @@ This allows to play radio station on MagicMirror
 > This module is an Extented plugins for `MMM-GoogleAssistant`
 {.is-info}
 
-> EXT-RadioPlayer v1.5.0: This module need `EXT-VLCServer` plugin for working
+> This module need `EXT-VLCServer` plugin for playing any radio station
 {.is-warning}
 
 # Installation
