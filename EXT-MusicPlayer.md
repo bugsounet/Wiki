@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2024-04-14T20:48:20.926Z
+date: 2024-05-18T13:43:21.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -44,7 +44,8 @@ npm install
     random: false,
     autoStart: false,
     minVolume: 30,
-    maxVolume: 100
+    maxVolume: 100,
+    loop: false
   }
 },
 ```
@@ -59,7 +60,7 @@ npm install
 > |autoStart | AutoStart USB key Music at boot of MagicMirror or when USB key is plugged in | BOOLEAN | false
 > |minVolume | Volume to set when assistant speaking | NUMBER | 30
 > |maxVolume | Volume to set when music playing | NUMBER | 100
-
+> |loop | Restart playlist when done | BOOLEAN | false
 > Notes:
 >
 > ** Volume is in %
