@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2024-05-18T13:43:21.369Z
+date: 2024-05-18T13:45:14.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -13,6 +13,9 @@ dateCreated: 2022-03-05T10:46:11.378Z
 
 > This module is an Extented plugins for `MMM-GoogleAssistant`
 {.is-info}
+
+> This module need `EXT-VLCServer` plugin for playing your media
+{.is-warning}
 
 > In addition, you can use `EXT-Alert` plugin, for display some information or error on your screen (Optional)
 {.is-warning}
