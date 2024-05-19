@@ -2,16 +2,11 @@
 title: Configuration
 description: 
 published: true
-date: 2024-05-19T08:53:36.753Z
+date: 2024-05-19T12:29:07.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
 ---
-
-> `MMM-GoogleAssistant` is not compatible with [`MMM-Remote-Control`](https://github.com/Jopyth/MMM-Remote-Control)
-> You can use [`EXT-TelegramBot`](https://github.com/bugsounet/EXT-TelegramBot) for controling `MagicMirror`
-{.is-danger}
-
 
 # MMM-GoogleAssistant Configuration
 
@@ -181,7 +176,7 @@ Change latitude and longitude value for your actual position.
 
 This [website](https://latitudelongitude.org/) can help you to determinate it
 
->  Currently supported languages are:
+> Currently supported languages are:
 > de-DE, en-AU, en-CA, en-GB, en-IN, en-US, fr-CA, fr-FR, it-IT, ja-JP, es-ES, es-MX, ko-KR, pt-BR
 {.is-info}
 
