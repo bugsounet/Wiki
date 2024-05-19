@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-04-23T17:26:41.605Z
+date: 2024-05-19T15:36:18.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -21,7 +21,7 @@ dateCreated: 2022-03-13T13:54:39.438Z
 
 
 ## Pre-requirements:
- * MagicMirror v2.25.0 and more
+ * MagicMirror v2.27.0 and more
  * [MagicMirror](https://docs.magicmirror.builders/) must NOT be installed with sudo command
  * MagicMirror must be installed according to the magicmirror website (and NOT with any other internet tutorial!)
 
