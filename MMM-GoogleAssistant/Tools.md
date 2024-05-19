@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-01-03T02:05:12.082Z
+date: 2024-05-19T12:30:35.151Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -148,9 +148,3 @@ cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run rebuild
 ```
 
-## Migrate smarthome from Gateway
-```
-cd ~/MagicMirror/modules/MMM-GoogleAssistant
-npm run migrate
-```
-see [Migrate](/MMM-GoogleAssistant/SmartHome/Migrate) section
