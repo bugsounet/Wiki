@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T14:43:18.324Z
+date: 2024-05-19T15:08:08.958Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -35,7 +35,7 @@ dateCreated: 2024-05-19T12:29:02.415Z
 ## Tools Box
 ![toolsbox.png](/resources/googleassistant/toolsbox.png)
 
-## Configuration
+# Configuration
 
 > Define your MMM-GoogleAssistant website configuration
 {.is-info}
@@ -86,3 +86,21 @@ Now, just enter your credentials defined in website config ;)
 > Just map your prefered incoming port to MMM-GoogleAssistant port (8081) of your pi !
 > In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
 {.is-info}
+
+# EXT-TelegramBot Commands
+
+## /sysinfo
+ - description: show system informations of your system
+ - arguments: none | show | hide
+ - exemples:
+```
+/sysinfo: Sends a summary of the state of your system in Telegram
+/sysinfo show: Will display state of your system in MagicMirror
+/sysinfo hide: Will close sysinfo windows of MagicMirror
+```
+
+# Update
+```
+cd ~/MagicMirror/modules/EXT-Website
+npm run update
+```
