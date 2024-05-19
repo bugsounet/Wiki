@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T15:08:08.958Z
+date: 2024-05-19T15:15:28.266Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -34,6 +34,15 @@ dateCreated: 2024-05-19T12:29:02.415Z
 ![mm_config.png](/resources/googleassistant/mm_config.png)
 ## Tools Box
 ![toolsbox.png](/resources/googleassistant/toolsbox.png)
+
+# Installation
+Clone the module into your MagicMirror² module folder and execute `npm intall` in the module's directory.
+```
+cd ~/MagicMirror/modules
+git clone https://github.com/bugsounet/EXT-Website
+cd EXT-Website
+npm install
+```
 
 # Configuration
 
