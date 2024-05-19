@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-04-14T20:49:51.322Z
+date: 2024-05-19T08:49:22.287Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -26,10 +26,6 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
 > {.is-warning}
-
-> Since `MMM-GoogleAssistant` v6.x, `Gateway` module is not needed
-> It's now integrated into `MMM-GoogleAssistant`
-{.is-info}
 
 > You can't use any `EXTs` plugins without `MMM-GoogleAssistant`
 {.is-danger}
