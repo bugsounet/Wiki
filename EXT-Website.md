@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T12:34:15.393Z
+date: 2024-05-19T12:57:00.636Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -10,7 +10,7 @@ dateCreated: 2024-05-19T12:29:02.415Z
 
 # EXT-Website
 
-  MMM-GoogleAssistant has an embedded application.
+  EXT-Website has an embedded application.
   This application is available directly through your browser.
   It can be used locally or remotely over the internet.
 
