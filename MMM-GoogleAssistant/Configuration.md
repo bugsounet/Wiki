@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-05-19T12:29:07.310Z
+date: 2024-05-19T12:37:18.062Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -384,67 +384,3 @@ config: {
 > You can make your own recipe for your purpose.
 > Read more docs about that and look inside of `recipes` directory.
 {.is-warning}
-
-## Field `website: {}` (only for v6.x)
-
-> Define your MMM-GoogleAssistant website configuration
-{.is-info}
-
-### Template Localisation
-
-```js
-config: {
-  website: {},
-},
-```
-
-### Sample
-> Notes:
->   ** It's an example
->   ** For better security, best way don't use default username and password
-{.is-info}
-
-```js
-website: {
-  use: true,
-  username: "admin",
-  password: "admin",
-  CLIENT_ID: null
-}
-```
-
-> | Option  | Description | Type | Default |
-> | ------- | --- | --- | --- |
-> | use | enable or not `MMM-GoogleAssistant` website | Boolean | true
-> | username | Define your username for login | String | admin
-> | password | Define your password for login | String | admin
-> | CLIENT_ID | Define your CLIENT_ID of your smarthome action (see Smarthome section) | String | null
-
-### How Can I connect to MMM-GoogleAssistant website ?
-
-MMM-GoogleAssistant website can be open with your browser
-You have to know your ip address of your pi !
-Sample:
- * If ip address of your pi is `192.168.0.200`
-
-Open your browser with this address: `http://192.168.0.200:8081`
-Your browser will open MMM-GoogleAssistant website :)
-Now, just enter your credentials defined in website config ;)
-
-> MMM-GoogleAssistant will inform you in logs of MagicMirror
->```sh
->[LOG]   [GA] Start listening on port 8081
->[LOG]   [GA] Available locally at http://192.168.0.200:8081
->[LOG]   [GA] MMM-GoogleAssistant and Website Ready!
->```
-
-> With Internet, you can use it in remote too
->
-> Just map your prefered incoming port to MMM-GoogleAssistant port (8081) of your pi !
-> In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
-{.is-info}
-
-### SmartHome (Optional)
-You want to control MMM-GoogleAssistant from google home app or from another google assistant device ?
-
-Install [SmartHome](/MMM-GoogleAssistant/SmartHome) functionality
