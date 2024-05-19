@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-05-19T15:10:15.926Z
+date: 2024-05-19T15:11:24.723Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -138,13 +138,3 @@ Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
 ➤ Failed: xx/xx
 ➤ Skipped: xx/xx
 ```
-
-## Reinstall
-> For reinstall this plugin, you can use this command:
-{.is-info}
-
-```
-cd ~/MagicMirror/modules/MMM-GoogleAssistant
-npm run rebuild
-```
-
