@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T12:29:02.415Z
+date: 2024-05-19T12:34:15.393Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -10,7 +10,30 @@ dateCreated: 2024-05-19T12:29:02.415Z
 
 # EXT-Website
 
-EXT-Website allows controlling MagicMirror² and MMM-GoogleAssistant from an integrated website
+  MMM-GoogleAssistant has an embedded application.
+  This application is available directly through your browser.
+  It can be used locally or remotely over the internet.
+
+  * Allows to Install / delete all EXT plugins
+  * Allows to configure / modify your EXT with a template
+  * Allows to configure MagicMirror
+  * Allows you to create a backup of your configuration file at each modification
+  * Displaying Magic Mirror Logs in real time
+  * Allows you to do now operations with the embedded Terminal
+  * Allows you to manually restart or stop MagicMirror
+  * Allows you to turn off or turn on your screen
+  * ...
+
+# Screenshots of the website
+
+## EXT Plugin manager
+![plugin_manager.png](/resources/googleassistant/plugin_manager.png)
+## Terminal
+![terminal.png](/resources/googleassistant/terminal.png)
+## MagicMirror² Configuration
+![mm_config.png](/resources/googleassistant/mm_config.png)
+## Tools Box
+![toolsbox.png](/resources/googleassistant/toolsbox.png)
 
 ## Configuration
 
