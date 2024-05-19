@@ -2,7 +2,7 @@
 title: MMM-GoogleAssistant
 description: 
 published: true
-date: 2024-01-03T01:59:30.706Z
+date: 2024-05-19T12:34:52.762Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T21:55:51.466Z
@@ -51,7 +51,6 @@ dateCreated: 2023-06-15T21:55:51.466Z
 - [commands](/MMM-GoogleAssistant/commands)
 - [Prepared recipes](/MMM-GoogleAssistant/Preparedrecipes)
 - [MagicMirror volume level](/MMM-GoogleAssistant/MagicMirrorvolumelevel)
-- [website](/MMM-GoogleAssistant/website)
 
 ## TelegramBot
  * [TelegramBot Commands](/MMM-GoogleAssistant/TelegramBotCommands)
