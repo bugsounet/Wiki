@@ -2,7 +2,7 @@
 title: MMM-GoogleAssistant
 description: 
 published: true
-date: 2024-05-19T12:34:52.762Z
+date: 2024-05-19T12:39:48.069Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T21:55:51.466Z
@@ -39,8 +39,7 @@ dateCreated: 2023-06-15T21:55:51.466Z
 3) [Configuration](/MMM-GoogleAssistant/Configuration)
 4) [Extented plugins](/MMM-GoogleAssistant/ExtentedPlugins)
 5) [Before the first start](/MMM-GoogleAssistant/Beforethefirststart)
-6) [Smarthome](/MMM-GoogleAssistant/SmartHome) (optional)
-7) Magical [Tools](/MMM-GoogleAssistant/Tools) and Updating
+6) Magical [Tools](/MMM-GoogleAssistant/Tools) and Updating
 
 ## Usage
 - [Notifications](/MMM-GoogleAssistant/Notifications)
