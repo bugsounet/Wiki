@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-03-08T14:47:49.273Z
+date: 2024-05-19T08:53:36.753Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:46:14.577Z
@@ -43,12 +43,6 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
     assistantConfig: {
       latitude: 51.508530,
       longitude: -0.076132,
-    },
-    website: {
-      use: true,
-      username: "admin",
-      password: "admin",
-      CLIENT_ID: null
     }
   }
 },
@@ -70,8 +64,7 @@ MMM-GoogleAssistant will merge automaticaly with your new needed feature :)
       imgStatus: {},
       zoom: {}
     },
-    recipes: [],
-    website: {}
+    recipes: []
   }
 },
 ```
