@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T12:57:00.636Z
+date: 2024-05-19T14:04:05.336Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -46,8 +46,7 @@ dateCreated: 2024-05-19T12:29:02.415Z
   config: {
     debug: false,
     username: "admin",
-    password: "admin",
-    CLIENT_ID: null
+    password: "admin"
   }
 },
 ```
@@ -63,7 +62,6 @@ dateCreated: 2024-05-19T12:29:02.415Z
 > | debug | enable or not debug mode | Boolean | false
 > | username | Define your username for login | String | admin
 > | password | Define your password for login | String | admin
-> | CLIENT_ID | Define your CLIENT_ID of your smarthome action (see Smarthome section) | String | null
 
 ## How Can I connect to MMM-GoogleAssistant website ?
 
@@ -88,8 +86,3 @@ Now, just enter your credentials defined in website config ;)
 > Just map your prefered incoming port to MMM-GoogleAssistant port (8081) of your pi !
 > In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
 {.is-info}
-
-## SmartHome (Optional)
-You want to control MMM-GoogleAssistant from google home app or from another google assistant device ?
-
-Install [SmartHome](/MMM-GoogleAssistant/SmartHome) functionality
