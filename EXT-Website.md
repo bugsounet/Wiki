@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T14:04:05.336Z
+date: 2024-05-19T14:43:18.324Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -10,7 +10,7 @@ dateCreated: 2024-05-19T12:29:02.415Z
 
 # EXT-Website
 
-  EXT-Website has an embedded application.
+  EXT-Website is an embedded application.
   This application is available directly through your browser.
   It can be used locally or remotely over the internet.
 
