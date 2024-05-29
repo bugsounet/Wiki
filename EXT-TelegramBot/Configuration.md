@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2023-08-05T09:41:33.118Z
+date: 2024-05-29T03:28:18.074Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:41:26.991Z
@@ -33,8 +33,7 @@ dateCreated: 2021-07-14T09:41:26.991Z
     commandAllowed: {},
     useSoundNotification: true,
     dateFormat: "DD-MM-YYYY HH:mm:ss",
-    telecastContainer: 300,
-    TelegramBotServiceAlerte: true
+    telecastContainer: 300
   }
 },
 ```
@@ -77,5 +76,3 @@ commandAllowed: {
 **`dateFormat`** : Your prefered date format
 
 **`telecastContainer`**: force le with of the telecast container in px. Default: 300, mini: 200, max : 1000
-
-**`TelegramBotServiceAlerte`**: Display all Alert of `TelegramBot Service`
