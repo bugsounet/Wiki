@@ -2,7 +2,7 @@
 title: EXT-SmartHome
 description: 
 published: true
-date: 2024-06-29T12:41:17.750Z
+date: 2024-06-29T12:44:09.298Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T09:35:58.947Z
@@ -66,5 +66,5 @@ It's able to control plugin :)
 7. [Configure Webserver](/EXT-SmartHome/webserver)
 8. [First Start of MagicMirror with MMM-GoogleAssistant and SmartHome functionality](/EXT-SmartHome/FirstStart)
 9. [Link with Google Home](/EXT-SmartHome/GoogleHomeLink)
-10. [Finalize device registration](/MMM-GoogleAssistant/SmartHome/GoogleAssistantLink)
+10. [Finalize device registration](/EXT-SmartHome/GoogleAssistantLink)
 11. [How use it](/MMM-GoogleAssistant/SmartHome/Using)
