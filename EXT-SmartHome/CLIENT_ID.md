@@ -2,7 +2,7 @@
 title: 4. Configure: your CLIENT_ID
 description: 
 published: true
-date: 2024-01-01T14:22:22.050Z
+date: 2024-06-29T12:01:43.660Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T14:21:39.330Z
@@ -14,10 +14,10 @@ You have 2 values:
   * the first is the `project_id`
   * the second is the Client ID
 
-Open the config of MagicMirror and find `MMM-GoogleAssistant` website config field
+Open the config of MagicMirror and find `EXT-SmartHome` website config field
 Your must have a field named `CLIENT_ID`
 
-By default `CLIENT_ID` is null
+By default `CLIENT_ID` is `null`
 Replace `null` value by your own value of `Client ID` of the note pad
 
 Sample:
