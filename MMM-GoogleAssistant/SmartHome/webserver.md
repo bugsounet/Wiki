@@ -2,7 +2,7 @@
 title: 7. Configure Webserver
 description: 
 published: true
-date: 2024-01-02T12:31:06.547Z
+date: 2024-06-29T12:18:45.238Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:31:06.547Z
@@ -19,7 +19,7 @@ dateCreated: 2024-01-02T12:31:06.547Z
 
 Try this prepared command:
 ```sh
-cd ~/MagicMirror/modules/MMM-GoogleAssistant
+cd ~/MagicMirror/modules/EXT-SmartHome
 npm run smarthome
 ```
 
