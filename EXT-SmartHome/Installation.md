@@ -2,13 +2,48 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-06-29T11:31:19.373Z
+date: 2024-06-29T11:57:23.356Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
 ---
 
 # Installation
+
+Clone the module into your MagicMirror² module folder and execute npm intall in the module's directory.
+
+```sh
+cd ~/MagicMirror/modules
+git clone https://github.com/bugsounet/EXT-SmartHome
+cd EXT-SmartHome
+npm install
+```
+
+> Define your module definition configuration in config.js file of MagicMirror
+{.is-info}
+
+```js
+{
+  module: "EXT-SmartHome",
+  config: {
+    debug: false,
+    username: "admin",
+    password: "admin"
+  }
+},
+```
+
+> Notes:
+>  ** It's an example
+>  ** For better security, best way don't use default username and password
+>  ** `username` and `password` field will be defined together in accord with Google Action
+{.is-info}
+
+> | Option  | Description | Type | Default |
+> | ------- | --- | --- | --- |
+> | debug | enable or not debug mode | Boolean | false
+> | username | Define your Google Action username for login | String | admin
+> | password | Define your Google Action password for login | String | admin
 
 ## Project_id
 You know to remember what is you `project_id` used when you create `credentials.json` file of MMM-GoogleAssistant
@@ -38,7 +73,10 @@ Note: Don't worry about `credentials not found` for SmartHome, we will create it
 # It's time to change default `username` and `password` of `EXT-Website` configuration
 why ?
 You will have access from internet to `EXT-Website` so, for security, it's better to don't use default `username` and `password`
+`EXT-SmartHome` will use `EXT-Website` http(s) server for google smarthome serving
 [This part](https://wiki.bugsounet.fr/en/EXT-Website#configuration) will help and replace it by your own !
+
+Note: We don't change `username` and `password` of `EXT-SmartHome` at this moment
 
 ## Domaine name with fixed WAN ip address or DynDNS
 
