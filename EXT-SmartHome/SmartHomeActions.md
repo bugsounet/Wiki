@@ -2,7 +2,7 @@
 title: 3. Configure: Google Action
 description: 
 published: true
-date: 2024-01-01T14:17:23.012Z
+date: 2024-06-29T12:07:24.835Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T14:17:23.012Z
@@ -45,7 +45,12 @@ check `Support local query`
 # `OAuth Client Information`
 `Client ID issued by your Actions to Google`: enter your prefered Client login (as you wish) and **note it in your NotePad as `Client ID`**
 
-`Client secret`: enter the password used in the config of `Gateway` (password field of the Gateway config)
+`Client secret`: enter the password used in the config of `EXT-SmartHome`
+
+> Don't Forget to change `password` field of the `EXT-SmartHome` config and make it in accord !
+> For security: don't use `admin` as password
+{.is-warning}
+
 `Authorization URL` and `Token URL`:
 
 ![oauth.png](/resources/smarthome/oauth.png)
