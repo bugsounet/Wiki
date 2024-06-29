@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-06-29T11:57:23.356Z
+date: 2024-06-29T11:58:09.049Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -76,7 +76,9 @@ You will have access from internet to `EXT-Website` so, for security, it's bette
 `EXT-SmartHome` will use `EXT-Website` http(s) server for google smarthome serving
 [This part](https://wiki.bugsounet.fr/en/EXT-Website#configuration) will help and replace it by your own !
 
-Note: We don't change `username` and `password` of `EXT-SmartHome` at this moment
+> Note: We don't change `username` and `password` of `EXT-SmartHome` at this moment
+{.is-warning}
+
 
 ## Domaine name with fixed WAN ip address or DynDNS
 
