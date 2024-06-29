@@ -2,7 +2,7 @@
 title: EXT-SmartHome
 description: 
 published: true
-date: 2024-06-29T11:34:42.928Z
+date: 2024-06-29T11:36:22.153Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T09:35:58.947Z
@@ -59,7 +59,7 @@ It's able to control plugin :)
 
 1. [Installation](/EXT-SmartHome/Installation)
 2. [Create a Google Action Project](/EXT-SmartHome/ActionNewProject)
-3. [Configure: Google Action](/MMM-GoogleAssistant/SmartHome/SmartHomeActions)
+3. [Configure: Google Action](/EXT-SmartHome/SmartHomeActions)
 4. [Configure: your CLIENT_ID](/MMM-GoogleAssistant/SmartHome/CLIENT_ID)
 5. [Configure: HomeGraph](/MMM-GoogleAssistant/SmartHome/HomeGraph)
 6. [DownLoad credentials](/MMM-GoogleAssistant/SmartHome/DownloadCredentials)
