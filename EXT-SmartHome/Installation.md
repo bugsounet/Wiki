@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-06-29T11:58:09.049Z
+date: 2024-06-29T12:00:31.535Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -28,7 +28,8 @@ npm install
   config: {
     debug: false,
     username: "admin",
-    password: "admin"
+    password: "admin",
+    CLIENT_ID: null
   }
 },
 ```
