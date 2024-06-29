@@ -2,7 +2,7 @@
 title: 9. Link with Google Home
 description: 
 published: true
-date: 2024-01-02T12:43:36.296Z
+date: 2024-06-29T12:43:10.659Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:43:36.296Z
@@ -15,7 +15,7 @@ dateCreated: 2024-01-02T12:43:36.296Z
 > So, If Google display rehash error, don't panic and retry later !
 {.is-warning}
 
-> Screenshot are in `French` language
+> Screenshot are in `French` language (I can't change in other language sorry)
 > Refer to icons
 {.is-info}
 
@@ -40,7 +40,7 @@ dateCreated: 2024-01-02T12:43:36.296Z
 ![search.png](/resources/smarthome/search.png)
 ![addjarvis.png](/resources/smarthome/addjarvis.png)
 
-6. Enter your `Gateway` login
+6. Enter your `EXT-SmartHome` `username` and `password`
 
 ![smarthomelogin.png](/resources/smarthome/smarthomelogin.png)
 
