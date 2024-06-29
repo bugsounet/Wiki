@@ -2,7 +2,7 @@
 title: 3. Configure: Google Action
 description: 
 published: true
-date: 2024-06-29T12:07:24.835Z
+date: 2024-06-29T12:08:32.007Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-01T14:17:23.012Z
@@ -31,7 +31,9 @@ Select `Name your Smart Home action`
 # `Fulfillment URL`
 ![fulfillment.png](/resources/smarthome/fulfillment.png)
 
-**/!\ Replace `demo.bugsounet.fr` by your sub-domaine or dyn-dns address**
+>  **/!\ Replace `demo.bugsounet.fr` by your sub-domaine or dyn-dns address**
+{.is-warning}
+
 
 # Add capabilities
 ![capabilities.png](/resources/smarthome/capabilities.png)
