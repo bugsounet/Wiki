@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-06-29T11:25:02.076Z
+date: 2024-06-29T11:31:19.373Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -21,9 +21,9 @@ npm run project
 ```
 result will be something like this:
 ```
-~/MagicMirror/modules/MMM-GoogleAssistant$ npm run project
+~/MagicMirror/modules/EXT-SmartHome$ npm run project
 
-> MMM-GoogleAssistant@5.X.X project
+> EXT-SmartHome@X.X.X project
 > installer/check_ProjectID.sh
 
 Your MMM-GoogleAssistant project_id is: XXXXXXXXX
@@ -35,10 +35,10 @@ Your SmartHome project_id is: credentials not found!
 
 Note: Don't worry about `credentials not found` for SmartHome, we will create it later!
 
-# It's time to change default `username` and `password` of `MMM-GoogleAssistant` website configuration
+# It's time to change default `username` and `password` of `EXT-Website` configuration
 why ?
-You will have access from internet to `MMM-GoogleAssistant` so, for security, it's better to don't use default `username` and `password`
-[This part](https://wiki.bugsounet.fr/MMM-GoogleAssistant/Configuration#field-website) will help and replace it by your own !
+You will have access from internet to `EXT-Website` so, for security, it's better to don't use default `username` and `password`
+[This part](https://wiki.bugsounet.fr/en/EXT-Website#configuration) will help and replace it by your own !
 
 ## Domaine name with fixed WAN ip address or DynDNS
 
