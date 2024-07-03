@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-07-03T15:16:14.048Z
+date: 2024-07-03T15:17:06.200Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -12,14 +12,6 @@ dateCreated: 2021-06-18T10:17:20.817Z
 
 > You will discover all wiki **on the same page** !
 {.is-success}
-
-
-> You send me [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTHRH94Y4KL36&source=url), i offer to you new modules, forum, wiki and priviliged access !
-{.is-info}
-
-
-> Support of all my modules is now in a [dedicated forum](http://forum.bugsounet.fr)
-{.is-info}
 
 > `MMM-GoogleAssistant` and`EXTs` plugins are now ready for using with npm v10.x and node > v20.x
 > But a bug is actually not solved with lasted version of `npm` app
