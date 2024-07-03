@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-07-03T15:19:26.252Z
+date: 2024-07-03T15:19:38.637Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -34,7 +34,6 @@ dateCreated: 2022-03-13T13:54:39.438Z
  * HD screen (1920x1080) or more
 
 > **You can't use server mode of MagicMirror² with this module**
->
 {.is-warning}
 
 ## Auto install (for RaspberryPi or Debian Linux machines only)
