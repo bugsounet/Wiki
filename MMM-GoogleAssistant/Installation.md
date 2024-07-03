@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-05-20T11:04:07.454Z
+date: 2024-07-03T15:17:40.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T13:54:39.438Z
@@ -30,7 +30,7 @@ dateCreated: 2022-03-13T13:54:39.438Z
      * Raspbian 11/12 (Bullseye or Bookworm -- 32-bit Version)
      * Raspbian 12 x64 (Bookworm -- 64-bit Version) is under-testing
  * RPI 3b+ or more 
- * Node: > v18.x.x
+ * Node: > v20.x.x
  * HD screen (1920x1080) or more
 
 > **You can't use server mode of MagicMirror² with this module**
