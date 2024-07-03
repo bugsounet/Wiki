@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-05-19T08:49:22.287Z
+date: 2024-07-03T15:16:14.048Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -21,7 +21,7 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > Support of all my modules is now in a [dedicated forum](http://forum.bugsounet.fr)
 {.is-info}
 
-> `MMM-GoogleAssistant` and`EXTs` plugins are now ready for using with npm v10.x and node > v18.x
+> `MMM-GoogleAssistant` and`EXTs` plugins are now ready for using with npm v10.x and node > v20.x
 > But a bug is actually not solved with lasted version of `npm` app
 > So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
