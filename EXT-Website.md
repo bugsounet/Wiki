@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-05-19T15:15:28.266Z
+date: 2024-07-05T10:01:06.919Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -55,7 +55,8 @@ npm install
   config: {
     debug: false,
     username: "admin",
-    password: "admin"
+    password: "admin",
+    useAPIDocs: false
   }
 },
 ```
@@ -71,6 +72,7 @@ npm install
 > | debug | enable or not debug mode | Boolean | false
 > | username | Define your username for login | String | admin
 > | password | Define your password for login | String | admin
+> | useAPIDocs | Display API Docs link in website  | false
 
 ## How Can I connect to MMM-GoogleAssistant website ?
 
@@ -96,6 +98,16 @@ Now, just enter your credentials defined in website config ;)
 > In this case, you can control MMM-GoogleAssistant over the world with another internet connexion, or with your phone wherever you are
 {.is-info}
 
+# Docs and Testing API
+`EXT-Website` have now his proper API.
+You can consult API docs by enable `useAPIDocs: true` in your configuration.
+You will discover `API Docs` in `MMM-GoogleAssistant` website navbar
+
+> Note:
+> This feature is only for testing and developing.
+{.is-info}
+
+
 # EXT-TelegramBot Commands
 
 ## /sysinfo
@@ -104,8 +116,8 @@ Now, just enter your credentials defined in website config ;)
  - exemples:
 ```
 /sysinfo: Sends a summary of the state of your system in Telegram
-/sysinfo show: Will display state of your system in MagicMirror
-/sysinfo hide: Will close sysinfo windows of MagicMirror
+/sysinfo show: Will display state of your system in MagicMirror²
+/sysinfo hide: Will close sysinfo windows of MagicMirror²
 ```
 
 # Update
