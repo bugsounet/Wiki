@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-06-29T12:00:31.535Z
+date: 2024-07-16T16:09:15.365Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -52,7 +52,7 @@ You know to remember what is you `project_id` used when you create `credentials.
 I create a command line for discover it ! (so don't have to search ahahah !)
 try this in a Terminal:
 ```
-cd ~/MagicMirror/modules/MMM-GoogleAssistant
+cd ~/MagicMirror/modules/EXT-SmartHome
 npm run project
 ```
 result will be something like this:
