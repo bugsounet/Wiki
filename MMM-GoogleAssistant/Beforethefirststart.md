@@ -2,7 +2,7 @@
 title: Before First Start
 description: 
 published: true
-date: 2024-08-02T06:36:12.310Z
+date: 2024-08-02T06:37:42.898Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:53:00.620Z
@@ -12,7 +12,7 @@ dateCreated: 2022-03-14T17:53:00.620Z
 
 Right,
  * You have done [Google Assistant Setup](/MMM-GoogleAssistant/SetupCredentials)
- * You have done your personal module configuration
+ * You have done your [personal module configuration](/MMM-GoogleAssistant/Configuration)
  * You have installed minimum [Extented plugins](/MMM-GoogleAssistant/ExtentedPlugins#advice-to-start) needed
 
 Now, let's generate Google Assistant token
