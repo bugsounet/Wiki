@@ -2,7 +2,7 @@
 title: EXT-SpotifyCanvasLyrics
 description: 
 published: true
-date: 2024-03-28T12:17:59.384Z
+date: 2024-08-12T15:20:03.293Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T15:43:39.032Z
@@ -12,7 +12,7 @@ This Plugins will create a server for fetch Lyrics and Canvas (small video of a 
  
  # plugins Requirements
   * EXT-Spotify
-  * EXT-Librespot or EXT-Raspotify
+  * EXT-Librespot
   * EXT-Alert
 
  # Screenshot
