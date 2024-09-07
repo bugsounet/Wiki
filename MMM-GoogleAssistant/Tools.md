@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-05-19T15:11:24.723Z
+date: 2024-09-07T11:30:21.954Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -45,7 +45,7 @@ npm run register
 {.is-success}
 
 
-### How to enable personal search ?
+## How to enable personal search ?
 
 Activate your assistant with your favorite keyword and ask him to show photos or add an appointment
 
