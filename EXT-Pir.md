@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-03-10T13:01:45.177Z
+date: 2024-09-08T11:40:23.210Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -26,7 +26,7 @@ Clone the module into your MagicMirror module folder and execute `npm intall` in
 cd ~/MagicMirror/modules
 git clone https://github.com/bugsounet/EXT-Pir
 cd EXT-Pir
-npm install
+npm run setup
 ```
 
 # Configuration
@@ -71,4 +71,4 @@ npm run update
 ```
 
 # Support and Helping
-New forum and support for all @bugsounet modules is now localized [there](https://forum.bugsounet.fr) !
+🛠️ For personalized assistance, visit https://www.bugsounet.fr and create a ticket
