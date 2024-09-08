@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-09-08T11:40:23.210Z
+date: 2024-09-08T11:41:29.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -21,7 +21,7 @@ dateCreated: 2022-02-26T21:02:26.205Z
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the modules directory.
+Clone the module into your MagicMirror module folder and execute `npm run setup` in the modules directory.
 ```
 cd ~/MagicMirror/modules
 git clone https://github.com/bugsounet/EXT-Pir
