@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-09-13T09:27:29.248Z
+date: 2024-09-13T09:30:47.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -53,6 +53,9 @@ npm run setup
 * Available mode:
    - `mode: 0` - use `node-libgpiod` library
    - `mode: 1` - use python script with `gpiozero` library
+
+* `gpio` value:
+  - Consult gpio doc at https://pinout.xyz/ 
 
 # Developer Notes
 
