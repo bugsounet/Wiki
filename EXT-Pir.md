@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-09-13T07:21:59.851Z
+date: 2024-09-13T09:27:29.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -10,7 +10,6 @@ dateCreated: 2022-02-26T21:02:26.205Z
 
 > EXT-Pir is a plugins for control your screen with a PIR Sensor.
 {.is-info}
-
 
 > This module an Extented plugin of `EXT-Screen`
 > It can't work by itself without this plugin
@@ -52,9 +51,8 @@ npm run setup
 > | mode | Detection mode (see bellow) | Number | 0 |
 
 * Available mode:
-   - `pir_mode: 0` - use `onoff` library (For Raspberry Pi 3b+ and 4)
-   - `pir_mode: 1` - use python script with `RPI.GPIO` library (For Raspberry Pi 3b+ and 4)
-   - `pir_mode: 2` - use python script with `gpiozero` library (For Raspberry Pi 5, not tested on other Raspberry Pi)
+   - `mode: 0` - use `node-libgpiod` library
+   - `mode: 1` - use python script with `gpiozero` library
 
 # Developer Notes
 
