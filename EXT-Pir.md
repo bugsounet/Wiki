@@ -2,7 +2,7 @@
 title: EXT-Pir
 description: 
 published: true
-date: 2024-09-08T11:41:46.631Z
+date: 2024-09-13T07:21:59.851Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T21:02:26.205Z
@@ -68,6 +68,14 @@ npm run setup
 ```
 cd ~/MagicMirror/modules/EXT-Pir
 npm run update
+```
+
+# Reinstall
+> For reinstall this module or when an update of MagicMirror² is available, you can use this command:
+{.is-info}
+```
+cd ~/MagicMirror/modules/EXT-Pir
+npm run rebuild
 ```
 
 # Support and Helping
