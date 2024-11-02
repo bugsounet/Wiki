@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-07-03T15:17:06.200Z
+date: 2024-11-02T08:46:53.590Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -30,7 +30,5 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > You can't use `MMM-GoogleAssisant` with `MagicMirror` server mode
 > (You can't open `MagicMirror` with your browser)
 {.is-danger}
-
-Naturaly, I'm always there to listening you on forum :)
 
 @bugsounet
