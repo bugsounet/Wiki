@@ -2,7 +2,7 @@
 title: EXT-VLCServer
 description: 
 published: true
-date: 2024-05-04T12:00:04.307Z
+date: 2024-11-09T11:44:10.757Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-04T11:33:21.021Z
@@ -17,12 +17,6 @@ This plugin play wanted media on `MagicMirror²` with `VLC`
 >  `EXT-RadioPlayer`
 >  `EXT-FreeboxTV`
 {.is-info}
-
-
-> In addition, you can use some plugins:
-> `EXT-Alert` for display some information or error on your screen (Optional)
-{.is-warning}
-
 
 # Installation
 
