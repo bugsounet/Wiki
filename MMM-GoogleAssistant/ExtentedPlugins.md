@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2024-05-21T15:59:49.526Z
+date: 2024-11-09T10:29:32.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -34,28 +34,18 @@ All name of MMM-GoogleAssistant plugins start with EXT.
 
 | Plugin | Description
 |---|---|
-|[EXT-Alert](/en/EXT-Alert)| Display informations, error, warning with cool animate (advice to install !)
 |[EXT-Background](/en/EXT-Background)| It allows to change the default Google Assistant background to your own or with animated gifs for each status of the assistant
-|[EXT-Bring](/en/EXT-Bring)| Display shopping list and control it in vocal
 |[EXT-Browser](/en/EXT-Browser)| display any internet web page found like a real browser in fullscreen
 |[EXT-Detector](/en/EXT-Detector)| Multi-keyword listener for MMM-GoogleAssistant
 |[EXT-FreeboxTV](/en/EXT-FreeboxTV)| Display TV Channel of the French internet provider `Free`
 |[EXT-GooglePhotos](/en/EXT-GooglePhotos)| display your album directory with Google photos API in background or in MagicMirror position
-|[EXT-Governor](/en/EXT-Governor)| EXT-Governor is a plugins for control your CPU for speed up or powersaving
-|[EXT-Internet](/en/EXT-Internet)| This module allow check your internet connexion, display ping. It can inform if connexion is lost. Stop any internet query of plugins if needed
 |[EXT-Librespot](/en/EXT-Librespot)| plugin to play Spotify music on your mirror with Librespot app
 |[EXT-MusicPlayer](/en/EXT-MusicPlayer)| Play any music found on a USB Key or in defined local directory
 |[EXT-Pages](/en/EXT-Pages)| this plugins allows you to have animated pages in your magic mirror!
 |[EXT-Photos](/en/EXT-Photos)| plugins for displaying any photos found by assistant in fullscreen
-|[EXT-Pir](/en/EXT-Pir)| plugins for control your screen with a PIR Sensor
 |[EXT-RadioPlayer](/en/EXT-RadioPlayer)| plugins for playing any radio
 |[EXT-Screen](/en/EXT-Screen)| After a configurated time without any user interaction the display will turn off and hide all modules for economy mode. It can turn ON and Turn OFF your screen with defined hours or with touch screen
-|[EXT-Selfies](/EXT-Selfies)| It will allows to take selfies with a webcam.
-|[EXT-SelfiesFlash](/EXT-SelfiesFlash) | Need a flash light when you take a selfie
-|[EXT-SelfiesSender](/EXT-SelfiesSender) | Sending your result selfies to Telegram, GooglePhotos or by mail
-|[EXT-SelfiesViewer](/EXT-SelfiesViewer) | Display your local selfies folder in MagicMirror
 |[EXT-Spotify](/en/EXT-Spotify)| This plugin show current spotify playback of any devices
-|[EXT-SpotifyCanvasLyrics](/en/EXT-SpotifyCanvasLyrics)| This plugin will display lyrics and canvas of the current track
 |[EXT-StreamDeck](/EXT-StreamDeck) | This plugin allows to control MMM-GoogleAssistant with stream Deck by elgato©
 |[EXT-TelegramBot](/en/EXT-TelegramBot) | This plugin allow to control any plugins from telegram
 |[EXT-Touch](/EXT-Touch)| Activate MMM-GoogleAssistant with a Touch Screen by Touching the Google Icon
