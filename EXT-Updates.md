@@ -2,7 +2,7 @@
 title: EXT-Updates
 description: 
 published: true
-date: 2024-01-03T02:48:52.706Z
+date: 2024-11-09T10:38:48.411Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T16:40:04.617Z
@@ -19,7 +19,6 @@ And restart MagicMirror when process is done (optional)
 
 This module can **APPLY** any update of MMM-GoogleAssistant suite :)
 
-> This plugin need [EXT-Alert](/en/EXT-Alert): for displaying any messages
 > You can use [EXT-TelegramBot](/en/EXT-TelegramBot): for more control
 {.is-warning}
 
