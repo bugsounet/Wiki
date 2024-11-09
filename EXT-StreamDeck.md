@@ -2,7 +2,7 @@
 title: EXT-StreamDeck
 description: 
 published: true
-date: 2023-08-05T09:40:06.639Z
+date: 2024-11-09T11:37:18.800Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T23:00:43.002Z
@@ -30,9 +30,6 @@ git clone https://github.com/bugsounet/EXT-StreamDeck
 cd EXT-StreamDeck
 npm install
 ```
-
-> For displaying any errors or informations `EXT-Alert` is recommanded
-{.is-warning}
 
 ## Prepare using StreamDeck
 Some linux rules are needed.
@@ -118,7 +115,7 @@ And reboot your pi
 > | Brightness | Set the brightness of the streamDeck| Number | 100|
 > | EcoBrightness | Set standby brightness | Number | 10 |
 > | EcoTime | Delay before standby (in ms) | Number | 10000 |
-> | keyFinder | Display keycode with EXT-Alert when a key is pressed| Boolean | false |
+> | keyFinder | Display keycode with MMM-GoogleAssistant Alert when a key is pressed| Boolean | false |
 > | keys | Define your keys rules (see bellow)| Array | |
 
 > **device:** Generaly `null` value will use the first streamDeck found
@@ -142,7 +139,7 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
 > | sound | Name of the sound when executed (mp3 only) | String
 
 >  **key**: Can be discover when you activate keyFinder
->   Just press a key and `EXT-Alert` will say the associated keyCode
+>   Just press a key and MMM-GoogleAssistant Alert will say the associated keyCode
 >   Naturally, report it in this field
 {.is-info}
 
