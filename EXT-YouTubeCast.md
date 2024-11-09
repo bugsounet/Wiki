@@ -2,7 +2,7 @@
 title: EXT-YouTubeCast
 description: 
 published: true
-date: 2023-08-05T09:40:50.004Z
+date: 2024-11-09T11:39:36.935Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T17:29:54.360Z
@@ -12,9 +12,6 @@ It allow to cast a YouTube video on MagicMirror
 
 > This module is an Extented for `MMM-GoogleAssistant`
 {.is-info}
-
-> This module need `EXT-Alert` plugins to display any errors or informations on the screen
-{.is-warning}
 
 # Screenshoot
 
