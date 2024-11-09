@@ -2,7 +2,7 @@
 title: EXT-Volume
 description: 
 published: true
-date: 2024-01-03T02:50:23.226Z
+date: 2024-11-09T11:41:03.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T18:51:30.731Z
@@ -14,9 +14,6 @@ EXT-Volume is a plugins for controling the sound volume level of your mirror
 > You can naturally use it as a simple module !
 > It can be controled with `EXT-TelegramBot` or with some notifications
 {.is-info}
-
-> This module need `EXT-Alert` plugins to display any informations and errors
-{.is-warning}
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/bugsounet/EXT-Volume/dev/resources/screenshot.png)
