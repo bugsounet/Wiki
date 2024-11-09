@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2024-05-18T10:11:00.060Z
+date: 2024-11-09T10:40:00.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -14,9 +14,7 @@ This module show current playback of any devices
 {.is-info}
 
 > In addition, you can use some plugins:
-> `EXT-Alert` for display some information or error on your screen (Optional)
 > `EXT-Librespot` for playing spotify music on your mirror with a Premium account (optional)
-> `EXT-SpotifyCanvasLyrics` for displaying lyrics and small video of the song (optional)
 > `EXT-TelegramBot` for controling music with the bot (optional)
 {.is-warning}
 
