@@ -2,7 +2,7 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2024-11-09T10:29:32.652Z
+date: 2024-11-09T10:30:07.536Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
@@ -63,7 +63,6 @@ All name of MMM-GoogleAssistant plugins start with EXT.
 > You must install:
 > 
 >  [EXT-Detector](/en/EXT-Detector)
->  [EXT-Alert](/en/EXT-Alert)
 {.is-success}
 
 
