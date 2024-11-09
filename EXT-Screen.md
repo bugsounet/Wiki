@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-04-22T18:04:51.719Z
+date: 2024-11-09T11:50:46.378Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -12,17 +12,9 @@ After a configurated time without any user interaction the display will turn off
 
 This module is an Extented plugins for `MMM-GoogleAssistant`
 
-In addition, you can use others EXT modules to control it or add some pretty plugins:
- * `EXT-Pir`: For PIR Sensor using
- * `EXT-Governor`: For Manage your CPU
- * `EXT-Motion`: For detecting all motions with a webcam (optional)
- * `EXT-Updates`: For update automaticaly this module (Optional)
- * `EXT-Alert`: For display some information or error on your screen (Optional)
+> In addition, you have use [MMM-Pir](https://github.com/bugsounet/MMM-Pir) modules to control it
+{.is-warning}
 
-# Screenshot
-![](https://raw.githubusercontent.com/bugsounet/EXT-Screen/dev/screenshot/screenshot.png)
-
-![](https://raw.githubusercontent.com/bugsounet/EXT-Screen/dev/screenshot/screenshot2.png)
 
 # Installation
 
@@ -45,11 +37,8 @@ This module will verify if all screen saver is disabled and disable it if needed
 ```js
 {
   module: 'EXT-Screen',
-  position: 'top_left',
-  animateIn: "flipInX",
-  animateOut: "flipOutX",
   config: {
-    delay: 2 * 60 * 1000
+    detectorSleeping: false
   }
 },
 ```
@@ -63,31 +52,9 @@ This module will verify if all screen saver is disabled and disable it if needed
 ```js
 {
   module: 'EXT-Screen',
-  position: 'top_left',
-  animateIn: "flipInX",
-  animateOut: "flipOutX",
   config: {
     debug: false,
-    animateBody: true,
-    autoDimmer: true,
-    delay: 2 * 60 * 1000,
-    mode: 1,
-    xrandrForceRotation: "normal",
-    wrandrForceRotation: "normal",
-    wrandrForceMode: null,
-    displayCounter: true,
-    displayBar: true,
-    displayStyle: "Text",
-    displayLastPresence: true,
-    lastPresenceTimeFormat: "LL H:mm",
-    displayAvailability: true,
-    detectorSleeping: false,
-    gpio: 20,
-    clearGpioValue: true,
-    sound: false,
-    touchMode: 3,
-    ON: [],
-    OFF: []
+    detectorSleeping: false
   }
 },
 ```
@@ -96,180 +63,8 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
-> | animateBody | Animate MagicMirror on turn on/off the screen | Boolean | true |
-> | autoDimmer | screen dimmer when timeout is 1/3 time left and use opacity from 100% to 0% | Boolean | true |
-> | delay | Time before the mirror turns off the display if no user activity is detected. (in ms) | Number | 120000 |
-> | mode | mode for turn on/off your screen (see bellow) | number | 1 |
-> | xrandrForceRotation | -**mode 9 only**- Forces screen rotation according to the defined value (possible value: "normal", "left", "right", "inverted") | string | normal |
-> | wrandrForceRotation | -**mode 10 only**- Forces screen rotation according to the defined value (possible value: "normal", "90", "180", "270", "flipped", "flipped-90", "flipped-180", "flipped-270") | string | normal |
-> | wrandrForceMode | **-mode 10 only-** Force screen resolution mode (sample: wrandrForceMode: "1920x1080",) | String | null |
-> | displayCounter | Should display Count-down in screen ? | Boolean | true |
-> | displayBar| Should display Count-up bar in screen ? | Boolean | true |
-> | displayStyle| Style of the Count-down. Available: "Text", "Line", "SemiCircle", "Circle" | String | Text |
-> | displayLastPresence| Display the date of the last user presence | Boolean | true |
-> | lastPresenceTimeFormat| Change the date format (moment.js format) of the last presence | String | LL H:mm |
-> | displayAvailability| Display screen availability time (average 24h)| Boolean | true |
+> | debug | Enable debug mode | Boolean | false |
 > | detectorSleeping | Activate EXT-Detector only when display is on | Boolean | false |
-> | gpio| GPIO number for control the relay (mode 6 only) | Number | 20 |
-> | clearGpioValue| reset GPIO value script of relay (mode 6 and 7 only) | Boolean | true |
-> | sound| emit a sound when your screen turn on/off | Boolean | false |
-> | touchMode | Selected mode for enable/disable the screen with touch (see below) | number | 3 |
-> | ON | Defined cron ON display time (see below) | Array of object | []
-> | OFF | Defined cron OFF display time (see below) | Array of object | []
-
-### Available mode:
-   - `mode: 0` - don't turn off your screen and hide all modules
-   - `mode: 1` - use vgencmd (For raspbian 10/11)
-   - `mode: 2` - use dpms (For raspbian 10/11 and raspbian 12 with x11 compositor)
-   - `mode: 3` - use tvservice (For raspbian 10/11)
-   - `mode: 4` - use HDMI CEC
-   - `mode: 5` - use dpms (linux version for debian, ubuntu, ...)
-   - `mode: 6` - use a relay switch command controled by GPIO
-   - `mode: 7` - use a relay switch command controled by GPIO with python (read reverse values)
-   - `mode: 8` - use ddcutil
-   - `mode: 9` - use xrandr (For raspbian 11 or raspbian 12 with x11 compositor)
-   - `mode: 10` - use wlr-randr (For rapsbian 12 with wayland compositor)
-   
-### Available touchMode:
-   - `touchMode: 0`
-     - disabled
-   - `touchMode: 1`
-     - One click on the screen will restart the timer (or Wake up the screen if needed)
-     - Double Click on the screen will shutdown the screen
-   - `touchMode: 2`
-     - One Click on the EXT-Screen area will restart the timer
-     - Long Click on the screen will shutdown or wake up the screen (toogle)
-   - `touchMode: 3`
-     - One Click on the EXT-Screen area will restart the timer
-     - Doucle Click on the EXT-Screen area will shutdown the screen
-     - One Click on the screen will wake up if shutdown
-
-### `ON: []` and `OFF: []`
-> This is the rule to Turn ON et Turn OFF your screen
-{.is-info}
-
-> If you use `EXT-Pir` or `EXT-Motion`: You don't have to use this feature
-{.is-success}
-
-Each event have an object format:
-```js
-{
-  dayOfWeek: <Array of days>,
-  hour: <hour>,
-  minute: <minute>
-}
-```
-
-dayOfWeek is an array of number
-This number define the day:
-> `0`: Sunday
-> `1`: Monday
-> `2`: Tuesday
-> `3`: Wednesday
-> `4`: Thursday
-> `5`: Friday
-> `6`: Saturday
-{.is-success}
-
-
-#### Sample
-sample if you want to create an event from Monday to Thursday at 07h45:
-
-```js
-{
-  dayOfWeek: [1,2,3,4],
-  hour: 07,
-  minute: 45
-}
-```
-
-sample if you want to create an event every Friday at 08h00
-
-```js
-{
-  dayOfWeek: [5],
-  hour: 08,
-  minute: 00
-}
-```
-
-sample if you want to create an event from Monday to Friday at 17h00
-```js
-{
-  dayOfWeek: [1,2,3,4,5],
-  hour: 17,
-  minute: 00
-}
-```
-
-### Create ON/OFF events
-
-Let's create ON and OFF now
-I want to apply this rules: 
-
----> Screen is ON:
- * from Monday to Thursday at 07h45
- * every Friday at 08h00
-   
-So, `ON` rules will be:
-
-```js
-ON: [
-  {
-    dayOfWeek: [1,2,3,4],
-    hour: 07,
-    minute: 45
-  },
-  {
-    dayOfWeek: [5],
-    hour: 08,
-    minute: 00
-  }
-],
-```
-
----> Screen is OFF
-  * from Monday to Friday at 17h00
-
-So, `OFF` rules will be:
-
-```js
-OFF: [
-  {
-    dayOfWeek: [1,2,3,4,5],
-    hour: 17,
-    minute: 00
-  }
-]
-```
-
-> Let's apply your own rules !
-{.is-success}
-
-> When `ON` event started: counter will be not displayed
-> When `OFF` event started: counter will be functional and turn off the screen when done
-{.is-warning}
-
-> Don't be stupid! Don't create an ON event equal to OFF event
-{.is-danger}
-
-## Developer Notes
-
-- This plugin broadcasts:
-  * `EXT_SCREEN-POWER` with payload: `true` when your screen turn on or `false` when your screen turn off.
-
-- This plugin receive:
-
-  * `EXT_SCREEN-END` notification to force the end of the count down
-  * `EXT_SCREEN-WAKEUP` notification to wake up the screen and reset count down
-  * `EXT_SCREEN-LOCK` notification keep the screen on and lock it (freeze counter and stop pir detection) 
-  * `EXT_SCREEN-UNLOCK` notification unlock the screen and restart counter and pir detection
-  * `EXT_SCREEN-FORCE_END` notification to force turn off your screen (and stop counter and pir detection)
-  * `EXT_SCREEN-FORCE_WAKEUP` notification to force turn on your screen (restart counter and pir detection)
-
-> Note: `EXT_SCREEN-FORCE_END` wait `EXT_SCREEN-FORCE_WAKEUP` **ONLY** for wakeup the screen
-{.is-warning}
-
 
 ## Update
 ```sh
