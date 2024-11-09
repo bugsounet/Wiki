@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2023-10-05T16:07:46.299Z
+date: 2024-11-09T12:32:27.978Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -17,9 +17,6 @@ Or, want to have grouped modules that are themed together? Look no further!<br>
 Note that this module does not provide any method of manually changing the page!<br>
 You should ask other developers to add a notification to their modules, or add
 one yourself!
-
-> This modules use [EXT-Alert](/en/EXT-Alert) for displaying any errors
-{.is-warning}
 
 > This module is an Extented plugins for MMM-GoogleAssistant
 {.is-info}
