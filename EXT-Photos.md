@@ -2,16 +2,13 @@
 title: EXT-Photos
 description: 
 published: true
-date: 2023-08-05T09:38:51.214Z
+date: 2024-11-09T11:40:03.612Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T21:28:29.045Z
 ---
 
 EXT-Photos is a plugins for displaying any photos urls in full-screen discover by assistant 
-
-> This module need `EXT-Alert` plugins to display any errors or informations on the screen
-{.is-warning}
 
 # Installation
 
