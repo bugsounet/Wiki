@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2024-05-18T13:47:16.837Z
+date: 2024-11-09T11:38:39.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -17,8 +17,6 @@ dateCreated: 2022-03-05T10:46:11.378Z
 > This module need `EXT-VLCServer` plugin for playing your media
 {.is-warning}
 
-> In addition, you can use `EXT-Alert` plugin, for display some information or error on your screen (Optional)
-{.is-warning}
 
 # Installation
 
