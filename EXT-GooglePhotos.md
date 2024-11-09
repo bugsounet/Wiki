@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2024-02-24T21:34:06.717Z
+date: 2024-11-09T11:42:50.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -14,10 +14,6 @@ This plugin allows to display your album directory with Google photos API in bac
 
 > This plugin is an Extented plugins for `MMM-GoogleAssistant`
 {.is-info}
-
-
-> In addition, you can use EXT-Alert plugin, for display some information or error on your screen (Optional)
-{.is-warning}
 
 # Installation
 
