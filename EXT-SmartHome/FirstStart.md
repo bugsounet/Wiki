@@ -2,7 +2,7 @@
 title: 8. First Start of MagicMirror with MMM-GoogleAssistant and SmartHome functionality
 description: 
 published: true
-date: 2024-06-29T12:39:32.066Z
+date: 2024-11-09T11:42:16.822Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:36:15.339Z
@@ -30,7 +30,7 @@ Let's finish to configure `EXT-SmartHome` in config.js file of MagicMirror² con
 # It's time to Start `MagicMirror²`
 
 So ... start MagicMirror and wait all is initialized !
-> At this moment, Don't worry about `EXT-Alert` Error
+> At this moment, Don't worry about `MMM-GoogleAssistant Alert` Error
 {.is-warning}
 
 # Verify link of `EXT-Website` and `SmartHome`
