@@ -2,7 +2,7 @@
 title: EXT-Keyboard
 description: 
 published: true
-date: 2023-08-05T09:38:13.769Z
+date: 2024-11-09T11:35:29.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T22:00:00.139Z
@@ -58,7 +58,7 @@ npm install
 > | Option  | Description | Type | Default |
 > | ------- | --- | --- | --- |
 > | debug | Enable or not the Debug mode| Boolean | false |
-> | keyFinder | Display keycode with EXT-Alert when a key is pressed| Boolean | false |
+> | keyFinder | Display keycode with MMM-GoogleAssitant Alert when a key is pressed| Boolean | false |
 > | keys | Define your keys rules (see bellow)| Array | |
 
 ### keys
@@ -75,7 +75,7 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
 > | sound | Name of the sound when executed (mp3 only) | String
 
 >  **keyCode**: Can be discover when you activate keyFinder
->   Just press a key and `EXT-Alert` will say the associated keyCode
+>   Just press a key and MMM-GoogleAssistant will say the associated keyCode
 >   Naturally, report it in this field
 {.is-info}
 
