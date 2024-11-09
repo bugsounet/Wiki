@@ -2,16 +2,13 @@
 title: EXT-Browser
 description: 
 published: true
-date: 2023-08-05T09:37:27.975Z
+date: 2024-11-09T11:43:28.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T20:52:02.081Z
 ---
 
 EXT-Browser is a plugins for displaying any internet web page like a real browser in fullscreen
-
-> This module need `EXT-Alert` plugins to display any errors or informations on the screen
-{.is-warning}
 
 # Installation
 
