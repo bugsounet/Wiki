@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-09-07T11:30:21.954Z
+date: 2024-11-09T10:31:41.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -111,9 +111,6 @@ Sample of output:
 
 Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
 
-❤ Found: EXT-Alert
-✅ Update of EXT-Alert: Version: 1.3.0 (231001)
----
 ❤ Found: EXT-Background
 ✅ Update of EXT-Background: Version: 1.2.4 (231001)
 ---
