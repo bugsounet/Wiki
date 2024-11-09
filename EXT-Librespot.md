@@ -2,11 +2,19 @@
 title: EXT-Librespot
 description: 
 published: true
-date: 2023-08-05T09:38:21.099Z
+date: 2024-11-09T12:31:27.332Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T13:22:04.543Z
 ---
+
+> This plugin is under recoding.
+> v1.x don't work actually
+> 
+> --- Please wait EXT-Librespot v2.0.0 Release ---
+{.is-danger}
+
+
 
 EXT-Librespot
 
