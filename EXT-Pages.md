@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2024-11-09T12:32:27.978Z
+date: 2024-12-06T11:07:59.029Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -59,6 +59,7 @@ Note: module names used in the following example are fictitious.
     rotationTimes: {
       0: 20000
     },
+    homePage: 0,
     indicator: true,
     hideBeforeRotation: false,
     rotationTime: 15000,
