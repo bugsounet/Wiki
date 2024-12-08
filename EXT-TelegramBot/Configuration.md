@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-05-29T03:28:18.074Z
+date: 2024-12-08T09:59:19.885Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:41:26.991Z
@@ -33,14 +33,15 @@ dateCreated: 2021-07-14T09:41:26.991Z
     commandAllowed: {},
     useSoundNotification: true,
     dateFormat: "DD-MM-YYYY HH:mm:ss",
-    telecastContainer: 300
+    telecastContainer: 300,
+    screenshotTool: "grim"
   }
 },
 ```
 
-**`useWelcomeMessage`** : if set as `false`, Wake-up message will not happen.
+**`debug`** : If set as `false`, log will not be logged.
 
-**`debug`** : if set as `false`, log will not be logged.
+**`useWelcomeMessage`** : if set as `false`, Wake-up message will not happen.
 
 **`favourites`** : put your favourite commands to telegram keyboard. They will be loaded by command `/favor`
 
@@ -76,3 +77,7 @@ commandAllowed: {
 **`dateFormat`** : Your prefered date format
 
 **`telecastContainer`**: force le with of the telecast container in px. Default: 300, mini: 200, max : 1000
+
+**`screenshotTool`**: Set screenshot tool to use for `/screenshot` command
+- `grim`: This tool is designed for Wayland or LabWc compositor using (default)
+- `scrot`: This tool is designed for X11 compositor using
