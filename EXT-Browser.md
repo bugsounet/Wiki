@@ -2,7 +2,7 @@
 title: EXT-Browser
 description: 
 published: true
-date: 2024-12-30T11:18:26.245Z
+date: 2024-12-30T11:39:44.544Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T20:52:02.081Z
@@ -12,7 +12,7 @@ EXT-Browser is a plugins for displaying any internet web page like a real browse
 
 # Installation
 
-> Clone the module into your MagicMirror module folder and execute npm intall in the module's directory.
+> Execute `npm run install:EXT-Browser` in the MMM-GoogleAssistant's folder.
 {.is-info}
 
 
