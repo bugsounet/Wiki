@@ -2,7 +2,7 @@
 title: EXT-TelegramBot
 description: 
 published: true
-date: 2024-01-03T02:51:21.119Z
+date: 2024-12-30T16:51:48.458Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-10T19:23:10.867Z
@@ -22,9 +22,9 @@ TelegramBot plugin for MMM-GoogleAssistant<br>
 
 # Screenshot
 
-![](https://raw.githubusercontent.com/bugsounet/EXT-TelegramBot/master/screenshot/sc_fullsize.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-TelegramBot/screenshot/sc_fullsize.png)
 
-![](https://raw.githubusercontent.com/bugsounet/EXT-TelegramBot/master/screenshot/sc_overflowed.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-TelegramBot/screenshot/sc_overflowed.png)
 
 # Guide, installation, updating
 
@@ -39,7 +39,7 @@ TelegramBot plugin for MMM-GoogleAssistant<br>
  * Update command:
 
 ```sh
-cd ~/MagicMirror/modules/EXT-TelegramBot
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
