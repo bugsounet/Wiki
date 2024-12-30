@@ -2,7 +2,7 @@
 title: EXT-YouTubeCast
 description: 
 published: true
-date: 2024-12-30T11:38:00.158Z
+date: 2024-12-30T11:54:19.752Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T17:29:54.360Z
@@ -15,8 +15,8 @@ It allow to cast a YouTube video on MagicMirror
 
 # Screenshoot
 
-![](https://raw.githubusercontent.com/bugsounet/EXT-YouTubeCast/dev/resources/Screenshot1.png)
-![](https://raw.githubusercontent.com/bugsounet/EXT-YouTubeCast/dev/resources/Screenshot2.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTubeCast/resources/Screenshot1.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTubeCast/resources/Screenshot2.png)
 
 # Installing
 Execute `npm run install:EXT-YouTubeCast` in the MMM-GoogleAssistant's folder.
