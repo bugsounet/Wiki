@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2024-05-18T13:53:41.048Z
+date: 2024-12-30T11:30:01.682Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -64,12 +64,10 @@ Ce module peut-être piloter avec:
 
 # Installation
 > Clonez le module dans votre dossier de module de MagicMirror et exécutez `npm install` dans le répertoire du module.
-Voici les chaines actuellement disponibles:{.is-info}
 
 ```sh
-git clone https://github.com/bugsounet/EXT-FreeboxTV.git
-cd EXT-FreeboxTV
-npm install
+cd ~MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-FreeboxTV
 ```
 
 ## MMM-GoogleAssistant
@@ -79,11 +77,11 @@ npm install
  
 ```js
 {
-  module: "MMM-GoogleAssistant",
+  module: "MMM-GoogleAssistant/EXTs/EXT-FreeboxTV",
   config: {
   ...
     recipes: [ 
-      "../../EXT-FreeboxTV/recipe/EXT-FreeboxTV.js"
+      "../EXTs/EXT-FreeboxTV/recipe/EXT-FreeboxTV.js"
     ],
   ...
   }
@@ -95,7 +93,7 @@ npm install
 ```js
 recipes: [ 
   "with-exemple_de_recipes.js",
-  "../../EXT-FreeboxTV/recipe/EXT-FreeboxTV.js"
+  "../EXTs/EXT-FreeboxTV/recipe/EXT-FreeboxTV.js"
 ],
 ```
 
@@ -106,7 +104,7 @@ recipes: [
 
 ```js
 {
-  module: 'EXT-FreeboxTV',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-FreeboxTV',
   configDeepMerge: true,
   config: {
     debug: false,
@@ -174,6 +172,6 @@ Activer votre assistant avec votre mot clé préféré et dites `TV stop`
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-FreeboxTV
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
