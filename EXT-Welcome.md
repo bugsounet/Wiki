@@ -2,7 +2,7 @@
 title: EXT-Welcome
 description: 
 published: true
-date: 2023-08-05T09:40:35.036Z
+date: 2024-12-30T11:56:25.520Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-01T17:38:01.548Z
@@ -14,12 +14,10 @@ It allow to send a welcome on start of MagicMirror
 {.is-info}
 
 # Installation
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-Welcome` in the MMM-GoogleAssistant's folder.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Welcome
-cd EXT-Welcome
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Welcome
 ```
 
 # Configuration
@@ -29,7 +27,7 @@ npm install
 
 ```js
 {
-  module: 'EXT-Welcome',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-Welcome',
   config: {
     welcome: "brief Today"
   }
@@ -42,7 +40,7 @@ npm install
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-Welcome
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
