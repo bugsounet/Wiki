@@ -2,12 +2,18 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-11-02T08:46:53.590Z
+date: 2024-12-30T11:13:14.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
 ---
 
+----
+> Wiki of MMM-GoogleAssistant v9.x is under writing
+> Please wait release of MagicMirror² v2.30.0 (2024-01-01)
+{.is-warning}
+
+----
 # Welcome to MMM-GoogleAssistant Module Wiki
 
 > You will discover all wiki **on the same page** !
