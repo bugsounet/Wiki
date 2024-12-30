@@ -2,7 +2,7 @@
 title: EXT-Photos
 description: 
 published: true
-date: 2024-11-09T11:40:03.612Z
+date: 2024-12-30T16:00:09.303Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T21:28:29.045Z
@@ -12,15 +12,12 @@ EXT-Photos is a plugins for displaying any photos urls in full-screen discover b
 
 # Installation
 
-> Clone the module into your MagicMirror module folder and execute npm intall in the module's directory.
+> Execute `npm run install:EXT-Photos` in the MMM-GoogleAssistant's folder.
 {.is-info}
 
-
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Photos
-cd EXT-Photos
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Photos
 ```
 
 # Configuration
@@ -30,7 +27,7 @@ npm install
 
 ```js
 {
-  module: "EXT-Photos",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Photos",
   config: {
     debug: false,
     displayDelay: 20 * 1000,
@@ -82,6 +79,6 @@ var config = {
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-Photos
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
