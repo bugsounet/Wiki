@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2024-11-09T11:42:50.750Z
+date: 2024-12-30T11:32:24.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -19,10 +19,8 @@ This plugin allows to display your album directory with Google photos API in bac
 
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-GooglePhotos
-cd EXT-GooglePhotos
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-GooglePhotos
 ```
 
 ## Google credentials (`credendials.json`)
@@ -45,8 +43,8 @@ We have to install a new API from the google developers console
 In a terminal on the RPI desktop (NOT in SSH), type this command:
  
 ```sh
-cd ~/MagicMirror/modules/EXT-GooglePhotos
-npm run token
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run token:EXT-GooglePhotos
 ```
 
 Naturally, authorise all conditions.
@@ -60,7 +58,7 @@ The token will be created as `tokenGP.json` in the root directory of this module
 
 ```js
 {
-  module: 'EXT-GooglePhotos',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-GooglePhotos',
   position: 'top_left',
   animateIn: 'backInLeft',
   animateOut: 'backOutRight',
@@ -115,6 +113,6 @@ Read MagicMirror² [animated](https://docs.magicmirror.builders/modules/configur
 {.is-success}
 
 ```
-cd ~/MagicMirror/modules/EXT-GooglePhotos
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
