@@ -2,7 +2,7 @@
 title: EXT-Keyboard
 description: 
 published: true
-date: 2024-11-09T11:35:29.433Z
+date: 2024-12-30T11:35:11.009Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T22:00:00.139Z
@@ -19,17 +19,15 @@ This plugin allows to control your mirror with a keyboard or a mini-keyboard
 To install this plugin, try this command:
 
 ```sh
-cd ~/MagicMirror/modules/
-git clone https://github.com/bugsounet/EXT-Keyboard
-cd EXT-Keyboard
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Keyboard
 ```
 
 ## Configuration sample
 
 ```js
 {
-  module: 'EXT-Keyboard',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-Keyboard',
   config: {
     debug: false,
     keyFinder: false,
@@ -101,6 +99,6 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
   
 ## Update
 ```sh
-cd ~/MagicMirror/modules/EXT-Keyboard
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
