@@ -2,7 +2,7 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-30T11:51:50.857Z
+date: 2024-12-30T11:52:02.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
@@ -13,7 +13,7 @@ YouTube windows in rest
 ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot1.png)
 
 Youtube windows playing sample
-![](https://raw.githubusercontent.com/bugsounet//MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot2.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot2.png)
 
 # Require:
 >This plugin is Reserved to **Donators @bugsounet's website**
