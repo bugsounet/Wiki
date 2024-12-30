@@ -2,7 +2,7 @@
 title: EXT-StreamDeck
 description: 
 published: true
-date: 2024-11-09T11:37:18.800Z
+date: 2024-12-30T16:49:21.115Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T23:00:43.002Z
@@ -12,9 +12,9 @@ dateCreated: 2022-12-10T23:00:43.002Z
 
 This plugin allows to control your mirror with stream Deck by [elgato©](https://www.elgato.com/)
 
-![](https://raw.githubusercontent.com/bugsounet/EXT-StreamDeck/dev/resources/streamDeck.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-StreamDeck/resources/streamDeck.png)
 
-![](https://raw.githubusercontent.com/bugsounet/EXT-StreamDeck/dev/resources/sample.jpg)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-StreamDeck/resources/sample.jpg)
 
 ## Testing Video
 
@@ -25,18 +25,16 @@ This is a demo in [video](https://www.youtube.com/watch?v=YC1t6Ae7HWM) (sorry fo
 To install this plugin, try this command:
 
 ```sh
-cd ~/MagicMirror/modules/
-git clone https://github.com/bugsounet/EXT-StreamDeck
-cd EXT-StreamDeck
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-StreamDeck
 ```
 
 ## Prepare using StreamDeck
 Some linux rules are needed.
 Let's set it !
 ```sh
-cd ~/MagicMirror/modules/EXT-StreamDeck
-npm run setup
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run setup:EXT-StreamDeck
 ```
 And reboot your pi
 
@@ -44,7 +42,7 @@ And reboot your pi
 
 ```js
 {
-  module: 'EXT-StreamDeck',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-StreamDeck',
   config: {
     debug: false,
     device: null,
@@ -171,6 +169,6 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
   
 ## Update
 ```sh
-cd ~/MagicMirror/modules/EXT-StreamDeck
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
