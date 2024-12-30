@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2024-12-30T11:30:01.682Z
+date: 2024-12-30T11:41:23.810Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -63,7 +63,7 @@ Ce module peut-être piloter avec:
  >  * Par socketNotification (pour developeur)
 
 # Installation
-> Clonez le module dans votre dossier de module de MagicMirror et exécutez `npm install` dans le répertoire du module.
+> Exécutez `npm run install:EXT-FreeboxTV` dans le répertoire de MMM-GoogleAssistant.
 
 ```sh
 cd ~MagicMirror/modules/MMM-GoogleAssistant
