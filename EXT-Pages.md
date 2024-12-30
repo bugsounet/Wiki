@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2024-12-06T11:07:59.029Z
+date: 2024-12-30T15:55:19.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-13T20:03:12.399Z
 
 # EXT-Pages
 
-This [MagicMirror²][mm²] Module allows you to have animated pages in your magic mirror!<br>
+This plugin allows you to have animated pages in your magic mirror!<br>
 Want to have more modules in your magic mirror, but want to keep the format?<br>
 Or, want to have grouped modules that are themed together? Look no further!<br>
 
@@ -22,17 +22,15 @@ one yourself!
 {.is-info}
 
 ## ScreenShot
-![Example](https://raw.githubusercontent.com/bugsounet/EXT-Pages/dev/example.webp)
+![Example](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Pages/example.webp)
 
 ## Installation
 
-In your terminal, go to your MagicMirror's Module folder, Clone the repository and install it:
+Execute `npm run install:EXT-Pages` in the MMM-GoogleAssistant's folder.
 
 ```bash
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Pages
-cd EXT-Pages
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Pages
 ```
 
 Configure the module in your config.js file.
@@ -44,7 +42,7 @@ Note: module names used in the following example are fictitious.
 
 ```js
 {
-  module: "EXT-Pages",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Pages",
   position: "bottom_bar",
   config: {
     pages: {
@@ -95,7 +93,7 @@ Gateway: {
   "EXT-RadioPlayer": 5
 }
 ```
-[Gateway](/en/Gateway) will search in this config what page displayed if a plugin is used.
+Gateway will search in this config what page displayed if a plugin is used.
 Just inform the name of the plugin and associed page
 
 It's only needed if you use module position (not on fullscreen)
@@ -103,7 +101,7 @@ So if you use Fullscreen mode, it's not necessary to inform this part and Gatewa
 
 ## loading
 Now `EXT-Pages` is able to hide all module on start
-To prevent a black screen during `Gateway` loading, I have set an animated picture
+To prevent a black screen during `MMM-GoogleAssistant` loading, I have set an animated picture
 Naturally, you can change !
 Just upload it in `loading` directory and set the name of your picture in `loading` field
 sample:
@@ -203,14 +201,14 @@ Just add it in the config of MMM-GoogleAssistant
  * sample:
 ```js
 recipes: [
-  "../../EXT-Pages/recipe/EXT-Pages.js"
+  "../EXTs/EXT-Pages/recipe/EXT-Pages.js"
 ],
 ```
  * if you have other recipe, just add it like this:
 ```js
 recipes: [
   "my_recipe.js",
-  "../../EXT-Pages/recipe/EXT-Pages.js"
+  "../EXTs/EXT-Pages/recipe/EXT-Pages.js"
 ],
 ```
 ### How to use it ?
@@ -274,8 +272,8 @@ EXT-Pages notifications.
 
 ## Updates
 
-```js
-cd ~/MagicMirror/modules/EXT-Pages
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
