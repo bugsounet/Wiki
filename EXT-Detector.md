@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-03-22T23:22:31.132Z
+date: 2024-12-30T11:22:26.287Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -37,11 +37,8 @@ dateCreated: 2022-03-05T16:40:36.743Z
 
 ## Auto install (for RaspberryPi or Debian Linux machines only)
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Detector
-
-cd EXT-Detector
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Detector
 ```
  * No other `npm` commands (e.g. npm audit fix) are needed after installation (they can break package dependencies)!
 
@@ -62,7 +59,7 @@ npm install
 
 ```js
 {
-  module: "EXT-Detector",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Detector",
   position: "top_left",
   configDeepMerge: true
 },
@@ -77,7 +74,7 @@ npm install
 
 ```js
 {
-  module: "EXT-Detector",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Detector",
   position: "top_left",
   config: {
     debug: false,
@@ -112,7 +109,7 @@ And Naturally, this is sample of result with `Javis` keyword only for activate G
 
 ```js
 {
-  module: "EXT-Detector",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Detector",
   position: "top_left",
   config: {
     debug: false,
@@ -313,7 +310,7 @@ Value could be within a range from 0.0 to 1.0. `null` will set default sensitivi
 
 ```js
 {
-  module: "EXT-Detector",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Detector",
   position: "top_left",
   config: {
     porcupineAccessKey: "myencodedAccessKeyFromPicovoice.ai",
@@ -340,23 +337,18 @@ Value could be within a range from 0.0 to 1.0. `null` will set default sensitivi
 {.is-info}
 
 ```sh
-cd ~/MagicMirror/modules/EXT-Detector
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
 
-# Update EXT-Detector if MagicMirror is updated (exemple MagicMirror v2.21.x to v2.22.x)
+# Update EXT-Detector if MagicMirror is updated (exemple MagicMirror v2.29.x to v2.30.x)
 
 > This command can help also if any problem on EXT-Detector (it's equal to make a complete reinstall of this module)
 {.is-info}
 
 
 ```sh
-cd ~/MagicMirror/modules/EXT-Detector
-npm run rebuild
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run rebuild:EXT-Detector
 ```
-
-# Notes:
->  ** No other `npm` commands are needed after installation (it can brake dependencies) !
->  ** Do NOT use ANY MagicMirror module to update EXT-Detector dependencies and this module !
-{.is-warning}
