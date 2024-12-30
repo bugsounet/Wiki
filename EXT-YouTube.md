@@ -2,37 +2,21 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2023-08-05T09:40:42.589Z
+date: 2024-12-30T11:51:50.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
 ---
 
-Hi, I'm writing a new EXT-YouTube module (version 2022 ?)
-I now able to play any YouTube video without VLC program
-
-# Why refact a YouTube module ?
- * I see to many issue with VLC program and i don't like that ...
- * I search to make simple things ... plug and play
- * I want a natural player without problem
- * So... Go back to the source !
-
-We use the real YouTube API in Javascript
-I see some user that think... `we can't play © video with it...`
-Effectively, we can't read directly © video in embed iframe with full JS Code for MagicMirror !
-
-So... I think to another method... we have an dedicated server... and why not create a YouTube server on it ?
-Right! I Code it !
-
 # Screenshoot:
 YouTube windows in rest
-![](https://raw.githubusercontent.com/bugsounet/EXT-YouTube/dev/resources/Screenshot1.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot1.png)
 
 Youtube windows playing sample
-![](https://raw.githubusercontent.com/bugsounet/EXT-YouTube/dev/resources/Screenshot2.png)
+![](https://raw.githubusercontent.com/bugsounet//MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot2.png)
 
 # Require:
->This plugin is Reserved to **Donators/Helpers/BetaTester Groups of @bugsounet's forum**
+>This plugin is Reserved to **Donators @bugsounet's website**
 {.is-danger}
 
 >There is some FreeDays for testing this module
@@ -47,13 +31,11 @@ Youtube windows playing sample
 > For using with notifications with somes modules
 {.is-success}
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-YouTube` in the MMM-GoogleAssisant Folder.
 
 ```sh
-cd ~/MagicMirror/modules/
-git clone https://github.com/bugsounet/EXT-YouTube
-cd EXT-YouTube
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-YouTube
 ```
 
 # MagicMirror  `electronOptions`
@@ -77,7 +59,7 @@ var config = {
 
 ```js
 {
-  module: "EXT-YouTube",
+  module: "MMM-GoogleAssistant/EXTs/EXT-YouTube",
   position: "top_center", // optional (can be deleted if using fullscreen)
   config: {
     fullscreen: false,
@@ -173,6 +155,6 @@ The main command is `/youtube`
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-YouTube
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
