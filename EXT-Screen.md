@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-12-30T16:30:32.373Z
+date: 2024-12-30T16:32:54.283Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -28,24 +28,12 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 # Configuration
 > To display the module insert it in the config.js file.
+>  This is the default configuration defined if you don't define any value.
 {.is-info}
 
-
-## Minimal configuration
 ```js
 {
   module: 'MMM-GoogleAssistant/EXTs/EXT-Screen',
-  config: {
-    detectorSleeping: false
-  }
-},
-```
-## Personalized configuration
->  This is the default configuration defined if you don't define any value.
-
-```js
-{
-  module: 'EXT-Screen',
   config: {
     debug: false,
     detectorSleeping: false
