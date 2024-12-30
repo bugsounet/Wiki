@@ -2,15 +2,13 @@
 title: EXT-RadioPlayer
 description: 
 published: true
-date: 2024-05-18T13:40:02.162Z
+date: 2024-12-30T16:07:17.317Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:08:09.889Z
 ---
 
-EXT-RadioPlayer is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich).
-
-This allows to play radio station on MagicMirror
+EXT-RadioPlayer is a plugin to play radio station on MagicMirror
 
 > This module is an Extented plugins for `MMM-GoogleAssistant`
 {.is-info}
@@ -19,12 +17,10 @@ This allows to play radio station on MagicMirror
 {.is-warning}
 
 # Installation
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-RadioPlayer` in the MMM-GoogleAssistant's folder.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-RadioPlayer
-cd EXT-RadioPlayer
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-RadioPlayer
 ```
 
 # Configuration
@@ -34,7 +30,7 @@ npm install
 
 ```js
 {
-  module: 'EXT-RadioPlayer',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-RadioPlayer',
   position: 'top_right',
   animateIn: "flipInX",
   animateOut: "flipOutX",
@@ -103,7 +99,7 @@ exemple:
   config: {
     ...
     recipes: [
-      "../../EXT-RadioPlayer/recipe/EXT-RadioPlayer.fr.js",
+      "../EXTs/EXT-RadioPlayer/recipe/EXT-RadioPlayer.fr.js",
     ]
     ...
 ```
@@ -116,7 +112,7 @@ exemple:
   config: {
     ...
     recipes: [ 
-      "../../EXT-RadioPlayer/recipe/EXT-RadioPlayer.fr.js",
+      "../EXTs/EXT-RadioPlayer/recipe/EXT-RadioPlayer.fr.js",
       "Un_autre_recipe.js"
     ]
     ...
@@ -171,7 +167,7 @@ var recipe = {
         notification: "EXT_RADIO-START",
         payload: (params) => {
           return {
-            img: "modules/EXT-RadioPlayer/Logos/FR/ChérieFM.png",
+            img: "modules/MMM-GoogleAssistant/EXTs/EXT-RadioPlayer/Logos/FR/ChérieFM.png",
             link: "https://scdn.nrjaudio.fm/fr/30201/mp3_128.mp3?origine=EXT-RadioPlayer&cdn_path=audio_lbs9"
           }
         }
@@ -220,14 +216,14 @@ there is very easy !
  * add your recipe to GoogleAssistant configuration
 ```js
 recipes: [
-  "../../EXT-RadioPlayer/recipe/EXT-RadioPlayer.js"
+  "../EXTs/EXT-RadioPlayer/recipe/EXT-RadioPlayer.js"
 ],
 ```
 if you have already a recipes configuration just add it
 ```js
 recipes: [
   "my_prefered_recipes.js",
-  "../../EXT-RadioPlayer/recipe/EXT-RadioPlayer.js"
+  "../EXTs/EXT-RadioPlayer/recipe/EXT-RadioPlayer.js"
 ],
 ```
 and restart your mirror !
@@ -286,6 +282,6 @@ This module can received notification:
 # Update
 
 ```
-cd ~/MagicMirror/modules/EXT-RadioPlayer
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
