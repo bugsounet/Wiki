@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2024-11-09T11:38:39.273Z
+date: 2024-12-30T15:46:41.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -20,12 +20,10 @@ dateCreated: 2022-03-05T10:46:11.378Z
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute npm run install:EXT-MusicPlayer in the MMM-GoogleAssistant's folder.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-MusicPlayer
-cd EXT-MusicPlayer
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-MusicPlayer
 ```
 
 # Configuration
@@ -33,7 +31,7 @@ npm install
 {.is-info}
 ```js
 {
-  module: 'EXT-MusicPlayer',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-MusicPlayer',
   animateIn: "flipInX",
   animateOut: "flipOutX",
   position: 'top_left',
@@ -75,14 +73,14 @@ Just add it in the config of MMM-GoogleAssistant
  * sample:
 ```js
 recipes: [
-  "../../EXT-MusicPlayer/recipe/EXT-MusicPlayer.js",
+  "../EXTs/EXT-MusicPlayer/recipe/EXT-MusicPlayer.js",
 ],
 ```
  * if you have other recipe, just add it like this:
 ```js
 recipes: [
   "my_recipe.js",
-  "../../EXT-MusicPlayer/recipe/EXT-MusicPlayer.js",
+  "../EXTs/EXT-MusicPlayer/recipe/EXT-MusicPlayer.js",
 ],
 ```
 
@@ -166,6 +164,6 @@ The main command is `/music`
 {.is-success}
 
 ```
-cd ~/MagicMirror/modules/EXT-MusicPlayer
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
