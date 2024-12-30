@@ -2,19 +2,17 @@
 title: Installation
 description: 
 published: true
-date: 2023-10-15T20:00:42.392Z
+date: 2024-12-30T12:03:45.236Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T16:45:13.260Z
 ---
 
 # Installation
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute npm run install:EXT-Updates in the MMM-GoogleAssistant's folder.
 
  ```sh
- cd ~/MagicMirror/modules
- git clone https://github.com/bugsounet/EXT-Updates
- cd EXT-Updates
- npm install
+ cd ~/MagicMirror/modules/MMM-GoogleAssistant
+ npm run install:EXT-Updates
  ```
  
