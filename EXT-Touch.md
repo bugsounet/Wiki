@@ -2,7 +2,7 @@
 title: EXT-Touch
 description: 
 published: true
-date: 2024-03-22T22:58:07.940Z
+date: 2024-12-30T17:01:29.979Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-22T22:58:07.940Z
@@ -25,11 +25,8 @@ dateCreated: 2024-03-22T22:58:07.940Z
 
 ## Auto install (for RaspberryPi or Debian Linux machines only)
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Touch
-
-cd EXT-Touch
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Touch
 ```
  * No other `npm` commands (e.g. npm audit fix) are needed after installation (they can break package dependencies)!
 
@@ -41,7 +38,7 @@ npm install
 
 ```js
 {
-  module: "EXT-Touch",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Touch",
   position: "top_left"
 },
 ```
@@ -51,6 +48,6 @@ npm install
 {.is-info}
 
 ```sh
-cd ~/MagicMirror/modules/EXT-Touch
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
