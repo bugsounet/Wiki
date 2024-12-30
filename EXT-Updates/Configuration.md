@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-11-09T10:48:37.010Z
+date: 2024-12-30T12:05:06.347Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T17:07:02.669Z
@@ -31,7 +31,7 @@ use MagicMirror's `config.js` file to configure EXT-Updates
 ## Simple
 ```js
 {
-  module: "EXT-Updates",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Updates",
   configDeepMerge: true
 },
 ```
@@ -47,7 +47,7 @@ This is the default configuration if no values are defined
 
 ```js
 {
-  module: "EXT-Updates",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Updates",
   config: {
     debug: false,
     autoUpdate: true,
