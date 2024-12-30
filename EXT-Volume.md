@@ -2,7 +2,7 @@
 title: EXT-Volume
 description: 
 published: true
-date: 2024-11-09T11:41:03.542Z
+date: 2024-12-30T11:59:22.183Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T18:51:30.731Z
@@ -16,16 +16,14 @@ EXT-Volume is a plugins for controling the sound volume level of your mirror
 {.is-info}
 
 ## Screenshot
-![](https://raw.githubusercontent.com/bugsounet/EXT-Volume/dev/resources/screenshot.png)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Volume/resources/screenshot.png)
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-Volume` in the MMM-GoogleAssistant's folder.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Volume
-cd EXT-Volume
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Volume
 ```
 
 # Configuration
@@ -33,7 +31,7 @@ To use this module, insert this in the config.js file of MagicMirror.
 
 ```js
 {
-  module: 'EXT-Volume',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-Volume',
   config: {
     debug: false,
     startSpeakerVolume: 100,
@@ -76,7 +74,7 @@ Available commands:
  
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-Volume
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
