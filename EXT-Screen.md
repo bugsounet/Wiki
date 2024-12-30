@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-11-09T11:50:46.378Z
+date: 2024-12-30T16:30:32.373Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -18,12 +18,10 @@ This module is an Extented plugins for `MMM-GoogleAssistant`
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
-```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Screen
-cd EXT-Screen
-npm install
+Execute `npm run install:EXT-Screen` in the MMM-GoogleAssistant's folder.
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Screen
 ```
 
 This module will verify if all screen saver is disabled and disable it if needed
@@ -36,7 +34,7 @@ This module will verify if all screen saver is disabled and disable it if needed
 ## Minimal configuration
 ```js
 {
-  module: 'EXT-Screen',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-Screen',
   config: {
     detectorSleeping: false
   }
@@ -44,10 +42,6 @@ This module will verify if all screen saver is disabled and disable it if needed
 ```
 ## Personalized configuration
 >  This is the default configuration defined if you don't define any value.
->  Don't copy/past the entire default config, just add in default config your needed new change value !
->  all new value will automaticaly be merged with the default config
-{.is-info}
-
 
 ```js
 {
@@ -68,6 +62,6 @@ This module will verify if all screen saver is disabled and disable it if needed
 
 ## Update
 ```sh
-cd ~/MagicMirror/modules/EXT-Screen
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
