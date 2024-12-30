@@ -2,7 +2,7 @@
 title: EXT-MusicPlayer
 description: 
 published: true
-date: 2024-12-30T15:46:41.176Z
+date: 2024-12-30T15:47:59.940Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:46:11.378Z
@@ -20,7 +20,7 @@ dateCreated: 2022-03-05T10:46:11.378Z
 
 # Installation
 
-Execute npm run install:EXT-MusicPlayer in the MMM-GoogleAssistant's folder.
+Execute `npm run install:EXT-MusicPlayer` in the MMM-GoogleAssistant's folder.
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run install:EXT-MusicPlayer
