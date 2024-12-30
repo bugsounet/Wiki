@@ -2,7 +2,7 @@
 title: EXT-YouTubeCast
 description: 
 published: true
-date: 2024-11-09T11:39:36.935Z
+date: 2024-12-30T11:37:01.188Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T17:29:54.360Z
@@ -21,10 +21,8 @@ It allow to cast a YouTube video on MagicMirror
 # Installing
 Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-YouTubeCast
-cd EXT-YouTubeCast
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-YouTubeCast
 ```
 
 # MagicMirror  `electronOptions`
@@ -48,7 +46,7 @@ var config = {
 
 ```js
 {
-  module: "EXT-YouTubeCast",
+  module: "MMM-GoogleAssistant/EXTs/EXT-YouTubeCast",
   position: "top_center", // optional (can be deleted if using fullscreen)
   config: {
     debug: false,
@@ -99,6 +97,6 @@ The video will be played on your mirror !
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-YouTubeCast
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
