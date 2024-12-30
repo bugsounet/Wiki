@@ -2,7 +2,7 @@
 title: EXT-Background
 description: 
 published: true
-date: 2023-08-05T09:37:13.298Z
+date: 2024-12-30T11:16:28.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T17:21:00.052Z
@@ -11,8 +11,6 @@ dateCreated: 2022-02-28T17:21:00.052Z
 This module is an plugin for MMM-GoogleAssistant
 
 It allows to change the default Google Assistant fullscreen background mode to your own or with animated gifs for each status of the assistant
-
-Needed: [MMM-GoogleAssistant](/en/MMM-GoogleAssistant)
 
 # Screenshot
   Actually, i have prepared 4 models:
@@ -31,17 +29,15 @@ Needed: [MMM-GoogleAssistant](/en/MMM-GoogleAssistant)
 Clone the module into your MagicMirror module folder and execute npm intall in the module's directory.
 
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Background
-cd EXT-Background
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Background
 ```
 
 # Configuration
 
 ```js
 {
-  module: "EXT-Background",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Background",
   config: {
     model: "jarvis",
     myImage: null
@@ -87,6 +83,6 @@ You can Make a PullRequest with your own model !
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-Background
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
