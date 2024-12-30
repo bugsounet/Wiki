@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2024-12-30T16:42:28.800Z
+date: 2024-12-30T16:44:04.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -55,14 +55,8 @@ npm run install:EXT-Spotify
 |CLIENT_SECRET | Client Secret of your Spotify account | STRING | ""
 |mini | Activate `mini` style instead of `big` style | BOOLEAN | true
 
-> You can play Spotify Music To MagicMirror
-> Actually 2 players are available:
-> `EXT-Librespot`
+> You can play Spotify Music To MagicMirror with `EXT-Librespot`
 {.is-warning}
-
-> `forceSCL` and `noCanvas` can only be used with `EXT-SpotifyCanvasLyrics` plugin
-{.is-danger}
-
 
 # Generate Token
 
