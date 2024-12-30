@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2024-12-08T09:59:19.885Z
+date: 2024-12-30T16:56:10.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:41:26.991Z
@@ -16,7 +16,7 @@ dateCreated: 2021-07-14T09:41:26.991Z
 
 ```js
 {
-  module: 'EXT-TelegramBot',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-TelegramBot',
   position: "top_left",
   config: {
     debug: false,
