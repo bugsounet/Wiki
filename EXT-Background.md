@@ -2,7 +2,7 @@
 title: EXT-Background
 description: 
 published: true
-date: 2024-12-30T11:16:28.419Z
+date: 2024-12-30T11:39:00.830Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T17:21:00.052Z
@@ -26,7 +26,7 @@ It allows to change the default Google Assistant fullscreen background mode to y
 
 # Installation:
 
-Clone the module into your MagicMirror module folder and execute npm intall in the module's directory.
+Execute `npm run install:EXT-Background` in the MMM-GoogleAssistant's folder.
 
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
