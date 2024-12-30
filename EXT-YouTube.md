@@ -2,7 +2,7 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-30T11:52:02.049Z
+date: 2024-12-30T11:53:00.429Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
@@ -143,7 +143,7 @@ The main command is `/youtube`
 # FreeDays
 >For displaying Video, this plugin use some resource on @bugsounet's server
 >That's why i limit traffic for this module
->This module is limited to **Donators/Helpers/BetaTester Groups**
+>This module is limited to **Donators of bugsounet website**
 >But there is some FreeDays for testing this module
 >FreeDays days is defined every month from 01 to 07
 >
