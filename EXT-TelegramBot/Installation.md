@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2023-08-05T09:41:47.845Z
+date: 2024-12-30T16:54:33.363Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-14T09:47:40.017Z
@@ -19,18 +19,16 @@ dateCreated: 2021-07-14T09:47:40.017Z
 
 # 2) Install Module
 1. In your mirror, open terminal and execute below;
-```js
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-TelegramBot.git
-cd EXT-TelegramBot
-npm install
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-TelegramBot
 ```
 
 # 3) Configuration (Pre-use)
 1. Open `config.js` of `MagicMirror`, add these;
 ```js
 {
-  module: 'EXT-TelegramBot',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-TelegramBot',
   position: 'top_center',
   config: {
     telegramAPIKey : '<your Telegram API Token>',
@@ -49,7 +47,7 @@ npm install
 1. Open `config.js` again.
 ```js
 {
-  module: 'EXT-TelegramBot',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-TelegramBot',
   position: 'top_center',
   config: {
     telegramAPIKey : '<your Telegram API Token>',
