@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2024-12-30T11:41:23.810Z
+date: 2024-12-30T11:42:13.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -77,7 +77,7 @@ npm run install:EXT-FreeboxTV
  
 ```js
 {
-  module: "MMM-GoogleAssistant/EXTs/EXT-FreeboxTV",
+  module: "MMM-GoogleAssistant",
   config: {
   ...
     recipes: [ 
