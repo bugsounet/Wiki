@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2024-12-30T15:55:19.047Z
+date: 2024-12-30T15:57:01.313Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -28,7 +28,7 @@ one yourself!
 
 Execute `npm run install:EXT-Pages` in the MMM-GoogleAssistant's folder.
 
-```bash
+```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run install:EXT-Pages
 ```
@@ -85,7 +85,7 @@ Note: module names used in the following example are fictitious.
 | `loading`  | `String` | `loading.png` | loading picture file name|
 
 ## Gateway Rules sample:
-```
+```js
 Gateway: {
   "EXT-Spotify": 1,
   "EXT-YouTube": 4,
@@ -105,7 +105,7 @@ To prevent a black screen during `MMM-GoogleAssistant` loading, I have set an an
 Naturally, you can change !
 Just upload it in `loading` directory and set the name of your picture in `loading` field
 sample:
-```
+```js
 loading: "loading.png",
 ```
 > Don't overwrite the default loading.png file
