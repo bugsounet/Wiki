@@ -2,7 +2,7 @@
 title: EXT-VLCServer
 description: 
 published: true
-date: 2024-11-09T11:44:10.757Z
+date: 2024-12-30T12:01:59.811Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-04T11:33:21.021Z
@@ -10,7 +10,7 @@ dateCreated: 2024-05-04T11:33:21.021Z
 
 This plugin play wanted media on `MagicMirror²` with `VLC`
 
-![](https://github.com/bugsounet/EXT-VLCServer/blob/dev/vlc-logo.png?raw=true)
+![](https://raw.github.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-VLCServer/vlc-logo.png)
 
 > This plugin is an Extented plugins for:
 >  `EXT-MusicPlayer`
@@ -20,13 +20,11 @@ This plugin play wanted media on `MagicMirror²` with `VLC`
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-VLCServer` in the MMM-GoogleAssistant's folder.
 
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-VLCServer
-cd EXT-VLCServer
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-VLCServer
 ```
 
 # Configuration
@@ -37,7 +35,7 @@ npm install
 
 ```js
 {
-  module: 'EXT-VLCServer'
+  module: 'MMM-GoogleAssistant/EXTs/EXT-VLCServer'
 },
 ```
 
@@ -45,7 +43,7 @@ npm install
 
 ```js
 {
-  module: 'EXT-VLCServer',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-VLCServer',
   disabled: false,
   config: {
     debug: false,
@@ -62,7 +60,7 @@ npm install
 # Update
 
 ```sh
-cd ~/MagicMirror/modules/EXT-VLCServer
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
