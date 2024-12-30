@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2024-11-09T10:40:00.734Z
+date: 2024-12-30T16:42:28.800Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -19,12 +19,10 @@ This module show current playback of any devices
 {.is-warning}
 
 # Installation
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
-```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Spotify
-cd EXT-Spotify
-npm install
+Execute `npm run install:EXT-Spotify` in the MMM-GoogleAssistant's folder.
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Spotify
 ```
 
 # Configuration
@@ -34,19 +32,16 @@ npm install
 
 ```js
 {
-  module: 'EXT-Spotify',
+  module: 'MMM-GoogleAssistant/EXTs/EXT-Spotify',
   position: 'top_left',
   animateIn: "flipInX",
   animateOut: "flipOutX",
   config: {
     updateInterval: 1000,
     idleInterval: 10000,
-    useBottomBar: false,
     CLIENT_ID: "",
     CLIENT_SECRET: "",
     mini: true,
-    forceSCL: false,
-    noCanvas: false
   }
 },
 ```
@@ -59,12 +54,10 @@ npm install
 |CLIENT_ID | Client ID of your Spotify account | STRING | ""
 |CLIENT_SECRET | Client Secret of your Spotify account | STRING | ""
 |mini | Activate `mini` style instead of `big` style | BOOLEAN | true
-|forceSCL | Force displaying Canvas and Lyrics on all devices | BOOLEAN | false 
-|noCanvas | Don't display Canvas with `EXT-SpotifyCanvasLyrics` displayer | BOOLEAN | false
 
 > You can play Spotify Music To MagicMirror
 > Actually 2 players are available:
-> `EXT-Raspotify` or `EXT-Librespot`
+> `EXT-Librespot`
 {.is-warning}
 
 > `forceSCL` and `noCanvas` can only be used with `EXT-SpotifyCanvasLyrics` plugin
@@ -95,8 +88,8 @@ npm install
 ### Create the token
 In RPI Desktop, log in in a Terminal (you can use VNC)
 ```sh
-cd ~/MagicMirror/modules/EXT-Spotify
-npm run token
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run token:EXT-Spotify
 ```
 
 Then, Allowance dialog popup will be opened. You MUST LOG IN and accept connect to create a token.<br>
@@ -109,14 +102,14 @@ Just add it in the config of MMM-GoogleAssistant
  * sample:
 ```js
 recipes: [
-  "../../EXT-Spotify/recipe/EXT-Spotify.js"
+  "../EXTs/EXT-Spotify/recipe/EXT-Spotify.js"
 ],
 ```
  * if you have other recipe, just add it like this:
 ```js
 recipes: [
   "my_recipe.js",
-  "../../EXT-Spotify/recipe/EXT-Spotify.js"
+  "../EXTs/EXT-Spotify/recipe/EXT-Spotify.js"
 ],
 ```
 ## How to use it ?
@@ -195,6 +188,6 @@ Just try `/spotify`:
 # Update
 
 ```
-cd ~/MagicMirror/modules/EXT-Spotify
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
