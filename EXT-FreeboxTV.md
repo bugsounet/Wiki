@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2024-12-30T11:42:13.047Z
+date: 2024-12-30T11:45:19.320Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -52,7 +52,7 @@ Il permet d'afficher, sur votre Mirroir, les chaines de TV de la [Freebox](https
 | RFMTV | RFM TV |
 
 # Screenshoot
-![](https://raw.githubusercontent.com/bugsounet/EXT-FreeboxTV/dev/screenshoot.jpg)
+![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-FreeboxTV/resources/screenshoot.jpg)
 
 # Piloter le module
 
