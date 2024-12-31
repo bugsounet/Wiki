@@ -2,7 +2,7 @@
 title: EXT-FreeboxTV
 description: 
 published: true
-date: 2024-12-30T11:45:19.320Z
+date: 2024-12-31T00:43:08.898Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T22:52:43.251Z
@@ -171,7 +171,13 @@ Activer votre assistant avec votre mot clé préféré et dites `TV stop`
  * `EXT_FREEBOXTV-DISCONNECTED`: Confirme par cette notification l'arrêt de la TV
 
 # Update
-```
+```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-FreeboxTV
 ```
