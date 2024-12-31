@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-11-09T10:31:41.960Z
+date: 2024-12-31T00:26:35.400Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -80,7 +80,11 @@ cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
-### Note:
+### Notes:
+
+> MMM-GoogleAssistant is able to detect installed plugin and will update it automaticaly if needed
+{.is-success}
+
 > This Step is not needed if you use [EXT-Updates](/EXT-Updates) plugin.
 > This plugin will automaticaly update MMM-GoogleAssistant if needed
 {.is-success}
@@ -113,12 +117,6 @@ Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
 
 ❤ Found: EXT-Background
 ✅ Update of EXT-Background: Version: 1.2.4 (231001)
----
-❤ Found: EXT-Bard
-✅ Update of EXT-Bard: Version: 1.1.0 (230825)
----
-❤ Found: EXT-Bring
-✅ Update of EXT-Bring: Version: 1.2.3 (231001)
 ---
 ❤ Found: EXT-Browser
 ✅ Update of EXT-Browser: Version: 1.2.3 (231001)
