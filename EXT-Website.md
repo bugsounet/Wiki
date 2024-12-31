@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-12-31T00:19:02.691Z
+date: 2024-12-31T01:12:27.809Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -123,4 +123,10 @@ You will discover `API Docs` in `MMM-GoogleAssistant` website navbar
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Website
 ```
