@@ -2,7 +2,7 @@
 title: EXT-YouTubeCast
 description: 
 published: true
-date: 2024-12-30T11:54:19.752Z
+date: 2024-12-31T01:14:37.169Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T17:29:54.360Z
@@ -99,4 +99,10 @@ The video will be played on your mirror !
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-YouTubeCast
 ```
