@@ -2,13 +2,13 @@
 title: Extented Plugins
 description: 
 published: true
-date: 2024-11-09T10:30:07.536Z
+date: 2024-12-31T08:34:54.101Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-15T00:06:02.359Z
 ---
 
-> MMM-GoogleAssistant no longer has built-in plugins
+> MMM-GoogleAssistant no longer has any built-in plugins, it's up to you to install the ones you want.
 {.is-warning}
 
 That's why there are plugins to add and just the ones you want to use !
