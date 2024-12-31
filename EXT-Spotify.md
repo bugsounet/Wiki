@@ -2,7 +2,7 @@
 title: EXT-Spotify
 description: 
 published: true
-date: 2024-12-30T16:44:04.841Z
+date: 2024-12-31T01:06:19.005Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-11T22:45:57.282Z
@@ -184,4 +184,10 @@ Just try `/spotify`:
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Spotify
 ```
