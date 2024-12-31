@@ -2,7 +2,7 @@
 title: EXT-StreamDeck
 description: 
 published: true
-date: 2024-12-30T16:49:21.115Z
+date: 2024-12-31T01:07:15.334Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T23:00:43.002Z
@@ -171,4 +171,10 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+## Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-StreamDeck
 ```
