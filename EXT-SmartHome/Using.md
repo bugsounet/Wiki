@@ -2,7 +2,7 @@
 title: 11. How use it
 description: 
 published: true
-date: 2024-01-02T12:50:33.261Z
+date: 2024-12-31T00:14:31.349Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:50:33.261Z
@@ -37,7 +37,6 @@ will control the volume of your speaker
 >  EXT-Screen
 >  EXT-Volume
 >  EXT-Spotify
->  EXT-SpotifyCanvasLyrics
 >  EXT-FreeboxTV
 >  EXT-Pages
 {.is-success}
@@ -56,11 +55,11 @@ Control your volume and Mute/unMute speaker
 Allows to Tuen ON / OFF your screen
 
 > When you force turn OFF.
-> `EXT-Pir`, `EXT-Motion` are not able to wake up it!
+> `MMM-Pir` is not able to wake up it!
 {.is-warning}
 
 > In reverse, when you turn ON your screen
-> `EXT-Pir`, `EXT-Motion` will works
+> `MMM-Pir` will works
 {.is-success}
 
 
@@ -85,13 +84,6 @@ Allows to Tuen ON / OFF your screen
  
  ![app3.png](/resources/smarthome/app3.png)
  
-## EXT-SpotifyCanvasLyrics
- 
- * On Source, you can force to display the plugin on all music
- 
->  It's a toggle: You can disable it if you select it again
-{.is-info}
-
 ## EXT-Pages
 
  * On Source: just select the page number for displaying !
