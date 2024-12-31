@@ -2,7 +2,7 @@
 title: 8. First Start of MagicMirror with MMM-GoogleAssistant and SmartHome functionality
 description: 
 published: true
-date: 2024-11-09T11:42:16.822Z
+date: 2024-12-31T00:10:18.194Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:36:15.339Z
@@ -18,7 +18,7 @@ Let's finish to configure `EXT-SmartHome` in config.js file of MagicMirror² con
 
 ```js
 {
-  module: "EXT-SmartHome",
+  module: "MMM-GoogleAssistant/EXTs/EXT-SmartHome",
   config: {
     username: "myprefered_username_for_Google",
     password: "My Password defined in Google Action",
@@ -49,7 +49,7 @@ https://demo.bugsounet.fr
 > You must have `EXT-Website` login page
 {.is-success}
 
-## Try to open `SmartHome` test page with ypur domain name
+## Try to open `SmartHome` test page with your domain name
 
 https://demo.bugsounet.fr/smarthome
 
