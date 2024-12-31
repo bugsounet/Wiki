@@ -2,7 +2,7 @@
 title: EXT-VLCServer
 description: 
 published: true
-date: 2024-12-30T12:01:59.811Z
+date: 2024-12-31T01:11:11.103Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-04T11:33:21.021Z
@@ -62,6 +62,12 @@ npm run install:EXT-VLCServer
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-VLCServer
 ```
 
 # Developer notifications
