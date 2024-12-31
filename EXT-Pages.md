@@ -2,7 +2,7 @@
 title: EXT-Pages
 description: 
 published: true
-date: 2024-12-30T15:57:01.313Z
+date: 2024-12-31T01:01:49.134Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T20:03:12.399Z
@@ -275,6 +275,12 @@ EXT-Pages notifications.
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+## Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Pages
 ```
 
 ## Credits
