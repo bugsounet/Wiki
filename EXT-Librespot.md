@@ -2,7 +2,7 @@
 title: EXT-Librespot
 description: 
 published: true
-date: 2024-12-31T00:57:17.488Z
+date: 2024-12-31T00:59:07.796Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T13:22:04.543Z
@@ -17,12 +17,10 @@ This plugin allow to play Spotify music on your mirror with Librespot
 
 # Installation
 
-Clone the module into your MagicMirror module folder and execute `npm intall` in the module's directory.
+Execute `npm run install:EXT-Librespot` in the MMM-GoogleAssistant's folder.
 ```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Librespot
-cd EXT-Librespot
-npm install
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Librespot
 ```
 
 # Configuration
