@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-12-31T08:29:53.788Z
+date: 2024-12-31T08:46:10.260Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -10,7 +10,7 @@ dateCreated: 2021-06-18T10:17:20.817Z
 
 ----
 > Wiki of MMM-GoogleAssistant v9.x is under writing
-> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new config rules!
+> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new install and config rules!
 {.is-warning}
 ----
 # Welcome to MMM-GoogleAssistant Module Wiki
@@ -44,6 +44,6 @@ dateCreated: 2021-06-18T10:17:20.817Z
 
 ----
 > Wiki of MMM-GoogleAssistant v9.x is under writing
-> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new config rules!
+> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new install and config rules!
 {.is-warning}
 ----
