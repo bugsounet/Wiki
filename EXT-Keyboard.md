@@ -2,7 +2,7 @@
 title: EXT-Keyboard
 description: 
 published: true
-date: 2024-12-31T00:44:38.524Z
+date: 2024-12-31T00:45:05.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T22:00:00.139Z
@@ -103,7 +103,7 @@ cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
-# Uninstall
+## Uninstall
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run remove:EXT-Keyboard
