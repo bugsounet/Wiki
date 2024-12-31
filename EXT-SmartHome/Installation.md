@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-07-16T16:09:15.365Z
+date: 2024-12-31T00:01:50.766Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -10,13 +10,11 @@ dateCreated: 2024-06-29T11:25:02.076Z
 
 # Installation
 
-Clone the module into your MagicMirror² module folder and execute npm intall in the module's directory.
+Execute `npm run install:EXT-SmartHome` in the MMM-GoogleAssistant's folder.
 
 ```sh
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-SmartHome
-cd EXT-SmartHome
-npm install
+cd ~/MagicMirror/modules/MMM-GooglaAssistant
+npm run install:EXT-SmartHome
 ```
 
 > Define your module definition configuration in config.js file of MagicMirror
@@ -24,7 +22,7 @@ npm install
 
 ```js
 {
-  module: "EXT-SmartHome",
+  module: "MMM-GoogleAssistant/EXTs/EXT-SmartHome",
   config: {
     debug: false,
     username: "admin",
@@ -52,12 +50,12 @@ You know to remember what is you `project_id` used when you create `credentials.
 I create a command line for discover it ! (so don't have to search ahahah !)
 try this in a Terminal:
 ```
-cd ~/MagicMirror/modules/EXT-SmartHome
+cd ~/MagicMirror/modules/MMM_GoogleAssistant/EXTs/EXT-SmartHome
 npm run project
 ```
 result will be something like this:
 ```
-~/MagicMirror/modules/EXT-SmartHome$ npm run project
+~/MagicMirror/modules/MMM-GoogleAssistant/EXTs/EXT-SmartHome$ npm run project
 
 > EXT-SmartHome@X.X.X project
 > installer/check_ProjectID.sh
