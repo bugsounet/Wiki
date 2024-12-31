@@ -2,7 +2,7 @@
 title: EXT-Browser
 description: 
 published: true
-date: 2024-12-30T11:39:44.544Z
+date: 2024-12-31T00:39:57.726Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T20:52:02.081Z
@@ -83,7 +83,13 @@ var config = {
 {.is-warning}
 
 # Update
-```
+```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Browser
 ```
