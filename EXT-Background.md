@@ -2,7 +2,7 @@
 title: EXT-Background
 description: 
 published: true
-date: 2024-12-30T11:39:00.830Z
+date: 2024-12-31T00:39:10.789Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T17:21:00.052Z
@@ -82,7 +82,13 @@ Now, you have just to select your model in your configuration
 You can Make a PullRequest with your own model !
 
 # Update
-```
+```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Background
 ```
