@@ -2,7 +2,7 @@
 title: 10. Finalize device registration
 description: 
 published: true
-date: 2024-01-02T12:46:35.523Z
+date: 2024-12-31T00:12:07.652Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:46:35.523Z
@@ -12,7 +12,7 @@ dateCreated: 2024-01-02T12:46:35.523Z
 
 Just try this command:
 
-```js
+```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run register
 ```
