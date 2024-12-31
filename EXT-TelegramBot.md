@@ -2,7 +2,7 @@
 title: EXT-TelegramBot
 description: 
 published: true
-date: 2024-12-30T16:51:48.458Z
+date: 2024-12-31T01:08:46.892Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-10T19:23:10.867Z
@@ -41,6 +41,13 @@ TelegramBot plugin for MMM-GoogleAssistant<br>
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+  * Uninstall command:
+
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-TelegramBot
 ```
 
 # Developer tools
