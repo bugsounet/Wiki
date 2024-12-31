@@ -2,7 +2,7 @@
 title: EXT-Detector
 description: 
 published: true
-date: 2024-12-30T11:25:23.676Z
+date: 2024-12-31T00:40:49.038Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T16:40:36.743Z
@@ -351,4 +351,10 @@ npm run update
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run rebuild:EXT-Detector
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Detector
 ```
