@@ -2,7 +2,7 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-30T11:53:00.429Z
+date: 2024-12-31T01:13:48.923Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
@@ -157,4 +157,10 @@ The main command is `/youtube`
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-YouTube
 ```
