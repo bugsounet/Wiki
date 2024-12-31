@@ -2,7 +2,7 @@
 title: 6. DownLoad credentials
 description: 
 published: true
-date: 2024-06-29T12:15:06.497Z
+date: 2024-12-31T00:07:29.923Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T12:15:40.447Z
@@ -35,7 +35,7 @@ dateCreated: 2024-01-02T12:15:40.447Z
 
 # Copy credentials to `EXT-SmartHome`
 
-Rename the downloaded file to `smarthome.json` and past it to `~/MagicMirror/modules/EXT-SmartHome` folder
+Rename the downloaded file to `smarthome.json` and past it to `~/MagicMirror/modules/MMM-GoogleAssistant/EXTs/EXT-SmartHome` folder
 
 **Warn:** This `credentials` are **NOT** `MMM-GoogleAssistant` credentials !
 
@@ -44,7 +44,7 @@ Rename the downloaded file to `smarthome.json` and past it to `~/MagicMirror/mod
 Run again this script:
 
 ```sh
-cd ~/MagicMirror/modules/EXT-SmartHome/
+cd ~/MagicMirror/modules/MMM-GoogleAssistant/EXTs/EXT-SmartHome/
 npm run project
 ```
 
