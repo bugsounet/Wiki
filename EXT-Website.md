@@ -2,7 +2,7 @@
 title: EXT-Website
 description: 
 published: true
-date: 2024-07-05T10:01:06.919Z
+date: 2024-12-31T00:19:02.691Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-19T12:29:02.415Z
@@ -36,12 +36,11 @@ dateCreated: 2024-05-19T12:29:02.415Z
 ![toolsbox.png](/resources/googleassistant/toolsbox.png)
 
 # Installation
-Clone the module into your MagicMirror² module folder and execute `npm intall` in the module's directory.
-```
-cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-Website
-cd EXT-Website
-npm install
+
+Execute `npm run install:EXT-Website` in the MMM-GoogleAssistant's folder.
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run install:EXT-Website
 ```
 
 # Configuration
@@ -51,7 +50,7 @@ npm install
 
 ```js
 {
-  module: "EXT-Website",
+  module: "MMM-GoogleAssistant/EXTs/EXT-Website",
   config: {
     debug: false,
     username: "admin",
@@ -87,9 +86,9 @@ Now, just enter your credentials defined in website config ;)
 
 > MMM-GoogleAssistant will inform you in logs of MagicMirror²
 >```sh
->[LOG]   [WEBSITE] Start listening on port 8081
->[LOG]   [WEBSITE] Available locally at http://192.168.0.200:8081
->[LOG]   [WEBSITE] Website Ready!
+>[LOG] [WEBSITE] Start listening on port 8081
+>[LOG] [WEBSITE] Available locally at http://192.168.0.200:8081
+>[LOG] [WEBSITE] Website Ready!
 >```
 
 > With Internet, you can use it in remote too
@@ -122,6 +121,6 @@ You will discover `API Docs` in `MMM-GoogleAssistant` website navbar
 
 # Update
 ```
-cd ~/MagicMirror/modules/EXT-Website
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
