@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-12-30T12:08:15.805Z
+date: 2024-12-31T08:29:53.788Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -18,7 +18,11 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > You will discover all wiki **on the same page** !
 {.is-success}
 
-> `MMM-GoogleAssistant` and`EXTs` plugins are now ready for using with npm v10.x and node > v20.x
+> All `EXTs` are now integrated directly into `MMM-GoogleAssistant v9.x` and are ready to be installed
+{.is-info}
+
+
+> `MMM-GoogleAssistant` and `EXTs` plugins are now ready for using with npm v10.x and node > v20.x
 > But a bug is actually not solved with lasted version of `npm` app
 > So, You can have an error with `npm install`
 > try `npm run preinstall && npm install` to solve it in the module or plugin directory
@@ -32,8 +36,8 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > For security reasons it's not possible to use `address: 0.0.0.0` in MagicMirror config
 {.is-danger}
 
-> You can't use `MMM-GoogleAssisant` with `MagicMirror` server mode
-> (You can't open `MagicMirror` with your browser)
+> You can't use `MMM-GoogleAssisant` with `MagicMirror²` server mode
+> (You can't open `MagicMirror²` with your browser)
 {.is-danger}
 
 @bugsounet
