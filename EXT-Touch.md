@@ -2,7 +2,7 @@
 title: EXT-Touch
 description: 
 published: true
-date: 2024-12-30T17:01:29.979Z
+date: 2024-12-31T01:09:35.262Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-22T22:58:07.940Z
@@ -43,11 +43,17 @@ npm run install:EXT-Touch
 },
 ```
 
-# Update of EXT-Touch
+# Update
 > If a new version of EXT-Touch is available
 {.is-info}
 
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Touch
 ```
