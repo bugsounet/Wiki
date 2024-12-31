@@ -2,7 +2,7 @@
 title: EXT-Keyboard
 description: 
 published: true
-date: 2024-12-30T11:35:11.009Z
+date: 2024-12-31T00:44:38.524Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T22:00:00.139Z
@@ -101,4 +101,10 @@ this array need `keyCode`, `notification`, `payload`, `command` and `sound` para
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Keyboard
 ```
