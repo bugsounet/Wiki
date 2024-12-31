@@ -2,7 +2,7 @@
 title: Tools
 description: 
 published: true
-date: 2024-12-31T00:26:35.400Z
+date: 2024-12-31T00:33:08.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T17:58:57.904Z
@@ -88,48 +88,3 @@ npm run update
 > This Step is not needed if you use [EXT-Updates](/EXT-Updates) plugin.
 > This plugin will automaticaly update MMM-GoogleAssistant if needed
 {.is-success}
-
-## Refresh / Major Updating
-
-> This new command allow force reinstall or update all `MMM-GoogleAssistant` components:
-> `MMM-GoogleAssistant`and all `EXTs` installed
-> This command make automatic things !
-{.is-info}
-
-> This command can be used when a new MagicMirror² version is installed
-> When you have too many `MMM-GoogleAssistant` components to update
-> When you want to refresh (like a first install) all `MMM-GoogleAssistant` components
-{.is-success}
-
-```sh
-cd ~/MagicMirror/modules/MMM-GoogleAssistant
-npm run refresh
-```
-
-Sample of output:
-```sh
-~/MagicMirror/modules/MMM-GoogleAssistant$ npm run refresh
-
-> MMM-GoogleAssistant@5.4.2 refresh
-> node installer/refresh.js
-
-Start Refreshing and Updating MMM-GoogleAssistant, Gateway and EXTs
-
-❤ Found: EXT-Background
-✅ Update of EXT-Background: Version: 1.2.4 (231001)
----
-❤ Found: EXT-Browser
-✅ Update of EXT-Browser: Version: 1.2.3 (231001)
----
-❤ Found: EXT-Detector
-⠧ Updating: EXT-Detector...
-<...>
----
-✋ Skipped: MMM-Test
----
-
-✌ Result:
-➤ Updated: xx/xx
-➤ Failed: xx/xx
-➤ Skipped: xx/xx
-```
