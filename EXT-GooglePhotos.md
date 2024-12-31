@@ -2,7 +2,7 @@
 title: EXT-GooglePhotos
 description: 
 published: true
-date: 2024-12-30T15:38:45.593Z
+date: 2024-12-31T00:43:52.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T10:55:05.341Z
@@ -115,4 +115,10 @@ Read MagicMirror² [animated](https://docs.magicmirror.builders/modules/configur
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-GooglePhotos
 ```
