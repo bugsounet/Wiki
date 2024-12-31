@@ -2,7 +2,7 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-31T01:14:58.737Z
+date: 2024-12-31T01:15:50.933Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
@@ -15,7 +15,7 @@ YouTube windows in rest
 Youtube windows playing sample
 ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot2.png)
 
-# Require:
+# Require
 >This plugin is Reserved to **Donators @bugsounet's website**
 {.is-danger}
 
@@ -24,7 +24,7 @@ Youtube windows playing sample
 >In other case/day, you can't use this module
 {.is-info}
 
-# Installing:
+# Installing
 
 > This plugin is coded for working with `MMM-GoogleAssistant`
 > For using with EXT-TelegramBot
@@ -74,7 +74,7 @@ var config = {
 },
 ```
 
-# Detailed configuration:
+# Detailed configuration
 
 >|Field|Type|Default|Description|
 >|---|---|---|---|
@@ -105,13 +105,13 @@ recipes: [
 ],
 ```
 
-# `MMM-GoogleAssistant` Commands:
+# `MMM-GoogleAssistant` Commands
 Activate your assistant with your prefered keyword and try:
  * `youtube <artist/Title>`: for search and display a video
    * Sample: `youtube Michael jackson thriller`
  * `stop`: will stop any video
 
-# `EXT-TelegramBot` Commands:
+# `EXT-TelegramBot` Commands
 You can control MMM-Youtube with TelegramBot
 The main command is `/youtube`
 
@@ -132,7 +132,7 @@ The main command is `/youtube`
   * `EXT_YOUTUBE-CONNECTED`: When video start
   * `EXT_YOUTUBE-DISCONNECTED`:  When Video end
 
-## When a video is playing:
+## When a video is playing
 > This module will hide all modules when a video is playing in fullscreen
 > It's the better way to disable all modules to increase RPI performance
 > It will use `EXT-YT_LOCKED` lockString
