@@ -2,7 +2,7 @@
 title: EXT-Screen
 description: 
 published: true
-date: 2024-12-30T16:32:54.283Z
+date: 2024-12-31T01:04:37.997Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T00:04:52.369Z
@@ -52,4 +52,10 @@ This module will verify if all screen saver is disabled and disable it if needed
 ```sh
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+## Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Screen
 ```
