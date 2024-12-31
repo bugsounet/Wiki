@@ -2,13 +2,13 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-31T01:13:48.923Z
+date: 2024-12-31T01:14:58.737Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
 ---
 
-# Screenshoot:
+# Screenshoot
 YouTube windows in rest
 ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-YouTube/resources/Screenshot1.png)
 
