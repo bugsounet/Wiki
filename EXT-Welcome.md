@@ -2,7 +2,7 @@
 title: EXT-Welcome
 description: 
 published: true
-date: 2024-12-30T11:56:25.520Z
+date: 2024-12-31T01:13:06.212Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-01T17:38:01.548Z
@@ -44,3 +44,8 @@ cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Welcome
+```
