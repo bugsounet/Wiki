@@ -2,7 +2,7 @@
 title: EXT-Photos
 description: 
 published: true
-date: 2024-12-30T16:00:09.303Z
+date: 2024-12-31T01:02:42.804Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T21:28:29.045Z
@@ -82,3 +82,8 @@ var config = {
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Photos
