@@ -2,7 +2,7 @@
 title: EXT-RadioPlayer
 description: 
 published: true
-date: 2024-12-30T16:21:38.371Z
+date: 2024-12-31T01:03:52.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-05T11:08:09.889Z
@@ -174,4 +174,10 @@ This module can received notification:
 ```
 cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
+```
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-RadioPlayer
 ```
