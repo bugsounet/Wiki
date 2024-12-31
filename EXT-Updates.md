@@ -2,7 +2,7 @@
 title: EXT-Updates
 description: 
 published: true
-date: 2024-11-09T10:38:48.411Z
+date: 2024-12-31T01:10:34.775Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T16:40:04.617Z
@@ -32,6 +32,12 @@ This module can **APPLY** any update of MMM-GoogleAssistant suite :)
 # FULL response in natural languages
   * `en`, `fr`, `de`, `it`, `nl`, `es`
   * You can send me a new language file by translating default [english](https://github.com/bugsounet/EXT-Updates/blob/dev/translations/en.json) file to your own with `issue` or `pull request`
+
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Updates
+```
 
 # Credits
  
