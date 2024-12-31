@@ -2,7 +2,7 @@
 title: EXT-Volume
 description: 
 published: true
-date: 2024-12-30T11:59:22.183Z
+date: 2024-12-31T01:11:52.807Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T18:51:30.731Z
@@ -78,3 +78,8 @@ cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run update
 ```
 
+# Uninstall
+```sh
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
+npm run remove:EXT-Volume
+```
