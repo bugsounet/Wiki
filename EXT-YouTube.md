@@ -2,7 +2,7 @@
 title: EXT-YouTube
 description: 
 published: true
-date: 2024-12-31T01:15:50.933Z
+date: 2025-01-01T21:43:41.012Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-27T15:21:18.007Z
@@ -94,14 +94,14 @@ Just add it in the config of MMM-GoogleAssistant
  * sample:
 ```js
 recipes: [
-  "../../EXT-YouTube/recipe/EXT-YouTube.js",
+  "../EXTs/EXT-YouTube/recipe/EXT-YouTube.js",
 ],
 ```
  * if you have other recipe, just add it like this:
 ```js
 recipes: [
   "my_recipe.js",
-  "../../EXT-YouTube/recipe/EXT-YouTube.js",
+  "../EXTs/EXT-YouTube/recipe/EXT-YouTube.js",
 ],
 ```
 
