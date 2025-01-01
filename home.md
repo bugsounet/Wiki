@@ -2,18 +2,13 @@
 title: Welcome !
 description: 
 published: true
-date: 2025-01-01T14:12:40.585Z
+date: 2025-01-01T17:02:56.695Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
 ---
 
-----
-> Wiki of MMM-GoogleAssistant v9.x is under writing
-> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new install and config rules!
-{.is-warning}
-----
-# Welcome to MMM-GoogleAssistant Module Wiki
+# Welcome to MMM-GoogleAssistant v9.x Module Wiki
 
 > You will discover all wiki **on the same page** !
 {.is-success}
@@ -41,15 +36,9 @@ dateCreated: 2021-06-18T10:17:20.817Z
 {.is-danger}
 
 > All `EXTs` from `MMM-GoogleAssistant` v8.x are now not needed
-> You have to remove it !
+> You have to delete old `EXTs` plugin in `MagicMiror/modules/` folder !
 > They have now integrated with `MMM-GoogleAssisant`.
 > Please read a new wiki of each `EXTs`
 > {.is-warning}
 
 @bugsounet
-
-----
-> Wiki of MMM-GoogleAssistant v9.x is under writing
-> Please wait release of MagicMirror² v2.30.0 (2024-01-01) and MMM-GoogleAssisant v9.x before apply new install and config rules!
-{.is-warning}
-----
