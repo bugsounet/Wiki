@@ -2,7 +2,7 @@
 title: Welcome !
 description: 
 published: true
-date: 2024-12-31T08:46:10.260Z
+date: 2025-01-01T14:12:40.585Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-18T10:17:20.817Z
@@ -39,6 +39,12 @@ dateCreated: 2021-06-18T10:17:20.817Z
 > You can't use `MMM-GoogleAssisant` with `MagicMirror²` server mode
 > (You can't open `MagicMirror²` with your browser)
 {.is-danger}
+
+> All `EXTs` from `MMM-GoogleAssistant` v8.x are now not needed
+> You have to remove it !
+> They have now integrated with `MMM-GoogleAssisant`.
+> Please read a new wiki of each `EXTs`
+> {.is-warning}
 
 @bugsounet
 
