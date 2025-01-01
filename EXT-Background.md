@@ -2,7 +2,7 @@
 title: EXT-Background
 description: 
 published: true
-date: 2024-12-31T00:39:10.789Z
+date: 2025-01-01T17:21:54.370Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-28T17:21:00.052Z
@@ -16,13 +16,13 @@ It allows to change the default Google Assistant fullscreen background mode to y
   Actually, i have prepared 4 models:
   
   - jarvis:<br>
-    ![](https://raw.githubusercontent.com/bugsounet/EXT-Background/master/jarvis/standby.gif)
+    ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Background/jarvis/standby.gif)
   - lego:<br>
-    ![](https://raw.githubusercontent.com/bugsounet/EXT-Background/master/lego/standby.gif)
+    ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Background/lego/standby.gif)
   - old:<br>
-    ![](https://raw.githubusercontent.com/bugsounet/EXT-Background/master/old/standby.gif)
+    ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Background/old/standby.gif)
   - cortana:<br>
-    ![](https://raw.githubusercontent.com/bugsounet/EXT-Background/master/cortana/standby.gif)
+    ![](https://raw.githubusercontent.com/bugsounet/MMM-GoogleAssistant/dev/EXTs/EXT-Background/cortana/standby.gif)
 
 # Installation:
 
