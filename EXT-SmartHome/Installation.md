@@ -2,7 +2,7 @@
 title: 1. Installation
 description: 
 published: true
-date: 2024-12-31T00:01:50.766Z
+date: 2025-01-02T21:18:22.354Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-29T11:25:02.076Z
@@ -13,7 +13,7 @@ dateCreated: 2024-06-29T11:25:02.076Z
 Execute `npm run install:EXT-SmartHome` in the MMM-GoogleAssistant's folder.
 
 ```sh
-cd ~/MagicMirror/modules/MMM-GooglaAssistant
+cd ~/MagicMirror/modules/MMM-GoogleAssistant
 npm run install:EXT-SmartHome
 ```
 
